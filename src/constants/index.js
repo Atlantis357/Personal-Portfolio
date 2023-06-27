@@ -1,3 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   index.js                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
+/*   Updated: 2023/06/27 15:05:57 by Abraham Alk      ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets/tutorial";
 
 export const navLinks = [

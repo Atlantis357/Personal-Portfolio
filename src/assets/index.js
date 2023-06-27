@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2023/06/27 14:16:51 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/27 15:05:35 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,7 @@ const backgroundGradients = [
     "bg-gradient-to-t from-zinc-300 via-sky-200 to-blue-400",
     "bg-gradient-to-tr from-blue-600 via-teal-100 to-indigo-800",
     "bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-green-800 via-blue-700 to-amber-600",
-    ]
-
-
+]
 
 
 
