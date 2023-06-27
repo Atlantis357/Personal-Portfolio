@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:34:58 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/27 14:19:33 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/27 15:17:49 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ function Navbar(props) {
                 <li 
                     key={nav.id} 
                     className={`font-poppins font-bold cursor-pointer text-[16px] hover:font-extrabold hover:text-[20px] 
-                         text-white ${index === navLinks.length - 1 ? 'mr-0' : 'mr-20'}`}>
+                         text-white ${index === navLinks.length - 1 ? 'mr-0' : 'mr-20'} transition-all`}>
                     <a href={'#${nav.id}'}>
                         {nav.title}
                     </a>
@@ -47,7 +47,7 @@ function Navbar(props) {
             <img 
             src={chem} 
                 alt='chem' 
-                className='w-[32px] h-[32px] object-contain'
+                className='w-[32px] h-[32px] object-contain hover:opacity-0 transition-all'
                 onClick={() => props.updateBackground()}
             />
         </button>
