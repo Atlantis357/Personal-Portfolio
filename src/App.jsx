@@ -1,15 +1,23 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+//import './App.css'
+import styles from './style'
+import React from 'react'
+import Navbar from './components/Navbar'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
+  //const styles = styles
 
   return (
-    <h1 className="text-3xl font-bold text-blue-700">
-      Welcome to Abraham's personal portfolio!
-    </h1>
-  )
+    <div className='bg-blue-950 w-full overflow-hidden'>
+      <div className='sm:mx-16 mx-6, flex justify-center items-center'>
+        <div className='xl:max-w-[1280px] w-full'>
+          <Navbar />
+        </div>
+      </div>
+      
+    </div>
+  );
 }
 
 export default App
