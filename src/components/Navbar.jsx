@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:34:58 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/27 15:17:49 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/27 15:22:00 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,14 +43,14 @@ function Navbar(props) {
         </ul>
         
         {/* Button to change background */}
-        <button className='hidden sm:flex px-[46px]'>
+        <div className='hidden sm:flex px-[46px]'>
             <img 
             src={chem} 
                 alt='chem' 
-                className='w-[32px] h-[32px] object-contain hover:opacity-0 transition-all'
+                className='w-[32px] h-[32px] object-contain hover:opacity-0 transition-all hover:cursor-pointer'
                 onClick={() => props.updateBackground()}
             />
-        </button>
+        </div>
 
         {/* Mobile Interface */}
         <div className='sm:hidden flex flex-1 justify-end items-center mr-5'>
