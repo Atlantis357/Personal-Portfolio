@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:35:16 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/28 10:51:22 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/28 11:44:33 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import { backgroundGradients } from './assets'
 import { tripleA } from './assets'
+import AboutMe from './components/AboutMe'
 
 function App() {
 
@@ -43,6 +44,10 @@ function App() {
             <Hero />
         </section>
 
+        {/* About Me */}
+        <section className={`w-full overflow-hidden flex justify-center items-start`}>
+            <AboutMe />
+        </section>
 
         {/* Footer */}
         <section className='w-full py-3 overflow-hidden'>
