@@ -6,14 +6,13 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:34:58 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/27 15:22:00 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/27 17:47:10 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React, {useState} from 'react'
-import {close, menu} from '../assets/tutorial';
 import {navLinks} from '../constants'
-import {tripleA, chem, backgroundGradients} from '../assets';
+import {tripleA, chem, close, menu} from '../assets';
 
 
 function Navbar(props) {
@@ -47,7 +46,7 @@ function Navbar(props) {
             <img 
             src={chem} 
                 alt='chem' 
-                className='w-[32px] h-[32px] object-contain hover:opacity-0 transition-all hover:cursor-pointer'
+                className='w-[32px] h-[32px] object-contain hover:opacity-0 transition-all hover:cursor-pointer duration-00'
                 onClick={() => props.updateBackground()}
             />
         </div>

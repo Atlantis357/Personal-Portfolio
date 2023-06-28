@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2023/06/27 15:05:35 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/27 23:13:02 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,17 @@
 import a_inital from './a_initial.svg';
 import tripleA from './tripleA.png';
 import chem from './chem.png';
+import close from './close.svg';
+import menu from './menu.svg';
+import instagram from './instagram.svg';
+import linkedin from './linkedin.svg';
+import abe from './fun_abraham.jpg';
+//import abe from './abraham.jpg';
 
 const backgroundGradients = [
+    "bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-gray-700 via-white to-cyan-900",
     "bg-gradient-to-b from-cyan-600 via-red-700 to-blue-300",
     "bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-lime-900 via-zinc-300 to-red-300",
-    "bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-gray-700 via-white to-cyan-900",
     "bg-gradient-to-l from-violet-400 via-emerald-300 to-gray-600",
     "bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-rose-600 via-zinc-300 to-teal-500",
     "bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-stone-100 via-purple-200 to-violet-800",
@@ -36,4 +42,9 @@ export {
     tripleA,
     chem,
     backgroundGradients,
+    close,
+    menu,
+    instagram,
+    linkedin,
+    abe,
 };
