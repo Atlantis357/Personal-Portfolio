@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2023/06/27 23:13:02 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/28 11:40:05 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,9 @@ import abe from './fun_abraham.jpg';
 //import abe from './abraham.jpg';
 
 const backgroundGradients = [
-    "bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-gray-700 via-white to-cyan-900",
     "bg-gradient-to-b from-cyan-600 via-red-700 to-blue-300",
     "bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-lime-900 via-zinc-300 to-red-300",
+    "bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-gray-700 via-white to-cyan-900",
     "bg-gradient-to-l from-violet-400 via-emerald-300 to-gray-600",
     "bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-rose-600 via-zinc-300 to-teal-500",
     "bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-stone-100 via-purple-200 to-violet-800",
@@ -34,6 +34,8 @@ const backgroundGradients = [
     "bg-gradient-to-tr from-blue-600 via-teal-100 to-indigo-800",
     "bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-green-800 via-blue-700 to-amber-600",
 ]
+
+const secondaryGradient = "bg-gradient-to-b from-gray-600 via-gray-800 to-black"
 
 
 
@@ -47,4 +49,5 @@ export {
     instagram,
     linkedin,
     abe,
+    secondaryGradient,
 };

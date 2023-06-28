@@ -6,13 +6,15 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:34:58 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/27 17:47:10 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/28 11:38:29 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React, {useState} from 'react'
 import {navLinks} from '../constants'
 import {tripleA, chem, close, menu} from '../assets';
+import { secondaryGradient } from '../assets';
+import { Link } from 'react-scroll';
 
 
 function Navbar(props) {
@@ -23,20 +25,27 @@ function Navbar(props) {
     }
 
   return (
-    <nav className='w-full flex py-6 justify-between items-center navbar'>
+    <nav className='w-full flex py-4 justify-between items-center navbar'>
 
-        <img src={tripleA} alt='tripleA' className='w-[124px] h-[32px]'/>
+
+        <Link to={`hero`} spy={true} smooth={true} offset={-70} duration={500}>
+            <img 
+                src={tripleA} 
+                alt='tripleA' 
+                className='w-[124px] h-[32px] hover:cursor-pointer'
+                />
+        </Link>
 
         {/* Laptop Interface */}
-        <ul className='list-none sm:flex hidden justify-center items-center flex-1'>
+        <ul className='list-none sm:flex hidden justify-center items-center flex-10'>
             {navLinks.map((nav, index) => (
                 <li 
                     key={nav.id} 
-                    className={`font-poppins font-bold cursor-pointer text-[16px] hover:font-extrabold hover:text-[20px] 
+                    className={`font-poppins font-bold cursor-pointer text-[16px] hover:font-extrabold hover:text-[20px]
                          text-white ${index === navLinks.length - 1 ? 'mr-0' : 'mr-20'} transition-all`}>
-                    <a href={'#${nav.id}'}>
+                    <Link to={`${nav.id}`} spy={true} smooth={true} offset={-70} duration={500}>
                         {nav.title}
-                    </a>
+                    </Link>
                 </li>
             ))}
         </ul>
@@ -60,13 +69,13 @@ function Navbar(props) {
                 onClick={() => setToggle((prev) => !prev)} 
             />
 
-            <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+            <div className={`${toggle ? 'flex' : 'hidden'} p-6 ${secondaryGradient} top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
                 <ul className='list-none flex flex-col justify-end items-center flex-1'>
                     {navLinks.map((nav, index) => (
                         <li 
                             key={nav.id} 
                             className={`font-poppins font-bold cursor-pointer text-[16px]
-                             text-white ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'}`}>
+                             text-white ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'} hover:font-extrabold hover:text-[18px] transition-all`}>
                             <a href={'#${nav.id}'}>
                                 {nav.title}
                             </a>

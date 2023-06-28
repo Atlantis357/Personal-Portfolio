@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/27 23:00:17 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/28 10:36:26 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ import {instagram, linkedin} from "../assets";
 
 export const navLinks = [
   {
-    id: "About",
+    id: "aboutMe",
     title: "About Me",
   }, {
     id: "Projects",

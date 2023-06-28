@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:35:16 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/27 23:20:31 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/28 10:51:22 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,8 @@ function App() {
      <div className={`h-auto ${backgroundGradients[backgroundIdx]}`}> 
 
         {/* Navigation Bar */}
-        <nav className='w-full overflow-hidden'>
-          <div className='sm:mx-16 mx-6, flex justify-center items-center'>
+        <nav className='w-full overflow-hidden fixed backdrop-blur-sm hover:backdrop-brightness-75 transition-all'>
+          <div className='sm:mx-16 mpx-6, flex justify-center items-center'>
             <div className='xl:max-w-[1280px] w-full'>
               <Navbar updateBackground={updateBackground}/>
             </div>
