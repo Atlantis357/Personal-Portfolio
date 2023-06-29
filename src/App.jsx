@@ -6,15 +6,14 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:35:16 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/28 11:44:33 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/28 21:57:54 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React, { useState } from 'react'
-import styles from './style'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import { backgroundGradients } from './assets'
+import { backgroundGradients } from './constants'
 import { tripleA } from './assets'
 import AboutMe from './components/AboutMe'
 
@@ -32,7 +31,7 @@ function App() {
 
         {/* Navigation Bar */}
         <nav className='w-full overflow-hidden fixed backdrop-blur-sm hover:backdrop-brightness-75 transition-all'>
-          <div className='sm:mx-16 mpx-6, flex justify-center items-center'>
+          <div className='sm:mx-16 mpx-6 flex justify-center items-center'>
             <div className='xl:max-w-[1280px] w-full'>
               <Navbar updateBackground={updateBackground}/>
             </div>
@@ -40,7 +39,7 @@ function App() {
         </nav>
 
         {/* Front Page */}
-        <section className={`w-full overflow-hidden flex justify-center items-start`}>
+        <section className={`w-full pt-20 lg:pt-0 overflow-hidden flex justify-center items-start`}>
             <Hero />
         </section>
 
@@ -50,7 +49,7 @@ function App() {
         </section>
 
         {/* Footer */}
-        <section className='w-full py-3 overflow-hidden'>
+        <section className='w-full py-3 overflow-hidden backdrop-blur-sm hover:backdrop-brightness-75 transition-all'>
           <div className='flex justify-center items-center'>
             <img 
               src={tripleA} 

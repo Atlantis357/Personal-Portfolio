@@ -6,14 +6,13 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:34:58 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/28 11:38:29 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/28 21:42:03 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React, {useState} from 'react'
-import {navLinks} from '../constants'
+import {navLinks, primaryGradient, secondaryGradient} from '../constants'
 import {tripleA, chem, close, menu} from '../assets';
-import { secondaryGradient } from '../assets';
 import { Link } from 'react-scroll';
 
 
@@ -32,7 +31,7 @@ function Navbar(props) {
             <img 
                 src={tripleA} 
                 alt='tripleA' 
-                className='w-[124px] h-[32px] hover:cursor-pointer'
+                className='w-[124px] h-[32px] hover:cursor-pointer flex-none'
                 />
         </Link>
 
@@ -69,7 +68,7 @@ function Navbar(props) {
                 onClick={() => setToggle((prev) => !prev)} 
             />
 
-            <div className={`${toggle ? 'flex' : 'hidden'} p-6 ${secondaryGradient} top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+            <div className={`${toggle ? 'flex' : 'hidden'} p-6 ${primaryGradient} top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
                 <ul className='list-none flex flex-col justify-end items-center flex-1'>
                     {navLinks.map((nav, index) => (
                         <li 
