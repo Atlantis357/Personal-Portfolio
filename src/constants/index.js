@@ -6,13 +6,13 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/28 21:56:51 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/28 23:29:37 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 import { withOptions } from "tailwindcss/plugin";
-import {instagram, linkedin} from "../assets";
+import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin} from "../assets";
 import { abe } from "../assets";
 
 export const backgroundGradients = [
@@ -31,6 +31,10 @@ export const backgroundGradients = [
 export const primaryGradient = "bg-gradient-to-b from-gray-600 via-gray-800 to-black"
 
 export const secondaryGradient = "text-white";
+
+// Blocks the Nav bar
+//export const asideBackground = "backdrop-blur-sm backdrop-brightness-75";
+export const asideBackground = " bg-black bg-opacity-20";
 
 
 export const navLinks = [
@@ -72,15 +76,23 @@ export const socialMedia = [
 export const aboutMe = [
   {
     title: "Devoted Engineer?",
-    img: abe,
+    img: engineer,
     description: "My long-term goal in medicine is to develop computational, non-intrusive tools that doctors can readily use to improve the accuracy of their diagnostics."
   }, {
+    title: "Competitive Cyclist?",
+    img: cycling,
+    description: "The evolution of a bittersweet teenage Tour-de-France dream."
+  }, {
     title: "Frat Bro?",
-    img: abe,
+    img: fraternity,
     description: "I am also a brother of the Alpha Delta Phi Fraternity on campus. Brotherhood."
   }, {
-    title: "Competitive Cyclist?",
-    img: abe,
-    description: "The evolution of a bittersweet teenage Tour-de-France dream."
+    title: "Man-of-the-woods?",
+    img: outdoors,
+    description: "The Outdoors Adventure Club at UIUC has the best people and the best trips. It's called trauma-bonding."
+  }, {
+    title: "TurkeyLeg Enthusiast?",
+    img: eatingTurkey,
+    description: "I have had countless turkey legs in my breif time on Earth, but I assure you that Universal Studios has the best legs in the world."
   }
 ]
