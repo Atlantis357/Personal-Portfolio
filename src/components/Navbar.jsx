@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:34:58 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/28 23:28:05 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/29 15:14:10 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,11 @@ function Navbar(props) {
     }
 
   return (
+    <nav className='w-full overflow-hidden fixed backdrop-blur-sm hover:backdrop-brightness-75 transition-all'>
+    <div className='sm:mx-16 mpx-6 flex justify-center items-center'>
+    <div className='xl:max-w-[1280px] w-full'>
+
+
     <nav className='w-full flex py-4 justify-between items-center navbar'>
 
 
@@ -86,6 +91,9 @@ function Navbar(props) {
         </div>
 
 
+    </nav>
+    </div>
+    </div>
     </nav>
   )
 }
