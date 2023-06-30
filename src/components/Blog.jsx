@@ -1,25 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Projects.jsx                                       :+:      :+:    :+:   */
+/*   Blog.jsx                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/29 14:30:53 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/30 07:56:43 by Abraham Alk      ###   ########.fr       */
+/*   Created: 2023/06/30 07:54:18 by Abraham Alk       #+#    #+#             */
+/*   Updated: 2023/06/30 09:08:11 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React from 'react'
-import { primaryGradient, asideBackground, projects } from '../constants'
+import { primaryGradient, asideBackground, blogs } from '../constants'
 
-const Projects = () => {
+const Blog = () => {
   return (
-    <div id='projects'>
+    <div id='blog'>
         {/* Title */}
         <section className='pb-8 md:pb-16 text-center w-screen pt-8 md:pt-0'>
                 <h1 className={`font-bold text-4xl md:text-5xl lg:text-6xl bg-clip-text text-transparent ${primaryGradient}`}>
-                    My Projects
+                    Blog
                 </h1>
         </section>
 
@@ -27,7 +27,7 @@ const Projects = () => {
         <section className='container mx-auto pb-10 px-10'>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 lg:gap-16 md:gap-8 sm:gap-8 justify-center'>
 
-            {projects.map((info, index) => (
+            {blogs.map((info, index) => (
                 <article className={`group ${asideBackground} rounded-2xl`}>
                     <img
                         alt="Lava"
@@ -54,4 +54,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Blog

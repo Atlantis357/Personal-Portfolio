@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2023/06/28 23:22:45 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/30 08:52:44 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ import family from './family.jpg';
 import fraternity from './fraternity.jpg';
 import engineer from './engineer.jpg';
 import outdoors from './outdoors.jpg';
+import resume from './resume.pdf';
 
 
 export {
@@ -48,4 +49,5 @@ export {
     fraternity,
     engineer,
     outdoors,
+    resume,
 };

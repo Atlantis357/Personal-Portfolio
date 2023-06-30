@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:35:16 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/29 22:43:48 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/30 08:55:33 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ import { tripleA } from './assets'
 import AboutMe from './components/AboutMe'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
+import Blog from './components/Blog'
+import Resume from './components/Resume'
 
 function App() {
 
@@ -30,15 +32,17 @@ function App() {
   return (
     // Shuffles background
     <div className={`h-auto ${backgroundGradients[backgroundIdx]}`}> 
-
-
-    
       <Navbar updateBackground={updateBackground}/>
+
+
       <Hero />
       <AboutMe />
       <Projects />
-      <Footer />
+      <Blog />
+      <Resume />
 
+
+      <Footer />
     </div>
 
   );

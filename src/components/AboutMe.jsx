@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 11:42:38 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/29 22:43:44 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/30 07:55:23 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@ import { primaryGradient, secondaryGradient, aboutMe, asideBackground } from '..
 
 function AboutMe() {
   return (
-    <section id='aboutMe' className={`w-full overflow-hidden flex justify-center items-start`}>
+    <section className={`w-full overflow-hidden flex justify-center items-start`}>
         <div id='aboutMe'>
 
             <section className='pb-8 md:pb-16 text-center w-screen pt-8 md:pt-0'>
@@ -33,7 +33,7 @@ function AboutMe() {
                                 <img
                                     src={info.img}
                                     alt='Engineer_Photo'
-                                    className='{ transition-all duration-200 hover:grayscale-[100%] } rounded-2xl lg:w-52 md:w-48 sm:w-40'
+                                    className='{ transition-all duration-200 hover:grayscale-[50%] } rounded-2xl lg:w-52 md:w-48 sm:w-40'
                                 ></img>
                             </div>
                             <div className={`w-full mx-10 rounded-2xl ${asideBackground}`}>
@@ -60,7 +60,7 @@ function AboutMe() {
                             <img
                                 src={info.img}
                                 alt='Engineer_Photo'
-                                className='{ transition-all duration-200 hover:grayscale-[100%] } rounded-2xl lg:w-52 md:w-48 sm:w-40'
+                                className='{ transition-all duration-200 hover:grayscale-[50%] } rounded-2xl lg:w-52 md:w-48 sm:w-40'
                             ></img>
                         </div>
                     </section>
