@@ -6,15 +6,14 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:35:16 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/30 08:55:33 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/30 15:03:43 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React, { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import { backgroundGradients } from './constants'
-import { tripleA } from './assets'
+import { foregroundGradients, colorModes } from './constants'
 import AboutMe from './components/AboutMe'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
@@ -23,23 +22,52 @@ import Resume from './components/Resume'
 
 function App() {
 
-  const [backgroundIdx, setBackgroundIdx] = useState(0);
+  const [foregroundIdx, setForegroundIdx] = useState(0);
+  const [colorModeIdx, setColorModeIdx] = useState(0);
 
-  const updateBackground = background => {
-    setBackgroundIdx((prev) => ((prev + 1) % backgroundGradients.length))
+  var foreground = foregroundGradients[foregroundIdx];
+  var colorMode = colorModes[colorModeIdx];
+
+  const updateForeground = foreground => {
+    setForegroundIdx((prev) => ((prev + 1) % foregroundGradients.length))
+    foreground = foregroundGradients[foregroundIdx];
   }
-
+  const updateColorMode = colorMode => {
+    setColorModeIdx((prev) => ((prev + 1) % colorModes.length))
+    colorMode = colorModes[colorModeIdx];
+  }
+  
   return (
+    
     // Shuffles background
-    <div className={`h-auto ${backgroundGradients[backgroundIdx]}`}> 
-      <Navbar updateBackground={updateBackground}/>
+    // <div className={`h-auto ${backgroundGradients[backgroundIdx]}`}> 
+    <div className={`h-auto ${colorMode.background}`}> 
+      <Navbar 
+        updateForeground={updateForeground}
+        updateColorMode={updateColorMode}
+        colorMode={colorMode}
+      />
 
 
-      <Hero />
-      <AboutMe />
-      <Projects />
-      <Blog />
-      <Resume />
+      <Hero 
+        foreground={foreground}
+        colorMode={colorMode}
+      />
+      <AboutMe 
+        foreground={foreground}
+        colorMode={colorMode}
+      />
+      <Projects 
+        foreground={foreground}
+        colorMode={colorMode}
+      />
+      <Blog 
+        foreground={foreground}
+        colorMode={colorMode}
+      />
+      <Resume
+        foreground={foreground}
+      />
 
 
       <Footer />
