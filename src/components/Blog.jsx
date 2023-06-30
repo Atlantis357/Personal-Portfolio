@@ -6,12 +6,12 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 07:54:18 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/30 09:08:11 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/30 13:22:30 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React from 'react'
-import { primaryGradient, asideBackground, blogs } from '../constants'
+import { primaryGradient, asideBackground, blogs, titles } from '../constants'
 
 const Blog = () => {
   return (
@@ -19,7 +19,7 @@ const Blog = () => {
         {/* Title */}
         <section className='pb-8 md:pb-16 text-center w-screen pt-8 md:pt-0'>
                 <h1 className={`font-bold text-4xl md:text-5xl lg:text-6xl bg-clip-text text-transparent ${primaryGradient}`}>
-                    Blog
+                    {titles[2]}
                 </h1>
         </section>
 

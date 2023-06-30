@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2023/06/30 08:52:44 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/30 13:14:52 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ import instagram from './instagram.svg';
 import linkedin from './linkedin.svg';
 
 import abe from './fun_abraham.jpg';
-//import abe from './abraham.jpg';
+import seriousAbe from './abraham.jpg';
 
 import cycling from './cycling.jpg';
 //import cycling from './cyclingTwo.jpg';
@@ -50,4 +50,5 @@ export {
     engineer,
     outdoors,
     resume,
+    seriousAbe,
 };
