@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/28 23:29:37 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/29 22:43:46 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ export const secondaryGradient = "text-white";
 
 // Blocks the Nav bar
 //export const asideBackground = "backdrop-blur-sm backdrop-brightness-75";
-export const asideBackground = " bg-black bg-opacity-20";
+export const asideBackground = " bg-black bg-opacity-20 hover:bg-opacity-50 transition-all";
 
 
 export const navLinks = [
@@ -42,13 +42,13 @@ export const navLinks = [
     id: "aboutMe",
     title: "About Me",
   }, {
-    id: "Projects",
+    id: "projects",
     title: "Projects",
   }, {
-    id: "Blog",
+    id: "blog",
     title: "Blog",
   }, {
-    id: "Resume",
+    id: "resume",
     title: "Resume",
   },
 ];
@@ -93,6 +93,27 @@ export const aboutMe = [
   }, {
     title: "TurkeyLeg Enthusiast?",
     img: eatingTurkey,
-    description: "I have had countless turkey legs in my breif time on Earth, but I assure you that Universal Studios has the best legs in the world."
+    description: "I have had countless turkey legs in my brief time on Earth, but I assure you that Universal Studios has the best legs in the world."
   }
+]
+
+
+export const projects = [
+  {
+    img: "https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+    title: "Finding the Journey to Mordor",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque dignissimos. Molestias explicabo corporis voluptatem?",
+  },{
+    img: "https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+    title: "Finding the Journey to Mordor",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque dignissimos. Molestias explicabo corporis voluptatem?",
+  },{
+    img: "https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+    title: "Finding the Journey to Mordor",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque dignissimos. Molestias explicabo corporis voluptatem?",
+  },{
+    img: "https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+    title: "Finding the Journey to Mordor",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque dignissimos. Molestias explicabo corporis voluptatem?",
+  },
 ]
