@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2023/06/30 13:14:52 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/30 20:54:48 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ import fraternity from './fraternity.jpg';
 import engineer from './engineer.jpg';
 import outdoors from './outdoors.jpg';
 import resume from './resume.pdf';
+import colorMode from './colorMode.png';
 
 
 export {
@@ -51,4 +52,5 @@ export {
     outdoors,
     resume,
     seriousAbe,
+    colorMode,
 };

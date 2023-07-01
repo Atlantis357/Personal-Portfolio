@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 11:42:38 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/30 15:00:15 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/30 21:19:07 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,14 +40,14 @@ function AboutMe(props) {
                                 <h1 class={`bg-clip-text text-transparent ${props.colorMode.title} text-3xl text-center font-extrabold md:text-4xl py-5`}>
                                     {info.title}
                                 </h1>
-                                <p className={`flex text-center font-mono${props.colorMode.text} p-2`}>
+                                <p className={`flex text-center font-mono ${props.colorMode.text} p-2`}>
                                     {info.description}
                                 </p>
                             </div>
                         </section>
                     :
                     // Left view
-                        <section className='flex h-auto w-screen mb-7 md:mb-12'>
+                    <section className='flex h-auto w-screen mb-7 md:mb-12'>
                         <div className={`w-full mx-10 rounded-2xl ${asideBackground}`}>
                             <h1 class={`bg-clip-text text-transparent ${props.colorMode.title} text-3xl text-center font-extrabold md:text-4xl py-5`}>
                                 {info.title}

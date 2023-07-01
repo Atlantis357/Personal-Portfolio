@@ -6,13 +6,13 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:34:58 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/30 15:03:16 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/30 21:01:33 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React, {useState} from 'react'
 import {navLinks} from '../constants'
-import {tripleA, chem, close, menu, abe} from '../assets';
+import {tripleA, chem, close, menu, abe, colorMode} from '../assets';
 import { Link } from 'react-scroll';
 
 
@@ -32,7 +32,7 @@ function Navbar(props) {
             <img 
                 src={tripleA} 
                 alt='tripleA' 
-                className='w-[124px] h-[32px] hover:cursor-pointer flex-none'
+                className='w-[124px] h-[32px] hover:cursor-pointer flex-none hover:scale-125 transition-all'
                 />
         </Link>
 
@@ -50,21 +50,20 @@ function Navbar(props) {
             ))}
         </ul>
         
-        {/* Button to change background */}
-        <div className='hidden sm:flex px-[46px]'>
+        <div className='hidden sm:flex pl-[34px]'>
+            {/* Button to change background */}
             <img 
             src={chem} 
                 alt='chem' 
-                className='w-[32px] h-[32px] object-contain hover:opacity-0 transition-all hover:cursor-pointer duration-00'
+                className='w-[32px] h-[32px] object-contain hover:scale-125 transition-all hover:cursor-pointer duration-00'
                 onClick={() => props.updateForeground()}
             />
-        </div>
-        {/* Button to change colorMode */}
-        <div className='hidden sm:flex px-[46px]'>
+            <div className='px-3'></div>
+            {/* Button to change colormode */}
             <img 
-            src={abe} 
-                alt='abe' 
-                className='w-[32px] h-[32px] object-contain hover:opacity-0 transition-all hover:cursor-pointer duration-00'
+            src={colorMode} 
+                alt='colormode' 
+                className='w-[32px] h-[32px] object-contain hover:scale-125 transition-all hover:cursor-pointer duration-00'
                 onClick={() => props.updateColorMode()}
             />
         </div>
