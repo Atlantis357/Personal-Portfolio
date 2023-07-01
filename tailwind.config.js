@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Orbitron': ["'Orbitron', 'sans-serif'"],
+        'Sacramento': [ "'Sacramento', 'cursive'"],
+      },
+    },
   },
   plugins: [
     require("a17t"),

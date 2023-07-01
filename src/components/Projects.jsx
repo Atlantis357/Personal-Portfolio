@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/29 14:30:53 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/30 15:09:04 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/06/30 22:18:13 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ const Projects = (props) => {
     <div id='projects'>
         {/* Title */}
         <section className='pb-8 md:pb-16 text-center w-screen pt-8 md:pt-0'>
-                <h1 className={`font-bold text-4xl md:text-5xl lg:text-6xl bg-clip-text text-transparent ${props.foreground}`}>
+                <h1 className={`font-extrabold text-4xl md:text-5xl lg:text-6xl bg-clip-text text-transparent ${props.foreground} tracking-wider font-Orbitron`}>
                     {titles[1]}
                 </h1>
         </section>
