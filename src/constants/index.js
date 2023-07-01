@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/30 22:20:02 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/01 18:10:44 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ export const colorModes = [
     text: "text-white",
   },{
     id: "lightMode",
-    background: "bg-gradient-to-b from-gray-100 via-gray-300 to-gray-500",
+    background: "bg-gradient-to-b from-gray-200 via-gray-300 to-gray-400",
     title: "bg-gradient-to-b from-black via-gray-800 to-white",
     text: "text-black",
   }

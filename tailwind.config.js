@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         'Orbitron': ["'Orbitron', 'sans-serif'"],
         'Sacramento': [ "'Sacramento', 'cursive'"],
+        'Ma-Shan-Zheng': [ "'Ma Shan Zheng', 'cursive'"],
+        'Permanent-Marker': ["'Permanent Marker', 'cursive'"],
+
       },
     },
   },
