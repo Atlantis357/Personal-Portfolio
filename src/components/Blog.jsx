@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 07:54:18 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/06/30 22:17:59 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/02 18:18:43 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ const Blog = (props) => {
     <div id='blog'>
         {/* Title */}
         <section className='pb-8 md:pb-16 text-center w-screen pt-8 md:pt-0'>
-                <h1 className={`font-extrabold text-4xl md:text-5xl lg:text-6xl bg-clip-text text-transparent ${props.foreground} tracking-wider font-Orbitron`}>
+                <h1 className={`font-extrabold text-4xl md:text-5xl lg:text-6xl bg-clip-text text-transparent ${props.foreground.main} tracking-wider font-Orbitron`}>
                     {titles[2]}
                 </h1>
         </section>
@@ -37,7 +37,7 @@ const Blog = (props) => {
 
                     <div class="p-4">
                         <a href="#">
-                        <h3 class={`text-lg font-medium bg-clip-text text-transparent ${props.colorMode.title}`}>
+                        <h3 class={`text-lg font-medium bg-clip-text text-transparent font-Orbitron ${props.foreground.accent}`}>
                             {info.title}
                         </h3>
                         </a>

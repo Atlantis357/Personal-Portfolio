@@ -6,13 +6,13 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/02 15:17:34 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/02 18:29:39 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 import { withOptions } from "tailwindcss/plugin";
-import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA} from "../assets";
+import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family} from "../assets";
 
 // export const backgroundGradients = [
 //   "bg-gradient-to-b from-gray-600 via-gray-800 to-black",
@@ -20,12 +20,31 @@ import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linked
 // ]
 
 export const foregroundGradients = [
-  "bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500",
-  "bg-gradient-to-r from-green-300 via-blue-500 to-purple-600",
-  "bg-gradient-to-r from-sky-400 via-rose-400 to-lime-400",
-  "bg-gradient-to-r from-lime-600 via-yellow-300 to-red-600",
-  "bg-gradient-to-r from-green-200 via-green-400 to-green-500",
-  "bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500",
+  {
+    id: "red",
+    main: "bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500",
+    accent: "bg-pink-500",
+  },{
+    id: "blue",
+    main: "bg-gradient-to-r from-green-300 via-blue-500 to-purple-600",
+    accent: "bg-blue-500",
+  },{
+    id: "rose",
+    main: "bg-gradient-to-r from-sky-400 via-rose-400 to-lime-400",
+    accent: "bg-rose-500",
+  },{
+    id: "yellow",
+    main: "bg-gradient-to-r from-lime-600 via-yellow-300 to-red-600",
+    accent: "bg-yellow-300",
+  },{
+    id: "green",
+    main: "bg-gradient-to-r from-green-200 via-green-400 to-green-500",
+    accent: "bg-green-400",
+  },{
+    id: "fuchisa",
+    main: "bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500",
+    accent: "bg-fuchsia-500",
+  },
 ]
 
 
@@ -34,12 +53,10 @@ export const colorModes = [
   {
     id: "darkMode",
     background: "bg-gradient-to-b from-gray-600 via-gray-700 to-gray-800",
-    title: "bg-gradient-to-r from-gray-100 to-gray-300",
     text: "text-white",
   },{
     id: "lightMode",
     background: "bg-gradient-to-b from-gray-200 via-gray-300 to-gray-400",
-    title: "bg-gradient-to-b from-black via-gray-800 to-white",
     text: "text-black",
   }
 ]
@@ -115,6 +132,10 @@ export const aboutMe = [
     title: "Man-of-the-woods",
     img: outdoors,
     description: "The Outdoors Adventure Club at UIUC has the best people and the best trips. It's called trauma-bonding."
+  },{
+    title: "Brother",
+    img: family,
+    description: "Oldest of four, 7/12."
   },
 ]
 
@@ -142,10 +163,6 @@ export const blogs = [
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque dignissimos. Molestias explicabo corporis voluptatem?",
   },{
     img: fraternity,
-    title: "Finding the Journey to Mordor",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque dignissimos. Molestias explicabo corporis voluptatem?",
-  },{
-    img: engineer,
     title: "Finding the Journey to Mordor",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque dignissimos. Molestias explicabo corporis voluptatem?",
   },{

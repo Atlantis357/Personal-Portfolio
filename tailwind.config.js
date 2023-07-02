@@ -11,6 +11,7 @@ export default {
         'Sacramento': [ "'Sacramento', 'cursive'"],
         'Ma-Shan-Zheng': [ "'Ma Shan Zheng', 'cursive'"],
         'Permanent-Marker': ["'Permanent Marker', 'cursive'"],
+        'Poppins': ["'Poppins', 'sans-serif'"],
 
       },
     },
