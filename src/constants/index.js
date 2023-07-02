@@ -6,13 +6,13 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/01 18:10:44 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/02 15:17:34 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 import { withOptions } from "tailwindcss/plugin";
-import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe} from "../assets";
+import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA} from "../assets";
 
 // export const backgroundGradients = [
 //   "bg-gradient-to-b from-gray-600 via-gray-800 to-black",
@@ -29,15 +29,6 @@ export const foregroundGradients = [
 ]
 
 
-// export const primaryGradients = [
-//   "bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-emerald-200 via-purple-600 to-rose-600",
-//   "bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-emerald-200 via-purple-600 to-rose-600",
-// ]
-
-// export const secondaryGradients = [
-//   "text-white",
-//   "text-black"
-// ]
 
 export const colorModes = [
   {
@@ -72,12 +63,6 @@ export const colorModes = [
 // ]
 
 
-// export const primaryGradient = "bg-gradient-to-b from-gray-600 via-gray-800 to-black"
-
-// export const secondaryGradient = "text-white";
-
-// Blocks the Nav bar
-//export const asideBackground = "backdrop-blur-sm backdrop-brightness-75";
 export const asideBackground = "bg-black bg-opacity-20 hover:bg-opacity-30 transition-all";
 
 
@@ -119,46 +104,34 @@ export const socialMedia = [
 
 export const aboutMe = [
   {
-    title: "Devoted Engineer?",
+    title: "Engineer",
     img: engineer,
     description: "My long-term goal in medicine is to develop computational, non-intrusive tools that doctors can readily use to improve the accuracy of their diagnostics."
   }, {
-    title: "Competitive Cyclist?",
+    title: "Cyclist",
     img: cycling,
     description: "The evolution of a bittersweet teenage Tour-de-France dream."
   }, {
-    title: "Frat Bro?",
-    img: fraternity,
-    description: "I am also a brother of the Alpha Delta Phi Fraternity on campus. Brotherhood."
-  }, {
-    title: "Man-of-the-woods?",
+    title: "Man-of-the-woods",
     img: outdoors,
     description: "The Outdoors Adventure Club at UIUC has the best people and the best trips. It's called trauma-bonding."
-  }, {
-    title: "TurkeyLeg Enthusiast?",
-    img: eatingTurkey,
-    description: "I have had countless turkey legs in my brief time on Earth, but I assure you that Universal Studios has the best legs in the world."
-  }
+  },
 ]
 
 
 export const projects = [
   { 
-    img: engineer,
+    img: mosaic,
     title: "Photomosaic Board",
     description: "Implemented an algorithm that uses k-D Trees to combine images from an album of photographs to create a PNG mosaic that resembles any image.",
   },{
-    img: eatingTurkey,
-    title: "Eco-Friendly Flight Planner",
-    description: "Worked with a project team to design a flight planning algorithm that uses data from over 14,000 airports and 67,000 routes to determine the shortest route between any two airports.",
-  },{
-    img: seriousAbe,
-    title: "Salam",
-    description: "Created an employee management app in iOS using Swift Data and Cloud kit that unified timesheets across four different departments to improve transparency and communication.",
-  },{
-    img: cycling,
+    img: tripleA,
     title: "Abe's Page",
     description: "Created an interactive personal-portfolio using react, tailwind-CSS, and the Spotify API to showcase my current favorite songs and albums.",
+  },{
+    img: flights,
+    title: "Eco-Friendly Flight Planner",
+    description: "Worked with a project team to design a flight planning algorithm that uses data from over 14,000 airports and 67,000 routes to determine the shortest route between any two airports.",
   },
 ]
 
