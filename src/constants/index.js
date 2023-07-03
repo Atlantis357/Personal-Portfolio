@@ -6,24 +6,17 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/02 18:29:39 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/02 21:04:02 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-import { withOptions } from "tailwindcss/plugin";
 import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family} from "../assets";
-
-// export const backgroundGradients = [
-//   "bg-gradient-to-b from-gray-600 via-gray-800 to-black",
-//   "bg-gradient-to-b from-gray-600 via-gray-400 via-gray-200",
-// ]
 
 export const foregroundGradients = [
   {
     id: "red",
     main: "bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500",
-    accent: "bg-pink-500",
+    accent: "bg-red-500",
   },{
     id: "blue",
     main: "bg-gradient-to-r from-green-300 via-blue-500 to-purple-600",
@@ -47,8 +40,6 @@ export const foregroundGradients = [
   },
 ]
 
-
-
 export const colorModes = [
   {
     id: "darkMode",
@@ -60,9 +51,6 @@ export const colorModes = [
     text: "text-black",
   }
 ]
-
-// "bg-gradient-to-b from-white via-gray-200 to-gray-400"
-
 
 
 // export const backgroundGradients = [
@@ -90,10 +78,12 @@ export const navLinks = [
   }, {
     id: "projects",
     title: "Projects",
-  }, {
-    id: "blog",
-    title: "Blog",
-  }, {
+  },
+  //  {
+  //   id: "blog",
+  //   title: "Blog",
+  // }, 
+  {
     id: "resume",
     title: "Resume",
   },
@@ -107,21 +97,29 @@ export const nameIntro = {
     ChiName: "艾 笔 ",
 }
 
-export const socialMedia = [
+export const socials = [
   {
-    id: "insta",
-    icon: instagram,
-    link: "https://www.instagram.com/",
+    id: "github",
+    icon: "https://www.flaticon.com/free-icons/github",
+    link: "https://www.github.com/Atlantis357",
   }, {
     id: "linkedin",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
-  },
+    icon: "https://www.flaticon.com/free-icons/linkedin",
+    link: "https://www.linkedin.com/in/abrahamalkhatib",
+  }, {
+    id: "stackOverflow",
+    icon: "https://www.flaticon.com/free-icons/stack-overflow",
+    link: "https://stackexchange.com/users/27590469/abraham-alkhatib",
+  }, {
+    id: "instagram",
+    icon: "https://www.flaticon.com/free-icons/instagram",
+    link: "https://www.instagram.com/abrahamalkhatib/?hl=en",
+  }
 ];
 
 export const aboutMe = [
   {
-    title: "Engineer",
+    title: "Bioengineering Junior @Illinois",
     img: engineer,
     description: "My long-term goal in medicine is to develop computational, non-intrusive tools that doctors can readily use to improve the accuracy of their diagnostics."
   }, {
@@ -144,14 +142,17 @@ export const projects = [
   { 
     img: mosaic,
     title: "Photomosaic Board",
+    link: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
     description: "Implemented an algorithm that uses k-D Trees to combine images from an album of photographs to create a PNG mosaic that resembles any image.",
   },{
     img: tripleA,
     title: "Abe's Page",
+    link: "#",
     description: "Created an interactive personal-portfolio using react, tailwind-CSS, and the Spotify API to showcase my current favorite songs and albums.",
   },{
     img: flights,
-    title: "Eco-Friendly Flight Planner",
+    title: "Sustainable Flight Planner",
+    link: "https://github.com/Atlantis357/OpenFlightPaths.git",
     description: "Worked with a project team to design a flight planning algorithm that uses data from over 14,000 airports and 67,000 routes to determine the shortest route between any two airports.",
   },
 ]

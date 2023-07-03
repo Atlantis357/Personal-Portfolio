@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/29 14:30:53 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/02 18:19:20 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/02 20:43:26 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,25 +28,25 @@ const Projects = (props) => {
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 lg:gap-16 md:gap-8 sm:gap-8 justify-center'>
 
             {projects.map((info, index) => (
-                <article className={`group ${asideBackground} rounded-2xl`}>
-                    <img
-                        alt="Lava"
-                        src={info.img}
-                        class="h-56 w-full transition group-hover:grayscale-[50%] p-2"
-                    />
+                <a href={info.link} className='hover:cursor-pointer'>
+                    <article className={`group ${asideBackground} rounded-2xl`}>
+                        <img
+                            alt="Lava"
+                            src={info.img}
+                            class="h-56 w-full transition group-hover:grayscale-[50%] p-2"
+                        />
 
-                    <div class="p-4">
-                        <a href="#">
-                        <h3 class={`text-lg font-medium bg-clip-text text-transparent font-Orbitron ${props.foreground.accent}`}>
-                            {info.title}
-                        </h3>
-                        </a>
+                        <div class="p-4">
+                            <h3 class={`text-lg font-medium bg-clip-text text-transparent font-Orbitron ${props.foreground.accent}`}>
+                                {info.title}
+                            </h3>
 
-                        <p class={`mt-2 line-clamp-3 text-sm/relaxed ${props.colorMode.text}`}>
-                            {info.description}
-                        </p>
-                    </div>
-                </article>
+                            <p class={`mt-2 line-clamp-3 text-sm/relaxed ${props.colorMode.text}`}>
+                                {info.description}
+                            </p>
+                        </div>
+                    </article>
+                </a>
             ))}        
             </div>
         </section>
