@@ -6,13 +6,14 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 22:03:03 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/02 20:56:40 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/04 12:22:49 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React from 'react'
 import { tripleA } from '../assets'
 import { Link } from 'react-scroll';
+import { navLinks, socials } from '../constants';
 
 const Footer = () => {
   return (
@@ -26,8 +27,25 @@ const Footer = () => {
             />
           </a>
 
+          <ul className='list-none sm:flex hidden justify-center items-center flex-10'>
+            {socials.map((social, index) => (
+              <li
+                key={social.id}
+                className={`${index === socials.length -1 ? 'mr-0' : 'mr-20'} `}
+                >
+                <a href={social.link}>
+                  <img 
+                    src={social.icon}
+                    className='w-10 h-10 cursor-pointer hover:scale-110 transition-all'
+                  />
+                </a>
+
+              </li>
+            ))}
+          </ul>
 
 
+          
 
 
 

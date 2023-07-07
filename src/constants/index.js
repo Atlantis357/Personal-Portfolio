@@ -6,11 +6,11 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/02 21:04:02 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/07 09:34:00 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family} from "../assets";
+import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow} from "../assets";
 
 export const foregroundGradients = [
   {
@@ -52,22 +52,6 @@ export const colorModes = [
   }
 ]
 
-
-// export const backgroundGradients = [
-//   "bg-gradient-to-b from-pink-500 via-fuchsia-100 to-zinc-200",
-//   "bg-gradient-to-b from-cyan-600 via-red-700 to-blue-300",
-//   "bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-lime-900 via-zinc-300 to-red-300",
-//   "bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-gray-700 via-white to-cyan-900",
-//   "bg-gradient-to-l from-violet-400 via-emerald-300 to-gray-600",
-//   "bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-rose-600 via-zinc-300 to-teal-500",
-//   "bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-stone-100 via-purple-200 to-violet-800",
-//   "bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 via-cyan-100 to-rose-700",
-//   "bg-gradient-to-t from-zinc-300 via-sky-200 to-blue-400",
-//   "bg-gradient-to-tr from-blue-600 via-teal-100 to-indigo-800",
-//   "bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-green-800 via-blue-700 to-amber-600",
-// ]
-
-
 export const asideBackground = "bg-black bg-opacity-20 hover:bg-opacity-30 transition-all";
 
 
@@ -100,19 +84,19 @@ export const nameIntro = {
 export const socials = [
   {
     id: "github",
-    icon: "https://www.flaticon.com/free-icons/github",
+    icon: github,
     link: "https://www.github.com/Atlantis357",
   }, {
     id: "linkedin",
-    icon: "https://www.flaticon.com/free-icons/linkedin",
+    icon: linkedin,
     link: "https://www.linkedin.com/in/abrahamalkhatib",
   }, {
     id: "stackOverflow",
-    icon: "https://www.flaticon.com/free-icons/stack-overflow",
+    icon: stackOverflow,
     link: "https://stackexchange.com/users/27590469/abraham-alkhatib",
   }, {
     id: "instagram",
-    icon: "https://www.flaticon.com/free-icons/instagram",
+    icon: instagram,
     link: "https://www.instagram.com/abrahamalkhatib/?hl=en",
   }
 ];
@@ -121,19 +105,19 @@ export const aboutMe = [
   {
     title: "Bioengineering Junior @Illinois",
     img: engineer,
-    description: "My long-term goal in medicine is to develop computational, non-intrusive tools that doctors can readily use to improve the accuracy of their diagnostics."
+    description: "My mother is diabetic, and it was painful to watch her maneuver her life around it, especially when I was a child. I remember watching my mother as she pricked herself on the finger four times a day before injecting herself with insulin. This tedious process was a normality in her everyday life until Abbott’s Freestyle Libre system became available in China. Abbott’s system allowed my mother to wear a wireless patch on her arm and access the blood-sugar readings from her smartphone. Not only did the system revolutionize my mother’s everyday life, but it also ignited my interest in bioengineering."
   }, {
-    title: "Cyclist",
+    title: "Bicycle Nerd (Cyclist)",
     img: cycling,
-    description: "The evolution of a bittersweet teenage Tour-de-France dream."
+    description: "Noticible results: 2017 TREK-China Best Young Rider (Overall), 1st-2018 TREK Beijing-Shanghai Criterium, 2nd-2018 Heros U25 Shanghai Classics, Top 10 Finisher- Tour de France Skoda Shanghai Criterium"
   }, {
     title: "Man-of-the-woods",
     img: outdoors,
-    description: "The Outdoors Adventure Club at UIUC has the best people and the best trips. It's called trauma-bonding."
+    description: "I find reconnecting with Nature to be my favourite passtime, nothing beats a quick getaway amongst the trees. Though I've been an outdoorsy person all my life, The Outdoors Adventure Club at UIUC took my intrest to the next level with multi-day backpacking trips every break. OAC has the best people and the best trips. It's called trauma-bonding."
   },{
     title: "Brother",
     img: family,
-    description: "Oldest of four, 7/12."
+    description: "With a big family, comes big responsibilities! I grew up as the oldest of four, but I have eight other half-siblings! I love them with all my heart."
   },
 ]
 
@@ -148,7 +132,7 @@ export const projects = [
     img: tripleA,
     title: "Abe's Page",
     link: "#",
-    description: "Created an interactive personal-portfolio using react, tailwind-CSS, and the Spotify API to showcase my current favorite songs and albums.",
+    description: "Created an interactive personal-portfolio using react, tailwind-CSS, and the Vite from scrach to showcase my intrests and thoughts.",
   },{
     img: flights,
     title: "Sustainable Flight Planner",
