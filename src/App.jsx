@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:35:16 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/07 08:56:30 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/07 14:51:35 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ function App() {
   return (
     
     // Shuffles background
-    <div className={`h-auto ${colorMode.background} bg-fixed`}> 
+    <div className={`h-auto ${colorMode.background} overflow-hidden bg-fixed`}> 
       <Navbar 
         updateForeground={updateForeground}
         updateColorMode={updateColorMode}

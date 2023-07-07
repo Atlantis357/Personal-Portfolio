@@ -12,7 +12,15 @@ export default {
         'Ma-Shan-Zheng': [ "'Ma Shan Zheng', 'cursive'"],
         'Permanent-Marker': ["'Permanent Marker', 'cursive'"],
         'Poppins': ["'Poppins', 'sans-serif'"],
-
+      },
+      animation: {
+        scroll: 'scroll 5s linear infinite',
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': {transform: 'translateX(-100%)'},
+        },
       },
     },
   },

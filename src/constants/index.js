@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/07 09:34:00 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/07 15:06:17 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -157,4 +157,18 @@ export const blogs = [
   },
 ]
 
-export const titles = ["ABOUT ME", "PROJECTS", "BLOGS", "RESUME"]
+export const titles = [
+  {
+    eng: "ABOUT ME",
+    chi: "关于我"
+  },{
+    eng: "PROJECTS",
+    chi:  "我的工程"
+  },{
+    eng: "BLOGS",
+    chi: "我的想法"
+  },{
+    eng: "RESUME",
+    chi: "我的简历"
+  },
+]
