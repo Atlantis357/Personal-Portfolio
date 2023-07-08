@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2023/07/07 09:08:59 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/07 22:00:52 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ import menu from './menu.svg';
 
 import abe from './fun_abraham.jpg';
 import seriousAbe from './abraham.jpg';
+// import abe from './headshot.jpg';
 
 import cycling from './cycling.jpg';
 //import cycling from './cyclingTwo.jpg';
