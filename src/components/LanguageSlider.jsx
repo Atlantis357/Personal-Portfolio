@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/07 10:17:00 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/07 15:07:27 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/07 17:27:32 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,6 @@ const LanguageSlider = (props) => {
           className={`w-[500px] px-[25px] font-extrabold text-4xl md:text-6xl bg-clip-text text-transparent ${props.foreground.main} tracking-wider font-Orbitron flex`}>
           {titles[0].chi}
         </h1>
-        
         <h1 
           className={`w-[500px] px-[25px] font-extrabold text-4xl md:text-6xl bg-clip-text text-transparent ${props.foreground.main} tracking-wider font-Orbitron`}>
           {titles[0].eng}
@@ -50,7 +49,8 @@ const LanguageSlider = (props) => {
           className={`w-[500px] px-[25px] font-extrabold text-4xl md:text-6xl bg-clip-text text-transparent ${props.foreground.main} tracking-wider font-Orbitron flex`}>
           {titles[0].chi}
         </h1>
-      
+        
+       
 
 
       </div>
