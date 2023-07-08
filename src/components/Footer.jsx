@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 22:03:03 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/04 12:22:49 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/07 21:51:37 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@ import { tripleA } from '../assets'
 import { Link } from 'react-scroll';
 import { navLinks, socials } from '../constants';
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <section className='w-screen py-4 mt-5 overflow-hidden backdrop-blur-sm hover:backdrop-brightness-75 transition-all'>
       <div className='flex justify-between items-center px-16'>
@@ -43,25 +43,15 @@ const Footer = () => {
               </li>
             ))}
           </ul>
-
-
-          
-
-
-
-
-
-
-
-
         
-          <Link to={`hero`} spy={true} smooth={true} offset={-70} duration={500}>
-              <img 
-                  src={tripleA} 
-                  alt='tripleA' 
-                  className='w-[124px] h-[32px] flex cursor-pointer  hover:scale-110 transition-all'
-              />
-          </Link>
+
+          <img 
+              src={tripleA} 
+              alt='tripleA' 
+              className='w-[124px] h-[32px] flex cursor-pointer  hover:scale-110 transition-all'
+              onClick={() => props.updateForeground()}
+          />
+
           
       </div>
     </section>

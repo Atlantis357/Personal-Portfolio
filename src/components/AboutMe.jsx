@@ -6,14 +6,14 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 11:42:38 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/02 18:27:04 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/07 21:49:26 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React from 'react'
 import { aboutMe, asideBackground, titles } from '../constants'
 
-function AboutMe(props) {
+const AboutMe = (props) => {
   return (
     <section className={`w-full overflow-hidden flex justify-center items-start`}>
         <div id='aboutMe'>

@@ -6,14 +6,15 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:34:58 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/04 12:15:15 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/07 21:49:05 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React, {useState} from 'react'
 import {navLinks} from '../constants'
 import {tripleA, chem, close, menu, abe, colorMode} from '../assets';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
+import { Link as scrollLink} from 'react-scroll';
 
 
 function Navbar(props) {
@@ -26,15 +27,13 @@ function Navbar(props) {
 
 
     <nav className='w-full flex py-4 justify-between items-center navbar'>
-
-
-        <Link to={`hero`} spy={true} smooth={true} offset={-70} duration={500}>
-            <img 
-                src={tripleA} 
-                alt='tripleA' 
-                className='w-[124px] h-[32px] hover:cursor-pointer flex-none hover:scale-125 transition-all'
-                />
-        </Link>
+        
+        <img 
+            src={tripleA} 
+            alt='tripleA' 
+            className='w-[124px] h-[32px] hover:cursor-pointer flex-none hover:scale-125 transition-all'
+            onClick={() => props.updateForeground()}
+            />
 
         {/* Laptop Interface */}
         <ul className='list-none sm:flex hidden justify-center items-center flex-10'>
@@ -43,7 +42,7 @@ function Navbar(props) {
                     key={nav.id} 
                     className={`font-poppins font-bold cursor-pointer text-[16px] hover:font-extrabold hover:text-[20px]
                          ${props.colorMode.text} ${index === navLinks.length - 1 ? 'mr-0' : 'mr-20'} transition-all`}>
-                    <Link to={`${nav.id}`} spy={true} smooth={true} offset={-70} duration={500}>
+                    <Link to={`${nav.id}`}>
                         {nav.title}
                     </Link>
                 </li>
@@ -52,13 +51,13 @@ function Navbar(props) {
         
         <div className='hidden sm:flex pl-[34px]'>
             {/* Button to change background */}
-            <img 
+            {/* <img 
             src={chem} 
                 alt='chem' 
                 className='w-[32px] h-[32px] object-contain hover:scale-125 transition-all hover:cursor-pointer duration-00'
                 onClick={() => props.updateForeground()}
             />
-            <div className='px-3'></div>
+            <div className='px-3'></div> */}
             {/* Button to change colormode */}
             <img 
             src={colorMode} 
@@ -84,7 +83,7 @@ function Navbar(props) {
                             key={nav.id} 
                             className={`font-poppins font-bold cursor-pointer text-[16px]
                             ${props.colorMode.text} ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'} hover:font-extrabold hover:text-[18px] transition-all`}>
-                            <Link to={`${nav.id}`} spy={true} smooth={true} offset={-70} duration={500}>
+                            <Link to={`${nav.id}`}>
                                 {nav.title}
                             </Link>
                         </li>

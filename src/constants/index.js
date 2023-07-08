@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/07 09:34:00 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/07 21:51:48 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,18 +57,18 @@ export const asideBackground = "bg-black bg-opacity-20 hover:bg-opacity-30 trans
 
 export const navLinks = [
   {
-    id: "aboutMe",
+    id: "/",
     title: "About Me",
   }, {
-    id: "projects",
+    id: "/projects",
     title: "Projects",
   },
   //  {
-  //   id: "blog",
+  //   id: "/blog",
   //   title: "Blog",
   // }, 
   {
-    id: "resume",
+    id: "/resume",
     title: "Resume",
   },
 ];
@@ -131,7 +131,7 @@ export const projects = [
   },{
     img: tripleA,
     title: "Abe's Page",
-    link: "#",
+    link: "/",
     description: "Created an interactive personal-portfolio using react, tailwind-CSS, and the Vite from scrach to showcase my intrests and thoughts.",
   },{
     img: flights,
