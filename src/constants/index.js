@@ -6,11 +6,11 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/07 21:51:48 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/09 19:46:21 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow} from "../assets";
+import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster} from "../assets";
 
 export const foregroundGradients = [
   {
@@ -124,20 +124,40 @@ export const aboutMe = [
 
 export const projects = [
   { 
+    id: "mosiac",
     img: mosaic,
     title: "Photomosaic Board",
     link: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
     description: "Implemented an algorithm that uses k-D Trees to combine images from an album of photographs to create a PNG mosaic that resembles any image.",
+    titlePoster: "",
   },{
+    id: "helmetliner",
+    img: helmetTesting,
+    title: "Rotationally-Isolated Helmet Liners",
+    link: "/projects/helmetliner",
+    description: "Incepted a rotational isolation system for bicycle helmets using CAD that offers enhanced protection during angled impacts.",
+    titlePoster: helmetPoster,
+  },{
+    id: "flightPlanner",
+    img: flights,
+    title: "Sustainable Flight Planner",
+    link: "https://github.com/Atlantis357/OpenFlightPaths.git",
+    description: "Designed a flight planning algorithm that uses over 14,000 airports and 67,000 routes to determine the shortest route between any airport.",
+    titlePoster: "",
+  },{
+    id: "ppgfilters",
+    img: ppgInspect,
+    title: "PPG Filters for HR-Variability",
+    link: "/projects/ppgfilters",
+    description: "Constructed a PPG signal-filtering pipeline using wavelet transforms and FFT to analyze HR variability during exercise.",
+    titlePoster: ppgFilterPoster,
+  },{
+    id: "abesPage",
     img: tripleA,
     title: "Abe's Page",
     link: "/",
     description: "Created an interactive personal-portfolio using react, tailwind-CSS, and the Vite from scrach to showcase my intrests and thoughts.",
-  },{
-    img: flights,
-    title: "Sustainable Flight Planner",
-    link: "https://github.com/Atlantis357/OpenFlightPaths.git",
-    description: "Worked with a project team to design a flight planning algorithm that uses data from over 14,000 airports and 67,000 routes to determine the shortest route between any two airports.",
+    titlePoster: "",
   },
 ]
 

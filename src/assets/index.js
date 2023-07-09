@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2023/07/07 22:00:52 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/09 19:13:37 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,10 @@ import github from './github.png';
 import instagram from './instagram.png';
 import linkedin from './linkedin.png';
 import stackOverflow from './stack-overflow.png';
+import helmetPoster from './helmetPoster.jpg';
+import helmetTesting from './helmetTesting.jpg';
+import ppgFilterPoster from './ppgFilterPoster.jpg';
+import ppgInspect from './ppgInspect.png';
 
 
 
@@ -63,4 +67,8 @@ export {
     instagram,
     linkedin,
     stackOverflow,
+    helmetPoster,
+    helmetTesting,
+    ppgFilterPoster,
+    ppgInspect,
 };

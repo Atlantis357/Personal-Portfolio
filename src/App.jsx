@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:35:16 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/07 21:50:37 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/09 19:23:56 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ import Resume from './components/Resume'
 import NotFound from './components/NotFound'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
+import ProjectView from './components/ProjectView'
 
 
 function App() {
@@ -55,8 +56,11 @@ function App() {
           <Route exact path='/' element={ <Home foreground={foreground} colorMode={colorMode} />} />
 
           <Route path='/projects' element={ <Projects foreground={foreground} colorMode={colorMode} />} />
+            
+            <Route path='/projects/:id' element={<ProjectView foreground={foreground} />} />
 
-          <Route path='/blog' element={ <Blog foreground={foreground} colorMode={colorMode} />} />
+
+          <Route path='/blog' element={ <Blog foreground={foreground} colorMode={colorMode} />} /> 
 
           <Route path='/resume' element={ <Resume foreground={foreground} />} />
 
