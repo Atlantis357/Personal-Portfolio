@@ -6,12 +6,12 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/29 14:30:53 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/09 21:08:21 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/10 00:49:59 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React from 'react'
-import { asideBackground, projects, titles } from '../constants'
+import { asideBackground, projects, } from '../constants'
 import { Link } from 'react-router-dom';
 
 const Projects = (props) => {

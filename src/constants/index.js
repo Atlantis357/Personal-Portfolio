@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/09 21:09:15 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/10 00:59:01 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -185,4 +185,10 @@ export const blogs = [
   },
 ]
 
-export const titles = ["ABOUT ME", "PROJECTS", "BLOGS", "RESUME"]
+export const experiences = [
+  {
+    title: "Bioinformatics Intern - Atrium Health Wake Forest Baptist (05/2023 – Present)",
+    skills: "",
+    description: "With my career crosshairs lined on the intersection of engineering and medicine, I accpeted a position as a bioinformatics intern for AHWFB, the second largest medical provider in the United States. As a software developer, I was responsible for creating a data-transmission pipeline between smartwatches and our mobil applicaiton. I was also charged of embedding various multiple AI algorithms to the application via TensorFlowLite. Working in and around the hospital was very rewarding, and I was shocked by the US healthcare system's incohesive informatics structure.",
+  },
+]

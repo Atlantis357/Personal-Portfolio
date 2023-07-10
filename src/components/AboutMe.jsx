@@ -6,12 +6,12 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 11:42:38 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/09 21:09:46 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/10 00:49:55 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React from 'react'
-import { aboutMe, asideBackground, titles } from '../constants'
+import { aboutMe, asideBackground, } from '../constants'
 
 const AboutMe = (props) => {
   return (

@@ -6,14 +6,13 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 08:53:45 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/09 21:09:33 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/10 00:50:14 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 import React from 'react'
 import { resume } from '../assets'
-import { titles } from '../constants'
 
 const Resume = (props) => {
   return (

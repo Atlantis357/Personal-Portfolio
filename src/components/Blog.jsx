@@ -6,12 +6,12 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 07:54:18 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/02 18:18:43 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/10 00:50:05 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React from 'react'
-import { asideBackground, blogs, titles } from '../constants'
+import { asideBackground, blogs, } from '../constants'
 
 const Blog = (props) => {
   return (
@@ -19,7 +19,7 @@ const Blog = (props) => {
         {/* Title */}
         <section className='pb-8 md:pb-16 text-center w-screen pt-8 md:pt-0'>
                 <h1 className={`font-extrabold text-4xl md:text-5xl lg:text-6xl bg-clip-text text-transparent ${props.foreground.main} tracking-wider font-Orbitron`}>
-                    {titles[2]}
+                    BLOGS
                 </h1>
         </section>
 
