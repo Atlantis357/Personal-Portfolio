@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/09 19:46:21 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/09 20:01:18 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -130,6 +130,7 @@ export const projects = [
     link: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
     description: "Implemented an algorithm that uses k-D Trees to combine images from an album of photographs to create a PNG mosaic that resembles any image.",
     titlePoster: "",
+    linkType: "external",
   },{
     id: "helmetliner",
     img: helmetTesting,
@@ -137,6 +138,7 @@ export const projects = [
     link: "/projects/helmetliner",
     description: "Incepted a rotational isolation system for bicycle helmets using CAD that offers enhanced protection during angled impacts.",
     titlePoster: helmetPoster,
+    linkType: "internal",
   },{
     id: "flightPlanner",
     img: flights,
@@ -144,6 +146,7 @@ export const projects = [
     link: "https://github.com/Atlantis357/OpenFlightPaths.git",
     description: "Designed a flight planning algorithm that uses over 14,000 airports and 67,000 routes to determine the shortest route between any airport.",
     titlePoster: "",
+    linkType: "external",
   },{
     id: "ppgfilters",
     img: ppgInspect,
@@ -151,6 +154,7 @@ export const projects = [
     link: "/projects/ppgfilters",
     description: "Constructed a PPG signal-filtering pipeline using wavelet transforms and FFT to analyze HR variability during exercise.",
     titlePoster: ppgFilterPoster,
+    linkType: "internal",
   },{
     id: "abesPage",
     img: tripleA,
@@ -158,6 +162,7 @@ export const projects = [
     link: "/",
     description: "Created an interactive personal-portfolio using react, tailwind-CSS, and the Vite from scrach to showcase my intrests and thoughts.",
     titlePoster: "",
+    linkType: "internal",
   },
 ]
 
