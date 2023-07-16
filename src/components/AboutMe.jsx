@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 11:42:38 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/10 00:49:55 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/16 15:57:35 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,10 +33,10 @@ const AboutMe = (props) => {
                                 <img
                                     src={info.img}
                                     alt='Engineer_Photo'
-                                    className='{ transition-all duration-200 hover:grayscale-[50%] } rounded-2xl lg:w-52 md:w-48 sm:w-40'
+                                    className='{ transition-all duration-200 } hover:scale-110 rounded-2xl lg:w-52 md:w-48 sm:w-40'
                                 ></img>
                             </div>
-                            <div className={`w-full mx-10 rounded-2xl ${asideBackground}`}>
+                            <div className={`w-full mx-10 rounded-2xl ${asideBackground} `}>
                                 <h1 class={`bg-clip-text text-transparent ${props.foreground.accent} text-3xl text-center font-extrabold md:text-4xl py-5 font-Orbitron tracking-wide`}>
                                     {info.title}
                                 </h1>
@@ -60,7 +60,7 @@ const AboutMe = (props) => {
                             <img
                                 src={info.img}
                                 alt='Engineer_Photo'
-                                className='{ transition-all duration-200 hover:grayscale-[50%] } rounded-2xl lg:w-52 md:w-48 sm:w-40'
+                                className='{ transition-all duration-200 } hover:scale-110 rounded-2xl lg:w-52 md:w-48 sm:w-40'
                             ></img>
                         </div>
                     </section>

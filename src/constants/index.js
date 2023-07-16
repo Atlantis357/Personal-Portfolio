@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/10 00:59:01 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/16 16:02:03 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,21 @@ export const colorModes = [
     id: "lightMode",
     background: "bg-gradient-to-b from-gray-200 via-gray-300 to-gray-400",
     text: "text-black",
-  }
+  },
+  // {
+  //   id: "1",
+  //   background: "bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-neutral-600 via-teal-400 to-lime-700",
+  //   text: "text-white",
+  // },{
+  //   id: "2",
+  //   background: "bg-gradient-to-tr from-fuchsia-500 via-sky-100 to-sky-400",
+  //   text: "text-black",
+  // },{
+  //   id: "3",
+  //   background: "bg-gradient-to-t from-pink-700 via-teal-200 to-blue-100",
+  //   text: "text-black",
+  // },
+
 ]
 
 export const asideBackground = "bg-black bg-opacity-20 hover:bg-opacity-30 transition-all";
@@ -187,8 +201,29 @@ export const blogs = [
 
 export const experiences = [
   {
-    title: "Bioinformatics Intern - Atrium Health Wake Forest Baptist (05/2023 – Present)",
-    skills: "",
+    title: "Software Enigneering Intern - Atrium Health Wake Forest Baptist",
+    date: "05/2023 – Present",
+    skills: "Swift, TenorFlow/TFLite, iOS Development",
     description: "With my career crosshairs lined on the intersection of engineering and medicine, I accpeted a position as a bioinformatics intern for AHWFB, the second largest medical provider in the United States. As a software developer, I was responsible for creating a data-transmission pipeline between smartwatches and our mobil applicaiton. I was also charged of embedding various multiple AI algorithms to the application via TensorFlowLite. Working in and around the hospital was very rewarding, and I was shocked by the US healthcare system's incohesive informatics structure.",
+  },{
+    title: "Techniacl Director - Biomedical Engineering Society",
+    date: "05/2023 – Present",
+    skills: "Team Leadership, Engineering team managemnt",
+    description: "After my project-team's succesful exhibition at Engineering Open House, I was elected to the Technical Director position of BMES. Aside from managing all technical projects undertaken by BMES, I prioritized exposure and bioengineering skill development among 100+ members, particularly underclassmen. I also initaited a permanent project-team to design a real time overdose protection system that can detect opiod overdose and administer naloxone to save the user's life. Incoporating students from multiple Engineering departments, this is the largest project in Illinois BMES history.",
+  },{
+    title: "Project Team Lead - Biomedical Engineering Society ",
+    date: "08/2022 – 04/2023",
+    skills: "CAD, Team Leadership, Engineering team managemnt",
+    description: "Growing up as an avid cyclist, I have always been fascinated of techological advancements in cycling. In recent years, one of the major fields of growth was helmet protection. I pitched my idea of testing and designing a helmet liner than can rotationally isolate the skull from the helmet to the BMES EOH comitee, and was approved  As team lead, I found myself coordinating between multiple groups such as the University, BMES, and my project subteams to ensure budget compliance and demo saftey issues. Not only did we design a dummy-head using CAD and construced a test-rig with wood-working, our in-house rotational-isolation liner design proved to be as succesful as the industry standard. Our team recieved 2nd for Outstanding Freshman Exhibit among 200+ competitors. I also gained invaluable experience from leading a project team, which encourged me to become the Technical Director position for BMES.",
+  },{
+    title: "Bicycle Mechanic - Bike Lab Campustown",
+    date: "08/2022 – 11/2022",
+    skills: "Bicycle Maintainance, Communication",
+    description: "After moving to college, I found beloning with the cycling team. As a bike mechanic on campus, I oversaw and maintained a fleet of bicycles through preventative maintaincee measures. I prioritize my focus on helping customers especially when many of them are my fellow students. I diagnosed problems, proposing, and implementing solutions tailored to customer’s budget and need. I also rebuilt bicycles and individual components such as shifters and wheels to maximze performance of high-end racing bicycles.",
+  },{
+    title: "Operations Intern - Pueblo Supermarkets",
+    date: "08/2022 – 11/2022",
+    skills: "Bicycle Maintainance, Communication",
+    description: "As the operations intern, my primary role is to intermediate between store management and contractors to ensure smooth integration of newly acquired machinery. I succesfully assisted and oversaw the installation of multiple refrigeration units and shelving that we recently aquired from competitors. Shadowing store managers and maintaince crews, I learned invaluable communication skills that helped me manage my own team later on in life.",
   },
 ]

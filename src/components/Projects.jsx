@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/29 14:30:53 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/10 00:49:59 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/16 15:35:42 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ const Projects = (props) => {
                 // :
                 
                 <Link to={`${info.link}`}>
-                    <article className={`group ${asideBackground} rounded-2xl my-5 hover:cursor-pointer`}>
+                    <article className={`group ${asideBackground} rounded-2xl my-5 hover:cursor-pointer hover:scale-110`}>
                         <img
                             src={info.img}
                             class="h-56 w-full transition group-hover:grayscale-[50%] p-2"
