@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/16 16:02:03 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/16 18:36:46 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -130,7 +130,7 @@ export const aboutMe = [
   }, {
     title: "Man-of-the-woods",
     img: outdoors,
-    description: "I find reconnecting with Nature to be my favourite passtime, nothing beats a quick getaway amongst the trees. Though I've been an outdoorsy person all my life, The Outdoors Adventure Club at UIUC took my intrest to the next level with multi-day backpacking trips every break. OAC has the best people and the best trips. It's called trauma-bonding."
+    description: "I find reconnecting with nature my favorite pass time; nothing beats a quick getaway amongst the trees. Though I've been an outdoorsy person all my life, The Outdoors Adventure Club at UIUC took my interest to the next level with multi-day backpacking trips every break. OAC has the best people and the best trips. It's called trauma bonding."
   },{
     title: "Brother",
     img: family,
