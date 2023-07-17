@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/16 18:43:19 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/17 00:46:08 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/17 00:52:09 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@ const Music = (props) => {
           Forever Favs
         </h1>
       </section>
-      
 
       <section className="container mx-auto pb-10 px-10">
         <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 lg:gap-16 md:gap-10 sm:gap-8 items-center justify-center">
@@ -41,11 +40,6 @@ const Music = (props) => {
           ))}
         </div>
       </section>
-
-
-
-
-
 
       <section className="pb-8 md:pb-16 text-center w-screen pt-8 md:pt-0">
         <h1

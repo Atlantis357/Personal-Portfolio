@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:34:58 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/17 00:24:52 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/17 00:52:28 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ function Navbar(props) {
         <img 
             src={tripleA} 
             alt='tripleA' 
-            className='w-[124px] h-[32px] hover:cursor-pointer flex-none hover:scale-125 transition-all'
+            className='w-[156px] h-[32px] hover:cursor-pointer flex-none hover:scale-125 transition-all'
             // onClick={() => props.updateForeground()}
             />
         </Link>
@@ -52,14 +52,6 @@ function Navbar(props) {
         </ul>
         
         <div className='hidden sm:flex pl-[34px]'>
-            {/* Button to change background */}
-            {/* <img 
-            src={chem} 
-                alt='chem' 
-                className='w-[32px] h-[32px] object-contain hover:scale-125 transition-all hover:cursor-pointer duration-00'
-                onClick={() => props.updateForeground()}
-            />
-            <div className='px-3'></div> */}
             {/* Button to change colormode */}
             <img 
             src={colorMode} 
