@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:35:16 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/16 15:53:02 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/17 00:25:01 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ import { foregroundGradients, colorModes } from './constants'
 import AboutMe from './components/AboutMe'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
-import Blog from './components/Blog'
+import Music from './components/Music'
 import Resume from './components/Resume'
 import NotFound from './components/NotFound'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
@@ -63,7 +63,7 @@ function App() {
             <Route path='/projects/:id' element={<ProjectView foreground={foreground} />} />
 
 
-          <Route path='/blog' element={ <Blog foreground={foreground} colorMode={colorMode} />} /> 
+          <Route path='/music' element={ <Music foreground={foreground} colorMode={colorMode} />} /> 
 
           <Route path='/resume' element={ <Resume foreground={foreground} />} />
 

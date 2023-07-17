@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/16 18:36:46 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/17 00:45:15 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,40 +50,27 @@ export const colorModes = [
     background: "bg-gradient-to-b from-gray-200 via-gray-300 to-gray-400",
     text: "text-black",
   },
-  // {
-  //   id: "1",
-  //   background: "bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-neutral-600 via-teal-400 to-lime-700",
-  //   text: "text-white",
-  // },{
-  //   id: "2",
-  //   background: "bg-gradient-to-tr from-fuchsia-500 via-sky-100 to-sky-400",
-  //   text: "text-black",
-  // },{
-  //   id: "3",
-  //   background: "bg-gradient-to-t from-pink-700 via-teal-200 to-blue-100",
-  //   text: "text-black",
-  // },
-
 ]
 
 export const asideBackground = "bg-black bg-opacity-20 hover:bg-opacity-30 transition-all";
 
 
 export const navLinks = [
+  // {
+  //   id: "/",
+  //   title: "Home",
+  // },
   {
-    id: "/",
-    title: "About Me",
-  },{
     id: "/experiences",
     title: "Experiences",
   },{
     id: "/projects",
     title: "Projects",
   },
-  //  {
-  //   id: "/blog",
-  //   title: "Blog",
-  // }, 
+   {
+    id: "/music",
+    title: "Music",
+  }, 
   {
     id: "/resume",
     title: "Resume",
@@ -226,4 +213,29 @@ export const experiences = [
     skills: "Bicycle Maintainance, Communication",
     description: "As the operations intern, my primary role is to intermediate between store management and contractors to ensure smooth integration of newly acquired machinery. I succesfully assisted and oversaw the installation of multiple refrigeration units and shelving that we recently aquired from competitors. Shadowing store managers and maintaince crews, I learned invaluable communication skills that helped me manage my own team later on in life.",
   },
+]
+
+export const spotifyPlaylists = [
+  {
+    src: "https://open.spotify.com/embed/playlist/574TkzNbgCybmVCTKhrVIG?utm_source=generator",
+  },{
+    src: "https://open.spotify.com/embed/playlist/2MrSESecZD3u0ItuUiAQNx?utm_source=generator",
+  },{
+    src: "https://open.spotify.com/embed/playlist/1rNOBNzMMPHHh0AMizCxSx?utm_source=generator",
+  },{
+    src: "https://open.spotify.com/embed/playlist/0bVJtCfdIxW4kSFCbsyfZ7?utm_source=generator",
+  },
+]
+
+export const spotifySongs = [
+  {
+    src: "https://open.spotify.com/embed/track/2fuYa3Lx06QQJAm0MjztKr?utm_source=generator",
+  },{
+    src: "https://open.spotify.com/embed/track/5vtRk4rYxiy4cj95cmJ5Ma?utm_source=generator",
+  },{
+    src: "https://open.spotify.com/embed/track/0y5akbuW5mCnnUe71xATpe?utm_source=generator",
+  },{
+    src: "https://open.spotify.com/embed/track/31RIphTQ9y4zStkH5xRWgW?utm_source=generator"
+  },
+  
 ]
