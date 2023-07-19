@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/17 00:45:15 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/19 14:01:59 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -215,7 +215,7 @@ export const experiences = [
   },
 ]
 
-export const spotifyPlaylists = [
+export const memoryPlaylists = [
   {
     src: "https://open.spotify.com/embed/playlist/574TkzNbgCybmVCTKhrVIG?utm_source=generator",
   },{
@@ -237,5 +237,12 @@ export const spotifySongs = [
   },{
     src: "https://open.spotify.com/embed/track/31RIphTQ9y4zStkH5xRWgW?utm_source=generator"
   },
-  
+]
+
+export const spotifyPlaylists = [
+  {
+    src: "https://open.spotify.com/embed/playlist/4p6TstN4NgyzZtwRIUDBbu?utm_source=generator",
+  },{
+    src: "https://open.spotify.com/embed/playlist/4SN2zOqyq2BnKJCt5GWd1D?utm_source=generator",
+  },
 ]
