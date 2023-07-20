@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:34:58 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/17 00:52:28 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/19 21:20:37 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,10 +76,12 @@ function Navbar(props) {
                         <li 
                             key={nav.id} 
                             className={`font-poppins font-bold cursor-pointer text-[16px]
-                            ${props.colorMode.text} ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'} hover:font-extrabold hover:text-[18px] transition-all`}>
+                            ${props.colorMode.text} ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'} hover:font-extrabold hover:text-[18px] transition-all`}
+                            onClick={() => setToggle((prev) => !prev)} >
                             <Link to={`${nav.id}`}>
                                 {nav.title}
                             </Link>
+                            
                         </li>
                     ))}
                 </ul>
