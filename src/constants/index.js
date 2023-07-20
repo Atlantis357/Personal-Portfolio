@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/19 14:01:59 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/19 21:14:22 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -191,7 +191,7 @@ export const experiences = [
     title: "Software Enigneering Intern - Atrium Health Wake Forest Baptist",
     date: "05/2023 – Present",
     skills: "Swift, TenorFlow/TFLite, iOS Development",
-    description: "With my career crosshairs lined on the intersection of engineering and medicine, I accpeted a position as a bioinformatics intern for AHWFB, the second largest medical provider in the United States. As a software developer, I was responsible for creating a data-transmission pipeline between smartwatches and our mobil applicaiton. I was also charged of embedding various multiple AI algorithms to the application via TensorFlowLite. Working in and around the hospital was very rewarding, and I was shocked by the US healthcare system's incohesive informatics structure.",
+    description: "With my career crosshairs lined on the intersection of engineering and medicine, I accpeted a position as a bioinformatics intern for AHWFB, the second largest medical provider in the United States. As a software developer, I was responsible for creating a data-transmission pipeline between smartwatches and our research applicaiton. I was also charged of embedding various multiple AI algorithms to the application via TensorFlowLite. Working in and around the hospital was very rewarding, as I found joy in my everyday work.",
   },{
     title: "Techniacl Director - Biomedical Engineering Society",
     date: "05/2023 – Present",
@@ -206,7 +206,7 @@ export const experiences = [
     title: "Bicycle Mechanic - Bike Lab Campustown",
     date: "08/2022 – 11/2022",
     skills: "Bicycle Maintainance, Communication",
-    description: "After moving to college, I found beloning with the cycling team. As a bike mechanic on campus, I oversaw and maintained a fleet of bicycles through preventative maintaincee measures. I prioritize my focus on helping customers especially when many of them are my fellow students. I diagnosed problems, proposing, and implementing solutions tailored to customer’s budget and need. I also rebuilt bicycles and individual components such as shifters and wheels to maximze performance of high-end racing bicycles.",
+    description: "After moving to college, I found my academic outlet with the cycling team. As a bike mechanic on campus, I oversaw and maintained a fleet of bicycles through preventative maintaincee measures. I prioritize my focus on helping customers especially when many of them are my fellow students. I diagnosed problems, proposing, and implementing solutions tailored to customer’s budget and need. I also rebuilt bicycles and individual components such as shifters and wheels to maximze performance of high-end racing bicycles.",
   },{
     title: "Operations Intern - Pueblo Supermarkets",
     date: "08/2022 – 11/2022",
