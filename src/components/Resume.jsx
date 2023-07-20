@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 08:53:45 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/19 21:19:23 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/19 21:22:33 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ const Resume = (props) => {
             </h1>
         </section>
         
-        <section className='flex items-center justify-center h-screen'>
+        <section className='flex items-center justify-center h-3/4 md:h-screen'>
             <iframe
                 src={resume}
                 className='w-2/3 rounded-lg h-full'>   
