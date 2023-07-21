@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/09 21:17:43 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/16 15:35:10 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/21 16:02:56 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ const Experiences = (props) => {
 
       <section className="px-5 md:px-20 lg:px-32">
         {experiences.map((info, index) => (
-          <div className={`${asideBackground} my-10 rounded-2xl border hover:scale-110`}>
+          <div className={`${asideBackground} my-10 rounded-2xl `}>
             <h1
               className={`text-2xl md:text-3xl font-medium bg-clip-text text-transparent font-Orbitron ${props.foreground.accent} px-10 pt-5`}
             >
