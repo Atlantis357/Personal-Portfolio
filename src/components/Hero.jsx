@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/22 01:13:58 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/22 12:33:26 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ const Hero = (props) => {
                         <img
                             src={abe}
                             alt='Abe'
-                            className='rounded-full w-72 hover:grayscale-[50%]'
+                            className='rounded-full w-72 hover:hue-rotate-30 transition-all '
                         />
                     </div>
                 </div>

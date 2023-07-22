@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2023/07/21 16:00:15 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/22 12:20:59 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,8 @@ import helmetPoster from './helmetPoster.jpg';
 import helmetTesting from './helmetTesting.jpg';
 import ppgFilterPoster from './ppgFilterPoster.jpg';
 import ppgInspect from './ppgInspect.png';
+import ecgFlowchart from './ecgFlowchart.jpg';
+import ecgAirV3 from './ecgAirV3.jpg';
 
 
 
@@ -71,4 +73,6 @@ export {
     helmetTesting,
     ppgFilterPoster,
     ppgInspect,
+    ecgFlowchart,
+    ecgAirV3,
 };

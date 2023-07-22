@@ -6,11 +6,11 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/22 01:43:23 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/22 12:27:41 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster} from "../assets";
+import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster, ecgFlowchart, ecgAirV3} from "../assets";
 
 
 
@@ -49,16 +49,16 @@ export const foregroundGradients = [
 
 export const colorModes = [
   {
-    id: "lightMode",
-    // background: "bg-gradient-to-b from-gray-200 via-gray-300 to-gray-400",
-    background: "bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-red-600 via-slate-200 to-sky-700",
-    text: "text-black",
-  },
-  {
     id: "darkMode",
     // background: "bg-gradient-to-b from-gray-600 via-gray-700 to-gray-800",
     background: "bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-red-600 via-slate-800 to-sky-700",
     text: "text-white",
+  },
+  {
+    id: "lightMode",
+    // background: "bg-gradient-to-b from-gray-200 via-gray-300 to-gray-400",
+    background: "bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-red-600 via-slate-200 to-sky-700",
+    text: "text-black",
   },
 ]
 
@@ -188,6 +188,14 @@ export const projects = [
     description: "Created an interactive personal-portfolio using react, tailwind-CSS, and the Vite from scrach to showcase my intrests and thoughts.",
     titlePoster: "",
     linkType: "internal",
+  },{
+    id: "ecgAirV3",
+    img: ecgFlowchart,
+    title: "ECG-Air V3",
+    link: "/projects/ecgAirV3",
+    description: "Created an ECG-based risk prediction pipeline using the TensorFlow-Lite library to improve the accessibility and interoperability of ECG-Air to power a suite of AI-based prediction models.",
+    titlePoster: ecgAirV3,
+    linkType: "pdf",
   },
 ]
 

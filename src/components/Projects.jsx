@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/29 14:30:53 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/16 15:35:42 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/22 12:24:17 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,13 +54,13 @@ const Projects = (props) => {
                     <article className={`group ${asideBackground} rounded-2xl my-5 hover:cursor-pointer hover:scale-110`}>
                         <img
                             src={info.img}
-                            class="h-56 w-full transition group-hover:grayscale-[50%] p-2"
+                            class="h-56 w-full transition group-hover:grayscale-[50%] rounded-t-2xl"
                         />
                         <div class="p-4">
                             <h3 class={`text-lg font-medium bg-clip-text text-transparent font-Orbitron ${props.foreground.accent}`}>
                                 {info.title}
                             </h3>
-                            <p class={`mt-2 line-clamp-3 text-sm/relaxed ${props.colorMode.text}`}>
+                            <p class={`mt-2 line-clamp-5 text-sm/relaxed ${props.colorMode.text}`}>
                                 {info.description}
                             </p>
                         </div>
