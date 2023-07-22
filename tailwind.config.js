@@ -12,11 +12,12 @@ export default {
         'Ma-Shan-Zheng': [ "'Ma Shan Zheng', 'cursive'"],
         'Permanent-Marker': ["'Permanent Marker', 'cursive'"],
         'Poppins': ["'Poppins', 'sans-serif'"],
-
+        'Lumanosimo': ["'Lumanosimo', 'cursive'"],
       },
     },
   },
   plugins: [
     require("a17t"),
+    require('tailwind-scrollbar-hide')
   ],
 }

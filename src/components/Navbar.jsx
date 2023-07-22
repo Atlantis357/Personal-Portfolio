@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:34:58 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/19 21:20:37 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/22 01:36:37 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ function Navbar(props) {
     <div className='xl:max-w-[1280px] w-full'>
 
 
-    <nav className='w-full flex py-4 justify-between items-center navbar'>
+    <nav className='w-full flex py-4 justify-between items-center navbar flex-shrink-0'>
         
         <Link to={`/`}>
         <img 

@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/21 16:25:28 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/22 01:43:23 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,15 +104,16 @@ export const socials = [
     id: "linkedin",
     icon: linkedin,
     link: "https://www.linkedin.com/in/abrahamalkhatib",
-  }, {
-    id: "stackOverflow",
-    icon: stackOverflow,
-    link: "https://stackexchange.com/users/27590469/abraham-alkhatib",
-  }, {
-    id: "instagram",
-    icon: instagram,
-    link: "https://www.instagram.com/abrahamalkhatib/?hl=en",
-  }
+  }, 
+  // {
+  //   id: "stackOverflow",
+  //   icon: stackOverflow,
+  //   link: "https://stackexchange.com/users/27590469/abraham-alkhatib",
+  // }, {
+  //   id: "instagram",
+  //   icon: instagram,
+  //   link: "https://www.instagram.com/abrahamalkhatib/?hl=en",
+  // }
 ];
 
 export const aboutMe = [
@@ -132,7 +133,17 @@ export const aboutMe = [
     title: "Brother",
     img: family,
     description: "With a big family, comes big responsibilities! I grew up as the oldest of four, but I have eight other half-siblings! I love them with all my heart."
+  },{
+    title: "Turkey Leg Enthusiast",
+    img: eatingTurkey,
+    description: "I love turkey lol."
+  },{
+    title: "Certified Glue Guy",
+    img: fraternity,
+    description: "I love turkey lol."
   },
+  
+  
 ]
 
 
@@ -183,14 +194,6 @@ export const projects = [
 export const blogs = [
   {
     img: fraternity,
-    title: "Finding the Journey to Mordor",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque dignissimos. Molestias explicabo corporis voluptatem?",
-  },{
-    img: fraternity,
-    title: "Finding the Journey to Mordor",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque dignissimos. Molestias explicabo corporis voluptatem?",
-  },{
-    img: engineer,
     title: "Finding the Journey to Mordor",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque dignissimos. Molestias explicabo corporis voluptatem?",
   },
@@ -256,3 +259,6 @@ export const spotifyPlaylists = [
     src: "https://open.spotify.com/embed/playlist/4SN2zOqyq2BnKJCt5GWd1D?utm_source=generator",
   },
 ]
+
+export const onRepeat = "https://open.spotify.com/embed/track/0smzrlYiBiecxfG8p5QDcQ?utm_source=generator"
+
