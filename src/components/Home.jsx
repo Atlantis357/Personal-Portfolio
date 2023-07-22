@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/07 21:44:12 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/07 21:47:43 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/22 12:55:06 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,14 @@
 import React from 'react'
 import AboutMe from './AboutMe'
 import Hero from './Hero'
+import ContactMe from './ContactMe'
 
 const Home = (props) => {
   return (
     <>
         <Hero {...props}/>
         <AboutMe {...props}/>
+        <ContactMe {...props}/>
     </>
   )
 }

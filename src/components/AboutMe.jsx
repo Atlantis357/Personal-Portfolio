@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 11:42:38 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/22 01:52:21 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/22 15:39:18 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,7 +88,7 @@ const AboutMe = (props) => {
                 ))}
             </div> */}
 
-            <section className={`relative flex  items-center mb-20 md:mb-44 lg:mb-52`}>
+            <section className={`relative flex  items-center mb-20 `}>
                 
                 <MdChevronLeft size='50' className='opacity-60 m-10 hover:cursor-pointer hover:opacity-100 flex-shrink-0' onClick={slideLeft}/>
                 <div id='slider' className='w-auto h-auto overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide snap-x'>
