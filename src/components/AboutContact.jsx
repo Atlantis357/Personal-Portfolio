@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/23 15:36:07 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/23 18:32:07 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/23 18:40:26 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,12 +82,12 @@ const AboutContact = (props) => {
         id="aboutMe"
         className="w-screen lg:w-1/2 text-center"
       >
-        <div className="h-32">
+        <div className="min-h-32">
             <h1
               className={`text-4xl md:text-5xl font-medium ${props.colorMode.text} font-Orbitron mb-10 mx-5`}
             >
               {about.intro}
-              <strong className={`bg-clip-text text-transparent ${props.foreground.title}`}>
+              <strong className={`bg-clip-text text-transparent ${props.foreground.title} font-Orbitron`}>
                 {about.title}
               </strong>
             </h1>
