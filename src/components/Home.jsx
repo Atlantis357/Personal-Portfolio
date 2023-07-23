@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/07 21:44:12 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/22 12:55:06 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/23 13:43:05 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ const Home = (props) => {
   return (
     <>
         <Hero {...props}/>
-        <AboutMe {...props}/>
+        {/* <AboutMe {...props}/> */}
         <ContactMe {...props}/>
     </>
   )
