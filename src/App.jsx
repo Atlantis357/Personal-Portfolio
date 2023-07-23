@@ -6,15 +6,13 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:35:16 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/23 13:42:48 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/23 18:33:17 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
 import { foregroundGradients, colorModes } from "./constants";
-import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Music from "./components/Music";
