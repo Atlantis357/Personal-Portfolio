@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/23 17:58:16 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/23 22:37:32 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -125,33 +125,33 @@ export const socials = [
 
 export const aboutMe = [
   {
-    intro: "Abe is a ",
-    title: "Bioengineering Junior @Illinois",
+    intro: "He studies ",
+    title: "bioengineering",
     img: engineer,
     description: "My mother is diabetic, and it was painful to watch her maneuver her life around it, especially when I was a child. I remember watching my mother as she pricked herself on the finger four times a day before injecting herself with insulin. This tedious process was a normality in her everyday life until Abbott’s Freestyle Libre system became available in China. Abbott’s system allowed my mother to wear a wireless patch on her arm and access the blood-sugar readings from her smartphone. Not only did the system revolutionize my mother’s everyday life, but it also ignited my interest in bioengineering."
-  }, {
-    intro: "Abe is a ",
-    title: "Cyclist",
-    img: cycling,
-    description: "Noticible results: 2017 TREK-China Best Young Rider (Overall), 1st-2018 TREK Beijing-Shanghai Criterium, 2nd-2018 Heros U25 Shanghai Classics, Top 10 Finisher- Tour de France Skoda Shanghai Criterium"
-  }, {
-    intro: "Abe is a ",
-    title: "Man-of-the-woods",
-    img: outdoors,
-    description: "I find reconnecting with nature my favorite pass time; nothing beats a quick getaway amongst the trees. Though I've been an outdoorsy person all my life, The Outdoors Adventure Club at UIUC took my interest to the next level with multi-day backpacking trips every break. OAC has the best people and the best trips. It's called trauma bonding."
   },{
-    intro: "Abe is a ",
-    title: "Brother",
+    intro: "He loves his ",
+    title: "brothers",
     img: family,
     description: "With a big family, comes big responsibilities! I grew up as the oldest of four, but I have eight other half-siblings! I love them with all my heart."
   },{
-    intro: "Abe is a ",
-    title: "Turkey Leg Enthusiast",
+    intro: "He rides ",
+    title: "bikes",
+    img: cycling,
+    description: "Noticible results: 2017 TREK-China Best Young Rider (Overall), 1st-2018 TREK Beijing-Shanghai Criterium, 2nd-2018 Heros U25 Shanghai Classics, Top 10 Finisher- Tour de France Skoda Shanghai Criterium"
+  }, {
+    intro: "He finds himself ",
+    title: "in nature",
+    img: outdoors,
+    description: "I find reconnecting with nature my favorite pass time; nothing beats a quick getaway amongst the trees. Though I've been an outdoorsy person all my life, The Outdoors Adventure Club at UIUC took my interest to the next level with multi-day backpacking trips every break. OAC has the best people and the best trips. It's called trauma bonding."
+  },{
+    intro: "He eats ",
+    title: "turkey legs",
     img: eatingTurkey,
     description: "I love turkey lol."
   },{
-    intro: "Abe is a ",
-    title: "Certified Glue Guy",
+    intro: "He values ",
+    title: "his friends",
     img: fraternity,
     description: "I love turkey lol."
   },
