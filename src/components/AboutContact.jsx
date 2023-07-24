@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/23 15:36:07 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/23 22:38:37 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/24 16:16:48 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -125,7 +125,7 @@ const AboutContact = (props) => {
             <h1
               className={`text-4xl md:text-5xl font-medium ${props.colorMode.text} font-Orbitron`}
             >
-              Contact me
+              Get in Touch
             </h1>
             <p class={`mt-3 ${props.colorMode.text} font-Lumanosimo`}>
               Email me at aaa26@illinois.edu or leave a message:
