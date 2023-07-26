@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:34:58 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/22 01:36:37 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/26 18:31:50 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ function Navbar(props) {
     const [toggle, setToggle] = useState(false)
 
   return (
-    <nav className='w-full overflow-hidden fixed backdrop-blur-sm hover:backdrop-brightness-75 transition-all'>
+    <nav className='w-full overflow-hidden fixed backdrop-blur-sm hover:backdrop-brightness-75 transition-all z-50'>
     <div className='sm:mx-16 mpx-6 flex justify-center items-center'>
     <div className='xl:max-w-[1280px] w-full'>
 

@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/26 10:13:41 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/26 18:29:02 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,16 +60,18 @@ export const colorModes = [
     // background: "bg-gradient-to-b from-gray-600 via-gray-700 to-gray-800",
     background: "bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-red-600 via-slate-800 to-sky-700",
     text: "text-white",
+    border: "border-gray-200 ring-gray-200"
   },
   {
     id: "lightMode",
     // background: "bg-gradient-to-b from-gray-200 via-gray-300 to-gray-400",
     background: "bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-red-600 via-slate-200 to-sky-700",
     text: "text-black",
+    border: "border-gray-800 ring-gray-800"
   },
 ]
 
-export const asideBackground = "bg-black bg-opacity-10 hover:bg-opacity-20 transition-all";
+export const asideBackground = "bg-black bg-opacity-0 hover:bg-opacity-10 transition-all";
 
 
 export const navLinks = [
