@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/23 22:37:32 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/26 10:13:41 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -222,7 +222,7 @@ export const blogs = [
 
 export const experiences = [
   {
-    title: "Software Enigneering Intern - Atrium Health Wake Forest Baptist",
+    title: "Clinical Informatics Intern - Wake Forest University School of Medicine",
     date: "05/2023 – Present",
     skills: "Swift, TenorFlow/TFLite, iOS Development",
     description: "This summer I worked as a bioinformatics intern for Wake Forest Baptist Health. Working with AI models, I was responsible for embedding a suite of AI algorithoms to our newly developed clinical application. I created data-transmission pipeline that was lightweight yet HIPAA complaint to protect user's data. I found meaning as I learned to apply classroom knowledge to help chilren at St.Jude's research hospital.",
