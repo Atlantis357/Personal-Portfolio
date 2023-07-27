@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/09 21:17:43 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/26 18:28:29 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/26 21:28:41 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,23 +27,16 @@ const Experiences = (props) => {
       {/* CHECKOUT NIGHTWIND FOR DARKMODE */}
 
       <section
-        className={`mx-2 px-3 md:mx-15 md:px-5 lg:mx-28 lg:px-7 border-l-8 ${props.colorMode.border}`}
+        className={`mx-2 px-3 md:mx-16 md:px-5 lg:mx-28 lg:px-7 md:border-l-8 ${props.colorMode.border}`}
       >
-        {experiences.map((info, index) => (
+        {experiences.map((info) => (
           <div
             className={`${asideBackground} my-5 rounded-2xl border-l-4 border-b-2 ${props.colorMode.border}`}
           >
-            <span class={`absolute flex items-center inset-x-24 justify-center w-10 h-10 rounded-full ring-4 ${props.colorMode.border} bg-red-500`}>
-              <svg
-                class={`w-5 h-5 ${props.colorMode.text}`}
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-              </svg>
-            </span>
+            <img 
+            src={info.svg}
+            className = {`fill-white absolute items-center hidden md:flex md:inset-x-12 lg:inset-x-24 justify-center w-10 h-10 rounded-2xl ring-4 ${props.colorMode.border} ${props.foreground.title}`}
+            />
 
             <h1
               className={`text-2xl md:text-3xl font-medium bg-clip-text text-transparent font-Orbitron ${props.foreground.accent} px-5 pt-5`}

@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2023/07/22 12:20:59 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/26 21:22:54 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,11 @@ import ppgFilterPoster from './ppgFilterPoster.jpg';
 import ppgInspect from './ppgInspect.png';
 import ecgFlowchart from './ecgFlowchart.jpg';
 import ecgAirV3 from './ecgAirV3.jpg';
+import ecgPulse from './ecgPulse.svg';
+import bikeMechanic from './bikeMechanic.svg';
+import operations from './operations.svg';
+import engineeringHelmet from './engineeringHelmet.svg';
+import leaderSpeach from './leaderSpeech.svg';
 
 
 
@@ -75,4 +80,9 @@ export {
     ppgInspect,
     ecgFlowchart,
     ecgAirV3,
+    ecgPulse,
+    bikeMechanic,
+    operations,
+    engineeringHelmet,
+    leaderSpeach,
 };
