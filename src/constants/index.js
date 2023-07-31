@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/26 21:33:12 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/07/31 16:19:35 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -230,7 +230,7 @@ export const experiences = [
     description: "This summer I worked as a bioinformatics intern for Wake Forest Baptist Health. Working with AI models, I was responsible for embedding a suite of AI algorithoms to our newly developed clinical application. I created data-transmission pipeline that was lightweight yet HIPAA complaint to protect user's data. I found meaning as I learned to apply classroom knowledge to help chilren at St.Jude's research hospital.",
     svg: ecgPulse,
   },{
-    title: "Techniacl Director - Biomedical Engineering Society",
+    title: "Technical Director - Biomedical Engineering Society",
     date: "05/2023 – Present",
     skills: "Team Leadership, Engineering team managemnt",
     description: "Before the end of my sophmore year, I was elected to be Technical Director position for BMES at Illinois. Aside from managing all technical projects undertaken by the club, I also initaited a permanent project-team to design a real time overdose protection system.  My goal is to prioritize exposure and bioengineering skill development among all students, particularly underclassmen.",
