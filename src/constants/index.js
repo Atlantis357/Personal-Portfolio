@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/31 16:19:35 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/09/12 10:23:28 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -227,7 +227,7 @@ export const experiences = [
     title: "Clinical Informatics Intern - Wake Forest University School of Medicine",
     date: "05/2023 – Present",
     skills: "Swift, TenorFlow/TFLite, iOS Development",
-    description: "This summer I worked as a bioinformatics intern for Wake Forest Baptist Health. Working with AI models, I was responsible for embedding a suite of AI algorithoms to our newly developed clinical application. I created data-transmission pipeline that was lightweight yet HIPAA complaint to protect user's data. I found meaning as I learned to apply classroom knowledge to help chilren at St.Jude's research hospital.",
+    description: "This summer I worked as a bioinformatics intern for Wake Forest Baptist Health. Working with AI models, I was responsible for embedding a suite of AI algorithoms to our newly developed clinical application. I created data-transmission pipeline that was lightweight yet HIPAA complaint to protect user's data. I found great meaning in my work as I learned to apply classroom knowledge to help chilren at St.Jude's research hospital.",
     svg: ecgPulse,
   },{
     title: "Technical Director - Biomedical Engineering Society",
