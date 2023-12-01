@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/09/12 10:23:28 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/11/30 21:08:16 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -127,33 +127,33 @@ export const socials = [
 
 export const aboutMe = [
   {
-    intro: "He studies ",
+    intro: "A junior in ",
     title: "bioengineering",
     img: engineer,
     description: "My mother is diabetic, and it was painful to watch her maneuver her life around it, especially when I was a child. I remember watching my mother as she pricked herself on the finger four times a day before injecting herself with insulin. This tedious process was a normality in her everyday life until Abbott’s Freestyle Libre system became available in China. Abbott’s system allowed my mother to wear a wireless patch on her arm and access the blood-sugar readings from her smartphone. Not only did the system revolutionize my mother’s everyday life, but it also ignited my interest in bioengineering."
   },{
-    intro: "He loves his ",
-    title: "brothers",
+    intro: "Oldest of ",
+    title: "four brothers",
     img: family,
     description: "With a big family, comes big responsibilities! I grew up as the oldest of four, but I have eight other half-siblings! I love them with all my heart."
   },{
-    intro: "He rides ",
-    title: "bikes",
+    intro: "Part time ",
+    title: "cyclist & mechanic",
     img: cycling,
     description: "Noticible results: 2017 TREK-China Best Young Rider (Overall), 1st-2018 TREK Beijing-Shanghai Criterium, 2nd-2018 Heros U25 Shanghai Classics, Top 10 Finisher- Tour de France Skoda Shanghai Criterium"
   }, {
-    intro: "He finds himself ",
-    title: "in nature",
+    intro: "Full time ",
+    title: "outdoorsy",
     img: outdoors,
     description: "I find reconnecting with nature my favorite pass time; nothing beats a quick getaway amongst the trees. Though I've been an outdoorsy person all my life, The Outdoors Adventure Club at UIUC took my interest to the next level with multi-day backpacking trips every break. OAC has the best people and the best trips. It's called trauma bonding."
   },{
-    intro: "He eats ",
-    title: "turkey legs",
+    intro: "Favourite food... ",
+    title: "Turkey!",
     img: eatingTurkey,
     description: "I love turkey lol."
   },{
-    intro: "He values ",
-    title: "his friends",
+    intro: "A brother of ",
+    title: "ΑΔΦ",
     img: fraternity,
     description: "I love turkey lol."
   },
