@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 22:03:03 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/22 01:55:58 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2023/12/20 23:04:21 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ const Footer = (props) => {
           <h1
               className={`hidden md:flex text-md font-semibold ${props.colorMode.text} flex text-justify font-Lumanosimo`}
             >
-              Built using React, Vite, and Tailwind by Abraham A. Alkhatib
+              Built using React, Vite, and Tailwind CSS with a tiny bit of grit
           </h1>
 
           </div>
