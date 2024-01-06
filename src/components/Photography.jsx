@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/04 18:35:03 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/05 18:22:34 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/05 19:01:36 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,8 @@ const Photography = (props) => {
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 lg:gap-16 md:gap-8 sm:gap-8 justify-center'>
             {photos.map((info, index) => (
                 
-                <Link to={`${info.link}`}>
-                    <article className={`group ${asideBackground} rounded-2xl my-5 hover:cursor-pointer hover:scale-110`}>
+                // <Link to={`${info.link}`}>
+                    <article className={`group ${asideBackground} rounded-2xl my-5 hover:cursor-pointer`}>
                         <img
                             src={info.img}
                             class="h-auto w-auto transition rounded-xl"
@@ -46,7 +46,7 @@ const Photography = (props) => {
                             </p>
                         </div>
                     </article>
-                </Link>
+                // </Link>
 
             ))}        
             </div>
