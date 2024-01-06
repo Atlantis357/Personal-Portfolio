@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2024/01/05 18:06:13 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/06 03:14:13 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,6 +61,8 @@ import p8 from './photography/p8.jpeg';
 import p9 from './photography/p9.jpeg';
 import p10 from './photography/p10.jpeg';
 
+import darkBackground from './darkBackground.jpeg';
+
 
 export {
     a_inital,
@@ -96,4 +98,5 @@ export {
     engineeringHelmet,
     leaderSpeach,
     p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,
+    darkBackground,
 };

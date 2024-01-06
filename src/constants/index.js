@@ -6,11 +6,11 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/05 18:50:36 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/06 03:19:40 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster, ecgFlowchart, ecgAirV3, ecgPulse, bikeMechanic, operations, engineeringHelmet, leaderSpeach, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10,} from "../assets";
+import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster, ecgFlowchart, ecgAirV3, ecgPulse, bikeMechanic, operations, engineeringHelmet, leaderSpeach, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, darkBackground,} from "../assets";
 
 
 
@@ -27,29 +27,6 @@ export const foregroundGradients = [
     main: "bg-gray-800",
     accent: "bg-red-500",
   },
-
-
-  // {
-  //   id: "blue",
-  //   main: "bg-gradient-to-r from-green-300 via-blue-500 to-purple-600",
-  //   accent: "bg-blue-500",
-  // },{
-  //   id: "rose",
-  //   main: "bg-gradient-to-r from-sky-400 via-rose-400 to-lime-400",
-  //   accent: "bg-rose-500",
-  // },{
-  //   id: "yellow",
-  //   main: "bg-gradient-to-r from-lime-600 via-yellow-300 to-red-600",
-  //   accent: "bg-yellow-300",
-  // },{
-  //   id: "green",
-  //   main: "bg-gradient-to-r from-green-200 via-green-400 to-green-500",
-  //   accent: "bg-green-400",
-  // },{
-  //   id: "fuchisa",
-  //   main: "bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500",
-  //   accent: "bg-fuchsia-500",
-  // },
 ]
 
 
@@ -59,6 +36,7 @@ export const colorModes = [
     id: "darkMode",
     // background: "bg-gradient-to-b from-gray-600 via-gray-700 to-gray-800",
     background: "bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-red-600 via-slate-800 to-sky-700",
+    // background: "bg-[url('/src/assets/darkBackground.jpeg')]", // background image
     text: "text-white",
     border: "border-gray-200 ring-gray-200"
   },
