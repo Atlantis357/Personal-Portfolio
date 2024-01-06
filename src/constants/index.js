@@ -6,11 +6,11 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/11/30 21:08:16 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/05 18:50:36 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster, ecgFlowchart, ecgAirV3, ecgPulse, bikeMechanic, operations, engineeringHelmet, leaderSpeach} from "../assets";
+import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster, ecgFlowchart, ecgAirV3, ecgPulse, bikeMechanic, operations, engineeringHelmet, leaderSpeach, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10,} from "../assets";
 
 
 
@@ -85,15 +85,16 @@ export const navLinks = [
   },{
     id: "/projects",
     title: "Projects",
-  },
-   {
+  },{
     id: "/music",
     title: "Music",
-  }, 
-  {
+  },{
+    id:"/photography",
+    title: "Photography",
+  }, {
     id: "/resume",
     title: "Resume",
-  },
+  }
 ];
 
 export const nameIntro = {
@@ -133,7 +134,7 @@ export const aboutMe = [
     description: "My mother is diabetic, and it was painful to watch her maneuver her life around it, especially when I was a child. I remember watching my mother as she pricked herself on the finger four times a day before injecting herself with insulin. This tedious process was a normality in her everyday life until Abbott’s Freestyle Libre system became available in China. Abbott’s system allowed my mother to wear a wireless patch on her arm and access the blood-sugar readings from her smartphone. Not only did the system revolutionize my mother’s everyday life, but it also ignited my interest in bioengineering."
   },{
     intro: "Oldest of ",
-    title: "four brothers",
+    title: "three brothers",
     img: family,
     description: "With a big family, comes big responsibilities! I grew up as the oldest of four, but I have eight other half-siblings! I love them with all my heart."
   },{
@@ -211,6 +212,90 @@ export const projects = [
     description: "Created an ECG-based risk prediction pipeline using the TensorFlow-Lite library to improve the accessibility and interoperability of ECG-Air to power a suite of AI-based prediction models.",
     titlePoster: ecgAirV3,
     linkType: "pdf",
+  },
+]
+
+export const photos = [
+  { 
+    id: "p1",
+    img: p1,
+    title: "In between worlds",
+    link: "/projects/p1",
+    description: "Chicago Union Station (service ramp to tracks)",
+    titlePoster: p1,
+    linkType: "internal",
+  },{ 
+    id: "p2",
+    img: p2,
+    title: "Rush Hour",
+    link: "/projects/p2",
+    description: "CTA Foster Station North Exit Ramp",
+    titlePoster: p2,
+    linkType: "internal",
+  },{ 
+    id: "p9",
+    img: p9,
+    title: "The calm before the storm",
+    link: "/projects/p9",
+    description: "Illinois-Wiscounsin trail",
+    titlePoster: p9,
+    linkType: "internal",
+  },{ 
+    id: "p6",
+    img: p6,
+    title: "Turnaround point",
+    link: "/projects/p6",
+    description: "The end of the pedestrain path on the Chicago Lakeshore",
+    titlePoster: p6,
+    linkType: "internal",
+  },{ 
+    id: "p4",
+    img: p4,
+    title: "Up close",
+    link: "/projects/p4",
+    description: "Office plant",
+    titlePoster: p4,
+    linkType: "internal",
+  },{ 
+    id: "p5",
+    img: p5,
+    title: "Stairwell #1",
+    link: "/projects/p5",
+    description: "Lower Wacker St. parking lot exit towards Randolf St.",
+    titlePoster: p5,
+    linkType: "internal",
+  },{ 
+    id: "p8",
+    img: p8,
+    title: "Resistance",
+    link: "/projects/p8",
+    description: "Pro-Palestine protest, Chicago",
+    titlePoster: p8,
+    linkType: "internal",
+  },{ 
+    id: "p7",
+    img: p7,
+    title: "The wicked of the good",
+    link: "/projects/p7",
+    description: "Lincoln Park Chicago, broken picnic bench",
+    titlePoster: p7,
+    linkType: "internal",
+  },{ 
+    id: "p3",
+    img: p3,
+    title: "The Grand Red Line Hotel",
+    link: "/projects/p3",
+    description: "CTA Red Line",
+    titlePoster: p3,
+    linkType: "internal",
+  },{ 
+    id: "p10",
+    img: p10,
+    title: "Window of oppertunity",
+    link: "/projects/p10",
+    description: "Main library, University of Illinois",
+    titlePoster: p10,
+    linkType: "internal",
   },
 ]
 

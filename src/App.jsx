@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:35:16 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/23 18:33:17 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/05 17:00:32 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import ProjectView from "./components/ProjectView";
 import Experiences from "./components/Experiences";
+import Photography from "./components/Photography";
 
 function App() {
   const [foregroundIdx, setForegroundIdx] = useState(0);
@@ -77,7 +78,20 @@ function App() {
             element={<Music foreground={foreground} colorMode={colorMode} />}
           />
 
+          {/*  */}
+          <Route
+            path="/photography"
+            element={<Photography foreground={foreground} colorMode={colorMode} />}
+          />
+
+          {/* <Route
+            path="/photography/:id"
+            element={<ImageView foreground={foreground} />}
+          /> */}
+          {/*  */}
+
           <Route path="/resume" element={<Resume foreground={foreground} />} />
+
 
           {/* Case where there is no page found */}
           <Route path="*" element={<NotFound foreground={foreground} />} />

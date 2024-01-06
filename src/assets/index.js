@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2023/07/26 21:22:54 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/05 18:06:13 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,6 +50,16 @@ import operations from './operations.svg';
 import engineeringHelmet from './engineeringHelmet.svg';
 import leaderSpeach from './leaderSpeech.svg';
 
+import p1 from './photography/p1.jpeg';
+import p2 from './photography/p2.jpeg';
+import p3 from './photography/p3.jpeg';
+import p4 from './photography/p4.jpeg';
+import p5 from './photography/p5.jpeg';
+import p6 from './photography/p6.jpeg';
+import p7 from './photography/p7.jpeg';
+import p8 from './photography/p8.jpeg';
+import p9 from './photography/p9.jpeg';
+import p10 from './photography/p10.jpeg';
 
 
 export {
@@ -85,4 +95,5 @@ export {
     operations,
     engineeringHelmet,
     leaderSpeach,
+    p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,
 };
