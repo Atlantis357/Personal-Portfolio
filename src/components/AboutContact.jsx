@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/23 15:36:07 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/11/30 21:03:20 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/09 20:34:44 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,32 +25,12 @@ const AboutContact = (props) => {
   const slideLeft = (about) => {
     setAboutIdx((prev) => (prev + aboutMe.length - 1) % aboutMe.length);
     aboutAbe = aboutMe[abeIdx];
-
   };
 
   const slideRight = (about) => {
     setAboutIdx((prev) => (prev + 1) % aboutMe.length);
     aboutAbe = aboutMe[abeIdx];
   };
-
-
-
-
-  // const slideLeft = (aboutAbe) => {
-  //   var slider = document.getElementById("slider");
-  //   slider.scrollLeft = slider.scrollLeft - 300;
-  //   var textSlider = document.getElementById("textSlider");
-  //   textSlider.scrollLeft = textSlider.scrollLeft + 300;
-
-  // };
-
-  // const slideRight = (aboutAbe) => {
-  //   var slider = document.getElementById("slider");
-  //   slider.scrollLeft = slider.scrollLeft + 300;
-  //   var textSlider = document.getElementById("textSlider");
-  //   textSlider.scrollLeft = textSlider.scrollLeft - 300;
-
-  // };
 
   const form = useRef();
   const sendEmail = (e) => {
