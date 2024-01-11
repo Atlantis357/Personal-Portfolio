@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/23 15:36:07 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/09 20:34:44 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/10 23:08:01 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ const AboutContact = (props) => {
   };
 
   return (
-    <div className={`w-screen overflow-hidden items-center lg:flex mb-20`}>
+    <div className={`w-screen overflow-hidden items-center lg:flex mb-20 pt-20`}>
       {/* About Me */}
       <section
         id="aboutMe"

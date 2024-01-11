@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/09 21:17:43 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/05 19:44:49 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/11 00:34:55 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,12 @@ import { asideBackground, experiences } from "../constants";
 
 const Experiences = (props) => {
   return (
-    <div id="experiences" className=" min-h-screen py-20 md:py-28">
+    <div id="experience" className=" min-h-screen py-20 md:py-28">
       <section className="pb-8 md:pb-16 text-center w-screen pt-8 md:pt-0">
         <h1
           className={`font-extrabold text-4xl md:text-5xl lg:text-6xl bg-clip-text text-transparent ${props.foreground.main} tracking-wider font-Orbitron`}
         >
-          My Experiences
+          My Experience
         </h1>
       </section>
 
@@ -31,7 +31,7 @@ const Experiences = (props) => {
       >
         {experiences.map((info) => (
           <div
-            className={`${asideBackground} my-5 rounded-2xl border-l-4 border-b-2 ${props.colorMode.border}`}
+            className={`${asideBackground} mb-20 rounded-2xl border-l-4 border-b-2 ${props.colorMode.border}`}
           >
             <img 
             src={info.svg}

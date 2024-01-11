@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:35:16 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/05 17:00:32 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/11 00:33:28 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,8 @@ function App() {
   return (
     <>
       {/* Shuffles background */}
-      <div className={`h-auto ${colorMode.background} bg-fixed`}>
+      {/* <div className={`h-auto ${colorMode.background} bg-fixed`}> */}
+      <div className={`h-auto bg-gray-900 bg-fixed`}>
         <Navbar
           updateForeground={updateForeground}
           updateColorMode={updateColorMode}
@@ -57,7 +58,7 @@ function App() {
           />
 
           <Route
-            path="/experiences"
+            path="/experience"
             element={
               <Experiences foreground={foreground} colorMode={colorMode} />
             }

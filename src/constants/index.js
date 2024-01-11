@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/06 03:19:40 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/11 00:33:27 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,13 +40,13 @@ export const colorModes = [
     text: "text-white",
     border: "border-gray-200 ring-gray-200"
   },
-  {
-    id: "lightMode",
-    // background: "bg-gradient-to-b from-gray-200 via-gray-300 to-gray-400",
-    background: "bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-red-600 via-slate-200 to-sky-700",
-    text: "text-black",
-    border: "border-gray-800 ring-gray-800"
-  },
+  // {
+  //   id: "lightMode",
+  //   // background: "bg-gradient-to-b from-gray-200 via-gray-300 to-gray-400",
+  //   background: "bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-red-600 via-slate-200 to-sky-700",
+  //   text: "text-black",
+  //   border: "border-gray-800 ring-gray-800"
+  // },
 ]
 
 export const asideBackground = "bg-black bg-opacity-0 hover:bg-opacity-10 transition-all";
@@ -58,15 +58,17 @@ export const navLinks = [
   //   title: "Home",
   // },
   {
-    id: "/experiences",
-    title: "Experiences",
+    id: "/experience",
+    title: "Experience",
   },{
     id: "/projects",
     title: "Projects",
-  },{
-    id: "/music",
-    title: "Music",
-  },{
+  },
+  // {
+  //   id: "/music",
+  //   title: "Music",
+  // },
+  {
     id:"/photography",
     title: "Photography",
   }, {
