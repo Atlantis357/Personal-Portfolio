@@ -6,13 +6,13 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/11 04:44:07 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/12 21:48:45 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React, {useRef} from 'react'
 import { motion, useScroll, useTransform } from "framer-motion";
-import { abe, bottomMountain, fullMountain } from '../assets'
+import { abe, mainMountain, fullMountain, foregroundMountain, distantMountain} from '../assets'
 import { nameIntro } from '../constants'
 import { onRepeat } from '../constants'
 
@@ -23,32 +23,59 @@ const Hero = (props) => {
         target: ref,
         offset: ["start start", "end start"],
     });
-    const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
-    const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
+    const fullMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+    const distantMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+    const textY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+    const mainMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+    const restY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
   return (
     // Whole Page
     <>
     <div ref={ref} className="w-full pt-32 lg:pt-44 h-screen overflow-hidden relative">
-        <motion.h1 style={{ y: textY }} className="mx-auto font-Permanent-Marker font-bold text-white text-7xl md:text-9xl relative text-center px-auto z-10">
-            Who is <span className={`bg-clip-text text-transparent bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-gray-800 via-gray-100 to-gray-900`}>Abraham?</span>
+        
+        <motion.h1 
+            style={{ y: textY }} 
+            className="mx-auto font-Permanent-Marker font-bold text-white text-7xl md:text-9xl relative text-center px-auto z-10">
+            Who is Abraham?
         </motion.h1>
+
         <motion.div
-            className="absolute inset-0 z-0"
+            className="absolute inset-0"
             style={{
             backgroundImage: `url(${fullMountain})`,
             backgroundPosition: "top",
             backgroundSize: "cover",
-            y: backgroundY,
+            y: fullMountainY,
+            }}
+        />
+        <motion.div
+            className="absolute inset-0"
+            style={{
+            backgroundImage: `url(${distantMountain})`,
+            backgroundPosition: "top",
+            backgroundSize: "cover",
+            y: distantMountainY,
             }}
         />
 
-        <div
-            className="absolute inset-0 z-20"
+        <motion.div
+            className="absolute inset-0"
             style={{
-            backgroundImage: `url(${bottomMountain})`,
+            backgroundImage: `url(${mainMountain})`,
             backgroundPosition: "top",
             backgroundSize: "cover",
+            y: mainMountainY,
+            }}
+        />
+
+        <motion.div
+            className="absolute inset-0"
+            style={{
+            backgroundImage: `url(${foregroundMountain})`,
+            backgroundPosition: "top",
+            backgroundSize: "cover",
+            y: restY
             }}
         />
     </div>
