@@ -6,29 +6,38 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/12 21:48:45 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/13 17:08:02 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React, {useRef} from 'react'
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useMotionValue, useScroll, useTransform } from "framer-motion";
 import { abe, mainMountain, fullMountain, foregroundMountain, distantMountain} from '../assets'
 import { nameIntro } from '../constants'
 import { onRepeat } from '../constants'
 
 const Hero = (props) => {
 
+    // Parallax effect
     const ref = useRef(null);
     const {scrollYProgress} = useScroll({
         target: ref,
         offset: ["start start", "end start"],
     });
-    const fullMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-    const distantMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-    const textY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-    const mainMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-    const restY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+    const fullMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "60%"]);
+    const distantMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
+    const textY = useTransform(scrollYProgress, [0, 1], ["0%", "1000%"]);
+    const mainMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "25%"]);
 
+    // Darken effect
+    // const x = useMotionValue(0)
+    // const opacity = useTransform(
+    //     x,
+    //     // Map x from these values:
+    //     [0, 100],
+    //     // Into these values:
+    //     [1, 0]
+    //   )
   return (
     // Whole Page
     <>
@@ -36,12 +45,12 @@ const Hero = (props) => {
         
         <motion.h1 
             style={{ y: textY }} 
-            className="mx-auto font-Permanent-Marker font-bold text-white text-7xl md:text-9xl relative text-center px-auto z-10">
+            className={`mx-auto font-Permanent-Marker font-bold bg-clip-text text-transparent ${props.foreground.title} text-7xl md:text-9xl relative text-center px-auto z-30`}>
             Who is Abraham?
         </motion.h1>
 
         <motion.div
-            className="absolute inset-0"
+            className="absolute inset-0 z-10"
             style={{
             backgroundImage: `url(${fullMountain})`,
             backgroundPosition: "top",
@@ -50,7 +59,7 @@ const Hero = (props) => {
             }}
         />
         <motion.div
-            className="absolute inset-0"
+            className="absolute inset-0 z-10"
             style={{
             backgroundImage: `url(${distantMountain})`,
             backgroundPosition: "top",
@@ -60,7 +69,7 @@ const Hero = (props) => {
         />
 
         <motion.div
-            className="absolute inset-0"
+            className="absolute inset-0 z-20"
             style={{
             backgroundImage: `url(${mainMountain})`,
             backgroundPosition: "top",
@@ -69,13 +78,12 @@ const Hero = (props) => {
             }}
         />
 
-        <motion.div
-            className="absolute inset-0"
+        <div
+            className="absolute inset-0 z-30"
             style={{
             backgroundImage: `url(${foregroundMountain})`,
             backgroundPosition: "top",
             backgroundSize: "cover",
-            y: restY
             }}
         />
     </div>
