@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/11 00:20:39 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/11 04:44:07 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,16 +24,14 @@ const Hero = (props) => {
         offset: ["start start", "end start"],
     });
     const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
-    const foregroundY = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"]);
     const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
-    const aboutY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
 
   return (
     // Whole Page
     <>
     <div ref={ref} className="w-full pt-32 lg:pt-44 h-screen overflow-hidden relative">
-        <motion.h1 style={{ y: textY }} className="mx-auto font-Permanent-Marker font-bold text-white text-7xl md:text-9xl relative text-center px-auto z-30">
-            Who is Abraham?
+        <motion.h1 style={{ y: textY }} className="mx-auto font-Permanent-Marker font-bold text-white text-7xl md:text-9xl relative text-center px-auto z-10">
+            Who is <span className={`bg-clip-text text-transparent bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-gray-800 via-gray-100 to-gray-900`}>Abraham?</span>
         </motion.h1>
         <motion.div
             className="absolute inset-0 z-0"
@@ -45,13 +43,12 @@ const Hero = (props) => {
             }}
         />
 
-        <motion.div
+        <div
             className="absolute inset-0 z-20"
             style={{
             backgroundImage: `url(${bottomMountain})`,
             backgroundPosition: "top",
             backgroundSize: "cover",
-            y: foregroundY,
             }}
         />
     </div>
