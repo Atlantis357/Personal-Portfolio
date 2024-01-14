@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:34:58 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/13 21:07:18 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/14 13:55:11 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ function Navbar(props) {
         <img 
             src={tripleA} 
             alt='tripleA' 
-            className='w-[156px] h-[32px] hover:cursor-pointer flex-none hover:scale-y-125 transition-all'
+            className='w-[156px] h-[32px] hover:cursor-pointer flex-none hover:scale-y-125 transition-all duration-200'
             // onClick={() => props.updateForeground()}
             />
         </Link>
@@ -45,7 +45,7 @@ function Navbar(props) {
             {navLinks.map((nav, index) => (
                 <li 
                     key={nav.id} 
-                    className={`font-poppins font-medium cursor-pointer text-[16px] ${(index % 2) === 0 ? 'hover:-rotate-12' : 'hover:rotate-12'}  p-1 mx-2 
+                    className={`font-poppins font-medium cursor-pointer text-[16px] ${(index % 2) === 0 ? 'hover:-rotate-6' : 'hover:rotate-6'}  p-1 mx-2 
                          ${props.colorMode.text} transition-all duration-200`}>
                     <Link to={`${nav.id}`}>
                         {nav.title}

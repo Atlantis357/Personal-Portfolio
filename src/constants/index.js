@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/13 19:09:29 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/14 13:45:47 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,20 +98,25 @@ export const socials = [
     id: "github",
     icon: github,
     link: "https://www.github.com/Atlantis357",
+    name: "GITHUB",
   }, {
     id: "linkedin",
     icon: linkedin,
     link: "https://www.linkedin.com/in/abrahamalkhatib",
+    name: "LINKEDIN",
   }, 
   // {
   //   id: "stackOverflow",
   //   icon: stackOverflow,
   //   link: "https://stackexchange.com/users/27590469/abraham-alkhatib",
-  // }, {
-  //   id: "instagram",
-  //   icon: instagram,
-  //   link: "https://www.instagram.com/abrahamalkhatib/?hl=en",
-  // }
+  //   name: "STACK OVERFLOW",
+  // }, 
+  {
+    id: "instagram",
+    icon: instagram,
+    link: "https://www.instagram.com/abrahamalkhatib/?hl=en",
+    name: "INSTAGRAM",
+  }
 ];
 
 export const aboutMe = [

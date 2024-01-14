@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 22:03:03 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/13 21:37:52 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/14 14:01:16 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,67 +43,98 @@ const Footer = (props) => {
 
   return (
     // Add 
-    <div className='w-screen py-4 mt-5 overflow-hidden backdrop-blur-sm transition-all'> 
-      <section id='email' className='mx-auto items-center flex'>
+    <div className='w-screen py-4 mt-5 overflow-hidden'>
+    <section className='grid grid-cols-1 md:grid-cols-2 gap-5'> 
+      <div className='mx-auto items-center'>
         <div>
-        <h1 className={`text-5xl md:text-7xl font-medium ${props.colorMode.text} font-Orbitron`}>
-          Let's Talk
-        </h1>
-        <p class={`mt-3 ${props.colorMode.text} font-Lumanosimo text-md md:text-lg`}>
-          {`Minding a project? Let me know here:`}
-        </p>
+          <h1 className={`text-5xl md:text-7xl font-medium ${props.colorMode.text} font-Orbitron`}>
+            Let's
+          </h1>
+          <h1 className={`text-5xl md:text-7xl font-medium ${props.colorMode.text} font-Orbitron`}>
+            Connect
+          </h1>
+          <p class={`mt-4 ${props.colorMode.text} font-Lumanosimo text-md md:text-lg`}>
+            {`Minding a project? Let me know here:`}
+          </p>
         </div>
+      </div>
         {/* All form */}
-        <form ref={form} onSubmit={sendEmail} className="mx-4">
-          
-          <div className='flex'>
-          <div className='mr-4'>
-            <div class="relative z-0">
-              <input
-                type="text"
-                name="user_name"
-                className={`peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm ${props.colorMode.text} focus:border-blue-600 focus:outline-none focus:ring-0`}
-                placeholder=" "
-              />
-              <label className={`absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:${props.colorMode.text}`}>
-                Your name
-              </label>
-            </div>
+      <div className='mx-auto items-center'> 
+      <form ref={form} onSubmit={sendEmail}>
+              <div class="grid gap-6 sm:grid-cols-2">
+                <div class="relative z-0">
+                  <input
+                    type="text"
+                    name="user_name"
+                    className={`peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm ${props.colorMode.text} focus:border-blue-600 focus:outline-none focus:ring-0`}
+                    placeholder=" "
+                  />
+                  <label
+                    className={`absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:${props.colorMode.text}`}
+                  >
+                    Your name
+                  </label>
+                </div>
+                <div class="relative z-0">
+                  <input
+                    type="email"
+                    name="user_email"
+                    className={`peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm ${props.colorMode.text} focus:border-blue-600 focus:outline-none focus:ring-0`}
+                    placeholder=" "
+                  />
+                  <label
+                    className={`absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:${props.colorMode.text}`}
+                  >
+                    Your email
+                  </label>
+                </div>
+                <div class="relative z-0 col-span-2">
+                  <textarea
+                    name="message"
+                    rows="3"
+                    className={`peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm ${props.colorMode.text} focus:border-blue-600 focus:outline-none focus:ring-0`}
+                    placeholder=" "
+                  ></textarea>
+                  <label
+                    className={`absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:${props.colorMode.text}`}
+                  >
+                    Your message
+                  </label>
+                </div>
+              </div>
 
-            <div class="relative z-0">
               <input
-              type="email"
-              name="user_email"
-              className={`peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm ${props.colorMode.text} focus:border-blue-600 focus:outline-none focus:ring-0`}
-              placeholder=" "
-              />
-              <label className={`absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:${props.colorMode.text}`}>
-                Your email
-              </label>
-            </div>
-          </div>
-          <div>
-            <div class="relative z-0">
-              <textarea
-              name="message"
-              rows="3"
-              className={`peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm ${props.colorMode.text} focus:border-blue-600 focus:outline-none focus:ring-0`}
-              placeholder=" "
-              />
-              <label className={`absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:${props.colorMode.text}`}>
-                Your message
-              </label>
-            </div>
-          </div>
-          
-          </div>
-            <input
-            type="submit"
-            value="Send"
-            className={`mt-2 text-md font-semibold ${props.colorMode.text} hover:cursor-pointer hover:font-bold w-full rounded-md ${asideBackground} px-10 py-2 active:border`}
-            />
-        </form>
-      </section>
+                type="submit"
+                value="Send"
+                className={`mt-5 text-md font-semibold ${props.colorMode.text} hover:cursor-pointer hover:font-bold w-full rounded-md ${asideBackground} px-10 py-2 active:border`}
+              ></input>
+            </form>        
+      </div>
+    </section>
+    <section className='pt-2 mt-2 border-t xl:max-w-[1280px] xl:mx-auto mx-4 md:px-6 items-center flex justify-between backdrop-blur-sm transition-all'>
+      <ul className='list-none flex justify-left items-center flex-10'>
+        {socials.map((social, index) => (
+          <li
+            key={social.id}
+            className={`text-center ${props.colorMode.text} text-md md:text-lg ${(index % 2) === 0 ? 'hover:-rotate-6' : 'hover:rotate-6'} transition-all duration-200`}
+            >
+            <a 
+              href={social.link}
+              className='cursor-pointer mx-4 font-Poppins'>
+              {/* <img 
+                src={social.icon}
+                className='w-10 h-10 cursor-pointer hover:scale-110 transition-all'
+              /> */}
+              {social.name}
+            </a>
+
+          </li>
+        ))}
+      </ul>
+      <a className={`hidden sm:flex font-Poppins text-center ${props.colorMode.text} text-md md:text-lg cursor-pointer px-4  hover:scale-y-125 transition-all duration-200`}>
+        Buy me a coffee
+      </a>
+    </section>
     </div>
   )
 }
@@ -146,3 +177,4 @@ export default Footer
               className='w-26 h-10 flex cursor-pointer  hover:scale-110 transition-all'
             />
           </a> */}
+
