@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/13 18:41:05 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/13 19:06:38 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ const Hero = (props) => {
     });
     const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "60%"]);
     const distantMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
-    const textY = useTransform(scrollYProgress, [0, 1], ["0%", "1000%"]);
+    const textY = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
     const mainMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "25%"]);
     const subMainMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "10%"]);
 
@@ -44,11 +44,24 @@ const Hero = (props) => {
     <>
     <div ref={ref} className="w-full pt-32 lg:pt-44 h-screen overflow-hidden relative">
         
-        <motion.h1 
+        <motion.div 
             style={{ y: textY }} 
-            className={`mx-auto font-Permanent-Marker font-bold bg-clip-text text-transparent ${props.foreground.title} text-7xl md:text-9xl relative text-center px-auto z-30`}>
-            Who is Abraham?
-        </motion.h1>
+            className={`mx-auto relative text-center px-auto z-30`}>
+            <h1 class={`${props.colorMode.text} font-Permanent-Marker font-bold text-6xl md:text-8xl mb-6`}>
+                 {nameIntro.EngIntro}
+                 <strong className={`bg-clip-text text-transparent ${props.foreground.title} font-Permanent-Marker`}>
+                     {nameIntro.EngName}
+                 </strong>
+                 {nameIntro.EngOutro}
+            </h1>
+            {/* Chinese Welcome */}
+            <h1 class={`${props.colorMode.text} text-5xl font-extrabold md:text-7xl`}>
+                <strong className={`bg-clip-text text-transparent ${props.foreground.title} font-Ma-Shan-Zheng`}>
+                    {nameIntro.ChiName}
+                </strong>
+                {nameIntro.ChiOutro}           
+            </h1>
+        </motion.div>
 
         <motion.div
             className="absolute inset-0 z-10"

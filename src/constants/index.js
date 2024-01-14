@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/11 04:35:25 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/13 19:09:29 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,17 +16,23 @@ import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linked
 
 export const foregroundGradients = [
   {
-    id: "redDark",
-    title: "bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500",
+    id: "new",
+    title: "bg-gradient-to-r from-slate-200 via-yellow-300 to-red-600",
     main: "bg-gray-200",
     accent: "bg-red-500",
   },
-  {
-    id: "redDark",
-    title: "bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500",
-    main: "bg-gray-800",
-    accent: "bg-red-500",
-  },
+  // {
+  //   id: "redDark",
+  //   title: "bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500",
+  //   main: "bg-gray-200",
+  //   accent: "bg-red-500",
+  // },
+  // {
+  //   id: "redDark",
+  //   title: "bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500",
+  //   main: "bg-gray-800",
+  //   accent: "bg-red-500",
+  // },
 ]
 
 
