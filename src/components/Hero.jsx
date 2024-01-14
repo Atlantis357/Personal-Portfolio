@@ -6,13 +6,13 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/13 17:08:02 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/13 18:41:05 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React, {useRef} from 'react'
 import { motion, useMotionValue, useScroll, useTransform } from "framer-motion";
-import { abe, mainMountain, fullMountain, foregroundMountain, distantMountain} from '../assets'
+import { abe, mainMountain, backgroundSky, foregroundMountain, distantMountain, subMainMountain} from '../assets'
 import { nameIntro } from '../constants'
 import { onRepeat } from '../constants'
 
@@ -24,10 +24,11 @@ const Hero = (props) => {
         target: ref,
         offset: ["start start", "end start"],
     });
-    const fullMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "60%"]);
+    const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "60%"]);
     const distantMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
     const textY = useTransform(scrollYProgress, [0, 1], ["0%", "1000%"]);
     const mainMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "25%"]);
+    const subMainMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "10%"]);
 
     // Darken effect
     // const x = useMotionValue(0)
@@ -52,10 +53,10 @@ const Hero = (props) => {
         <motion.div
             className="absolute inset-0 z-10"
             style={{
-            backgroundImage: `url(${fullMountain})`,
+            backgroundImage: `url(${backgroundSky})`,
             backgroundPosition: "top",
             backgroundSize: "cover",
-            y: fullMountainY,
+            y: backgroundY,
             }}
         />
         <motion.div
@@ -75,6 +76,16 @@ const Hero = (props) => {
             backgroundPosition: "top",
             backgroundSize: "cover",
             y: mainMountainY,
+            }}
+        />
+
+         <motion.div
+            className="absolute inset-0 z-30"
+            style={{
+            backgroundImage: `url(${subMainMountain})`,
+            backgroundPosition: "top",
+            backgroundSize: "cover",
+            y: subMainMountainY,
             }}
         />
 

@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2024/01/12 21:09:53 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/13 18:41:22 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,14 +63,12 @@ import p10 from './photography/p10.jpeg';
 
 import darkBackground from './darkBackground.jpeg';
 
-import fullMountain from './parallax/fullMountain.jpg';
+import backgroundSky from './parallax/backgroundSky.png';
 import mainMountain from './parallax/mainMountain.png';
 import foregroundMountain from './parallax/foregroundMountain.png';
 import distantMountain from './parallax/distantMountain.png';
-import layer1 from './parallax/layer1.png';
-import layer2 from './parallax/layer2.png';
-import layer3 from './parallax/layer3.png';
-import layer4 from './parallax/layer4.png';
+import subMainMountain from './parallax/subMainMountain.png';
+
 
 
 export {
@@ -108,6 +106,5 @@ export {
     leaderSpeach,
     p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,
     darkBackground,
-    fullMountain, mainMountain, foregroundMountain, distantMountain,
-    layer1, layer2, layer3, layer4,
+    backgroundSky, mainMountain, foregroundMountain, distantMountain, subMainMountain,
 };
