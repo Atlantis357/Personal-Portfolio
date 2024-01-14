@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/13 19:06:38 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/13 19:26:24 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,6 @@ const Hero = (props) => {
                  </strong>
                  {nameIntro.EngOutro}
             </h1>
-            {/* Chinese Welcome */}
             <h1 class={`${props.colorMode.text} text-5xl font-extrabold md:text-7xl`}>
                 <strong className={`bg-clip-text text-transparent ${props.foreground.title} font-Ma-Shan-Zheng`}>
                     {nameIntro.ChiName}
