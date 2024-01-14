@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/13 19:26:24 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/13 20:36:17 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,14 +31,14 @@ const Hero = (props) => {
     const subMainMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "10%"]);
 
     // Darken effect
-    // const x = useMotionValue(0)
-    // const opacity = useTransform(
-    //     x,
-    //     // Map x from these values:
-    //     [0, 100],
-    //     // Into these values:
-    //     [1, 0]
-    //   )
+    const x = useMotionValue(0)
+    const opacity = useTransform(
+        x,
+        // Map x from these values:
+        [0, 100],
+        // Into these values:
+        [1, 0]
+      )
   return (
     // Whole Page
     <>
@@ -61,9 +61,8 @@ const Hero = (props) => {
                 {nameIntro.ChiOutro}           
             </h1>
         </motion.div>
-
         <motion.div
-            className="absolute inset-0 z-10"
+            className={`absolute inset-0 z-10`}
             style={{
             backgroundImage: `url(${backgroundSky})`,
             backgroundPosition: "top",
@@ -72,7 +71,7 @@ const Hero = (props) => {
             }}
         />
         <motion.div
-            className="absolute inset-0 z-10"
+            className={`absolute inset-0 z-10 opacity-[${opacity}]`}
             style={{
             backgroundImage: `url(${distantMountain})`,
             backgroundPosition: "top",
@@ -80,9 +79,8 @@ const Hero = (props) => {
             y: distantMountainY,
             }}
         />
-
         <motion.div
-            className="absolute inset-0 z-20"
+            className={`absolute inset-0 z-20 opacity-[${opacity}]`}
             style={{
             backgroundImage: `url(${mainMountain})`,
             backgroundPosition: "top",
@@ -90,9 +88,8 @@ const Hero = (props) => {
             y: mainMountainY,
             }}
         />
-
          <motion.div
-            className="absolute inset-0 z-30"
+            className={`absolute inset-0 z-30 opacity-[${opacity}]`}
             style={{
             backgroundImage: `url(${subMainMountain})`,
             backgroundPosition: "top",
@@ -100,9 +97,8 @@ const Hero = (props) => {
             y: subMainMountainY,
             }}
         />
-
         <div
-            className="absolute inset-0 z-30"
+            className={`absolute inset-0 z-30 opacity-[${opacity}]`}
             style={{
             backgroundImage: `url(${foregroundMountain})`,
             backgroundPosition: "top",
@@ -110,7 +106,6 @@ const Hero = (props) => {
             }}
         />
     </div>
-
     </>
   )
 }

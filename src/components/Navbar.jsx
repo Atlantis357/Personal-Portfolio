@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:34:58 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/13 16:31:42 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/13 21:07:18 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,10 +21,9 @@ function Navbar(props) {
     const [toggle, setToggle] = useState(false)
 
   return (
-    <nav className='w-full overflow-hidden fixed backdrop-blur-sm z-50'>
+    <nav className='w-full overflow-hidden fixed backdrop-blur-sm z-50 '>
     <div className='mx-4 flex justify-center items-center'>
     <div className='xl:max-w-[1280px] w-full'>
-
 
     <nav className='w-full flex py-4 justify-between items-center navbar flex-shrink-0 border-b'>
 
