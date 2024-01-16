@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/14 13:45:47 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/14 20:04:32 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -151,8 +151,6 @@ export const aboutMe = [
     img: fraternity,
     description: "I love turkey lol."
   },
-  
-  
 ]
 
 
@@ -291,6 +289,8 @@ export const photos = [
     linkType: "internal",
   },
 ]
+
+export const missionStatement = [`I use my creative and analytical skills along with my professional training in bioengineering and computer science to design solutions that provide unparalled value to my customers. Organizations and companies rely on me to create a development blueprint towards the cutting edge of comptuer science and medicine.`]
 
 export const blogs = [
   {

@@ -6,17 +6,35 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/13 20:36:17 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/15 19:58:26 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-import React, {useRef} from 'react'
-import { motion, useMotionValue, useScroll, useTransform } from "framer-motion";
-import { abe, mainMountain, backgroundSky, foregroundMountain, distantMountain, subMainMountain} from '../assets'
-import { nameIntro } from '../constants'
-import { onRepeat } from '../constants'
+import React, {useRef, useEffect, useState} from 'react'
+import { motion, useMotionValue, useScroll, useTransform, AnimatePresence } from "framer-motion";
+import { abe, mainMountain, backgroundSky, foregroundMountain, distantMountain, subMainMountain, fraternity} from '../assets'
+import { nameIntro, onRepeat, aboutMe } from '../constants'
+import { MdChevronLeft, MdChevronRight } from "react-icons/md";
+import TiltCard from './TiltCard';
 
 const Hero = (props) => {
+    
+    // Image effect
+    const [aboutIdx, setAboutIdx] = useState(0);
+
+    var about = aboutMe[aboutIdx];
+
+    
+    const slideLeft = (about) => {
+        setAboutIdx((prev) => (prev + aboutMe.length - 1) % aboutMe.length);
+        aboutAbe = aboutMe[abeIdx];
+    };
+
+    const slideRight = (about) => {
+        setAboutIdx((prev) => (prev + 1) % aboutMe.length);
+        aboutAbe = aboutMe[abeIdx];
+    };
+
 
     // Parallax effect
     const ref = useRef(null);
@@ -41,7 +59,7 @@ const Hero = (props) => {
       )
   return (
     // Whole Page
-    <>
+    <div>
     <div ref={ref} className="w-full pt-32 lg:pt-44 h-screen overflow-hidden relative">
         
         <motion.div 
@@ -106,11 +124,98 @@ const Hero = (props) => {
             }}
         />
     </div>
-    </>
+    <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 py-24 px-15 md:px-16'>
+        <p className={`${props.colorMode.text} text-xl md:text-2xl text-left px-5 indent-10`}>
+        I use my creative and analytical skills along with my professional training in bioengineering and computer science to design solutions that provide unparalled value to my customers. Organizations and companies rely on me to create a development blueprint towards the cutting edge of comptuer science and medicine.
+        </p>
+        <section>
+        <div className="grid w-full place-content-center">
+        <TiltCard />
+        </div>
+           
+
+        </section>
+    </div>
+    <div className={`w-screen overflow-hidden items-center lg:flex mb-12 pt-12`}>
+      {/* About Me */}
+      <section
+        id="aboutMe"
+        className="w-screen text-center"
+      >
+        <div className="h-auto">
+            <h1
+              className={`text-4xl md:text-5xl font-medium ${props.colorMode.text} font-Orbitron mb-10 mx-5`}
+            >
+              {about.intro}
+              <strong className={`bg-clip-text text-transparent ${props.foreground.title} font-Orbitron`}>
+                {about.title}
+              </strong>
+            </h1>
+        </div>
+
+          <section className={`relative flex justify-evenly items-center mb-20 `}>
+            <MdChevronLeft
+              size="50"
+              className="opacity-60 m-5 md:m-20 lg:m-10 hover:cursor-pointer hover:opacity-100 flex-shrink-0"
+              onClick={slideLeft}
+            />
+            <div>
+              <img
+                src={about.img}
+                alt="Engineer_Photo"
+                className="transition-all hover:grayscale-[100%] rounded-2xl md:w-56 w-48 inline-block ease-in-out snap-center"
+              />
+            </div>
+
+            <MdChevronRight
+              size="50"
+              className="opacity-60 m-5 md:m-20 lg:m-10 hover:cursor-pointer hover:opacity-100 flex-shrink-0"
+              onClick={slideRight}
+            />
+          </section>
+      </section>
+
+    </div>
+    </div>
   )
 }
 
 export default Hero
+
+
+// <div className="h-auto">
+//             <h1
+//               className={`text-4xl md:text-5xl font-medium ${props.colorMode.text} font-Orbitron mb-10 mx-5 text-center`}
+//             >
+//               {aboutThis.intro}
+//               <strong className={`bg-clip-text text-transparent ${props.foreground.title} font-Orbitron`}>
+//                 {aboutThis.title}
+//               </strong>
+//             </h1>
+//         </div>
+
+//           <section className={`relative flex justify-evenly items-center mb-20 `}>
+//             <MdChevronLeft
+//               size="50"
+//               className="opacity-60 m-auto hover:cursor-pointer hover:opacity-100 flex-shrink-0"
+//               onClick={updateImage}
+//             />
+//             <AnimatePresence>
+//                 <motion.img
+//                 key={aboutThis.img}
+//                 src={aboutThis.img}
+//                 initial={{ opacity: 0 }}
+//                 animate={{ opacity: 1 }}
+//                 exit={{ opacity: 0 }}
+//                 className='rounded-2xl md:w-56 w-48 inline-block ease-in-out snap-center'
+//                 />
+//             </AnimatePresence>
+//             <MdChevronRight
+//               size="50"
+//               className="opacity-60 m-auto hover:cursor-pointer hover:opacity-100 flex-shrink-0"
+//               onClick={updateImage}
+//             />
+//           </section>
 
 
 

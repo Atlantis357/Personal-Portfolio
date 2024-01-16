@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:35:16 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/13 20:01:13 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/15 20:00:31 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,8 @@ import Music from "./components/Music";
 import Resume from "./components/Resume";
 import NotFound from "./components/NotFound";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
+// import Home from "./components/Home";
+import Hero from "./components/Hero";
 import ProjectView from "./components/ProjectView";
 import Experiences from "./components/Experiences";
 import Photography from "./components/Photography";
@@ -54,7 +55,7 @@ function App() {
           <Route
             exact
             path="/"
-            element={<Home foreground={foreground} colorMode={colorMode} />}
+            element={<Hero foreground={foreground} colorMode={colorMode} />}
           />
 
           <Route
