@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/15 20:32:29 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/15 21:34:06 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,14 +49,24 @@ const Hero = (props) => {
     const subMainMountainY = useTransform(scrollYProgress, [0, 1], ["0%", "10%"]);
 
     // Darken effect
-    const x = useMotionValue(0)
-    const opacity = useTransform(
-        x,
-        // Map x from these values:
-        [0, 100],
-        // Into these values:
-        [1, 0]
-      )
+  const [brightness, setBrightness] = useState(1);
+  useEffect(() => {
+    const handleScroll = () => {
+      // Get the current scroll position
+      const scrollY = window.scrollY;
+      // Calculate the new brightness based on scroll position
+      // This is just an example calculation, adjust it as needed
+      const newBrightness = Math.max(1 - scrollY / 500, 0.1);
+      setBrightness(newBrightness);
+    };
+    // Attach the event listener
+    window.addEventListener('scroll', handleScroll);
+    // Clean up the event listener
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []); // Empty dependency array ensures this runs once on mount
+
   return (
     // Whole Page
     <div>
@@ -86,41 +96,46 @@ const Hero = (props) => {
             backgroundPosition: "top",
             backgroundSize: "cover",
             y: backgroundY,
+            filter: `brightness(${brightness})`,
             }}
         />
         <motion.div
-            className={`absolute inset-0 z-10 opacity-[${opacity}]`}
+            className={`absolute inset-0 z-10`}
             style={{
             backgroundImage: `url(${distantMountain})`,
             backgroundPosition: "top",
             backgroundSize: "cover",
             y: distantMountainY,
+            filter: `brightness(${brightness})`,
             }}
         />
         <motion.div
-            className={`absolute inset-0 z-20 opacity-[${opacity}]`}
+            className={`absolute inset-0 z-20`}
             style={{
             backgroundImage: `url(${mainMountain})`,
             backgroundPosition: "top",
             backgroundSize: "cover",
             y: mainMountainY,
+            filter: `brightness(${brightness})`,
             }}
         />
          <motion.div
-            className={`absolute inset-0 z-30 opacity-[${opacity}]`}
+            className={`absolute inset-0 z-30`}
             style={{
             backgroundImage: `url(${subMainMountain})`,
             backgroundPosition: "top",
             backgroundSize: "cover",
             y: subMainMountainY,
+            filter: `brightness(${brightness})`,
             }}
         />
         <div
-            className={`absolute inset-0 z-30 opacity-[${opacity}]`}
+            className={`absolute inset-0 z-30`}
             style={{
             backgroundImage: `url(${foregroundMountain})`,
             backgroundPosition: "top",
             backgroundSize: "cover",
+            filter: `brightness(${brightness})`,
             }}
         />
     </div>
