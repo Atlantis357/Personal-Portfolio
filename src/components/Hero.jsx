@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/15 21:34:06 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/15 22:19:30 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -143,7 +143,7 @@ const Hero = (props) => {
         <p className={`${props.colorMode.text} text-2xl md:text-3xl text-left px-5 indent-10 font-Sacramento leading-loose`}>
         I use my <span className='underline decoration-4 decoration-amber-500'>creative and analytical</span> skills along with my professional training in <span className='underline decoration-4 decoration-amber-500'>bioengineering and computer science</span> to design solutions that provide unparalled value to my customers. Organizations and companies rely on me to create a <span className='underline decoration-4 decoration-amber-500'>development blueprint</span> towards the cutting edge of comptuer science and medicine.
         </p>
-        <section className='hover:text-opacity-0 text-opacity-80 text-white text-center transition-all text-md font-Lumanosimo'>
+        <section className='hover:text-opacity-0 md:text-opacity-80 text-white text-center transition-all text-md font-Lumanosimo text-opacity-0'>
         <div className="grid w-full place-content-center py-10 md:py-0">
           <TiltCard />
             Hover Me!
