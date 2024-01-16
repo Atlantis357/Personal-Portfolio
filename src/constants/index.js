@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/15 21:11:24 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/16 15:06:24 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ export const foregroundGradients = [
     id: "new",
     title: "bg-gradient-to-r from-slate-200 via-amber-400 to-red-500",
     main: "bg-gray-200",
-    accent: "bg-red-500",
+    accent: "bg-amber-500",
   },
   // {
   //   id: "redDark",

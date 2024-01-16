@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/15 22:24:52 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/16 15:04:50 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -140,9 +140,15 @@ const Hero = (props) => {
         />
     </div>
     <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 py-24 px-15 md:px-16'>
-        <p className={`${props.colorMode.text} text-2xl md:text-3xl text-left px-5 indent-10 font-Sacramento leading-loose`}>
-        I use my <span className='underline decoration-4 decoration-amber-500'>creative and analytical</span> skills along with my professional training in <span className='underline decoration-4 decoration-amber-500'>bioengineering and computer science</span> to design solutions that provide unparalled value to my customers. Organizations and companies rely on me to create a <span className='underline decoration-4 decoration-amber-500'>development blueprint</span> towards the cutting edge of comptuer science and medicine.
-        </p>
+      <section>
+        <p className={`${props.colorMode.text} text-2xl md:text-2xl text-left px-5 indent-10 font-Sacramento leading-loose`}>
+          I use my creative and analytical skills along with my professional training in bioengineering and computer science to design innovative digital solutions for my customers. I work with organizations and companies to create a development blueprint towards the forefront of comptuer science and medicine.
+          </p>
+          <p className={`${props.colorMode.text} text-2xl md:text-2xl text-left px-5 indent-10 font-Sacramento leading-loose pt-4`}>
+            As a junior at the University of Illinios at Urbana Champaign, I am also passively looking for new positions where I can merge my passion for code with my love for medicine. If you think you've got an opening that I might like, let's connect!
+          </p>
+      </section>
+
         <section className='hover:text-opacity-0 md:text-opacity-80 text-white text-center transition-all text-md font-Lumanosimo text-opacity-0'>
         <div className="grid w-full place-content-center py-10 md:py-0">
           <TiltCard />
@@ -150,47 +156,6 @@ const Hero = (props) => {
         </div>
         </section>
     </div>
-
-      {/* About Me */}
-    {/* <div className={`w-screen overflow-hidden items-center lg:flex mb-12 pt-12`}>
-      <section
-        id="aboutMe"
-        className="w-screen text-center"
-      >
-        <div className="h-auto">
-            <h1
-              className={`text-4xl md:text-5xl font-medium ${props.colorMode.text} font-Orbitron mb-10 mx-5`}
-            >
-              {about.intro}
-              <strong className={`bg-clip-text text-transparent ${props.foreground.title} font-Orbitron`}>
-                {about.title}
-              </strong>
-            </h1>
-        </div>
-
-          <section className={`relative flex justify-evenly items-center mb-20 `}>
-            <MdChevronLeft
-              size="50"
-              className="opacity-60 m-5 md:m-20 lg:m-10 hover:cursor-pointer hover:opacity-100 flex-shrink-0"
-              onClick={slideLeft}
-            />
-            <div>
-              <img
-                src={about.img}
-                alt="Engineer_Photo"
-                className="transition-all hover:grayscale-[100%] rounded-2xl md:w-56 w-48 inline-block ease-in-out snap-center select-none"
-              />
-            </div>
-
-            <MdChevronRight
-              size="50"
-              className="opacity-60 m-5 md:m-20 lg:m-10 hover:cursor-pointer hover:opacity-100 flex-shrink-0"
-              onClick={slideRight}
-            />
-          </section>
-      </section>
-
-    </div> */}
     </div>
   )
 }
