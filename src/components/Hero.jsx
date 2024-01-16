@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/15 22:19:30 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/15 22:24:52 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -152,7 +152,7 @@ const Hero = (props) => {
     </div>
 
       {/* About Me */}
-    <div className={`w-screen overflow-hidden items-center lg:flex mb-12 pt-12`}>
+    {/* <div className={`w-screen overflow-hidden items-center lg:flex mb-12 pt-12`}>
       <section
         id="aboutMe"
         className="w-screen text-center"
@@ -178,7 +178,7 @@ const Hero = (props) => {
               <img
                 src={about.img}
                 alt="Engineer_Photo"
-                className="transition-all hover:grayscale-[100%] rounded-2xl md:w-56 w-48 inline-block ease-in-out snap-center"
+                className="transition-all hover:grayscale-[100%] rounded-2xl md:w-56 w-48 inline-block ease-in-out snap-center select-none"
               />
             </div>
 
@@ -190,7 +190,7 @@ const Hero = (props) => {
           </section>
       </section>
 
-    </div>
+    </div> */}
     </div>
   )
 }
