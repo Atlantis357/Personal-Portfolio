@@ -13,6 +13,7 @@ export default {
         'Permanent-Marker': ["'Permanent Marker', 'cursive'"],
         'Poppins': ["'Poppins', 'sans-serif'"],
         'Lumanosimo': ["'Lumanosimo', 'cursive'"],
+        'Oswald': ["'Oswald', 'sans-serif'"],
       },
     },
   },

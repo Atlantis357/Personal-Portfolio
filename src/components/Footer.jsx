@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 22:03:03 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/14 14:01:16 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/15 20:26:11 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,13 +47,13 @@ const Footer = (props) => {
     <section className='grid grid-cols-1 md:grid-cols-2 gap-5'> 
       <div className='mx-auto items-center'>
         <div>
-          <h1 className={`text-5xl md:text-7xl font-medium ${props.colorMode.text} font-Orbitron`}>
+          <h1 className={`text-5xl md:text-7xl font-medium ${props.colorMode.text} font-Orbitron tracking-wide`}>
             Let's
           </h1>
-          <h1 className={`text-5xl md:text-7xl font-medium ${props.colorMode.text} font-Orbitron`}>
+          <h1 className={`text-5xl md:text-7xl font-medium ${props.colorMode.text} font-Orbitron tracking-wide`}>
             Connect
           </h1>
-          <p class={`mt-4 ${props.colorMode.text} font-Lumanosimo text-md md:text-lg`}>
+          <p class={`mt-4 ${props.colorMode.text} font-Lumanosimo text-md md:text-lg tracking-wide`}>
             {`Minding a project? Let me know here:`}
           </p>
         </div>
@@ -121,10 +121,6 @@ const Footer = (props) => {
             <a 
               href={social.link}
               className='cursor-pointer mx-4 font-Poppins'>
-              {/* <img 
-                src={social.icon}
-                className='w-10 h-10 cursor-pointer hover:scale-110 transition-all'
-              /> */}
               {social.name}
             </a>
 
@@ -140,41 +136,3 @@ const Footer = (props) => {
 }
 
 export default Footer
-
-
-{/* <ul className='list-none flex justify-center items-center flex-10'>
-            {socials.map((social, index) => (
-              <li
-                key={social.id}
-                className={`${index === socials.length -1 ? 'mr-0' : 'mr-20'} `}
-                >
-                <a href={social.link}>
-                  <img 
-                    src={social.icon}
-                    className='w-10 h-10 cursor-pointer hover:scale-110 transition-all'
-                  />
-                </a>
-
-              </li>
-            ))}
-          </ul> */}
-        
-
-
-          {/* <div className='w-auto'>
-          <h1
-              className={`hidden md:flex text-md font-semibold ${props.colorMode.text} flex text-justify font-Lumanosimo`}
-            >
-              Built using React, Vite, and Tailwind CSS with a tiny bit of grit
-          </h1>
-
-          </div> */}
-
-
-          {/* <a href="https://www.buymeacoffee.com/Abrahamalk" className='sm:flex hidden '>
-            <img 
-              src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" 
-              className='w-26 h-10 flex cursor-pointer  hover:scale-110 transition-all'
-            />
-          </a> */}
-

@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/15 19:19:09 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/15 19:47:04 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/15 20:09:03 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,7 +72,7 @@ const TiltCard = () => {
             }}
             src={abe}
             alt='Abe'
-            className='rounded-full w-80'
+            className='rounded-3xl w-72 mb-3'
         />
     </motion.div>
   );
