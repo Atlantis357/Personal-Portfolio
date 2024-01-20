@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/16 15:04:50 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/20 16:12:43 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ import { abe, mainMountain, backgroundSky, foregroundMountain, distantMountain, 
 import { nameIntro, onRepeat, aboutMe } from '../constants'
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 import TiltCard from './TiltCard';
+import Projects from './Projects';
 
 const Hero = (props) => {
     
@@ -156,6 +157,7 @@ const Hero = (props) => {
         </div>
         </section>
     </div>
+    {/* <Projects foreground={props.foreground} colorMode={props.colorMode} /> */}
     </div>
   )
 }

@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/16 15:06:24 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/20 16:13:38 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -187,15 +187,17 @@ export const projects = [
     description: "Constructed a PPG signal-filtering pipeline using wavelet transforms and FFT to analyze HR variability during exercise.",
     titlePoster: ppgFilterPoster,
     linkType: "internal",
-  },{
-    id: "abesPage",
-    img: tripleA,
-    title: "Abe's Page",
-    link: "/",
-    description: "Created an interactive personal-portfolio using react, tailwind-CSS, and the Vite from scrach to showcase my intrests and thoughts.",
-    titlePoster: "",
-    linkType: "internal",
-  },{
+  },
+  // {
+  //   id: "abesPage",
+  //   img: tripleA,
+  //   title: "Abe's Page",
+  //   link: "/",
+  //   description: "Created an interactive personal-portfolio using react, tailwind-CSS, and the Vite from scrach to showcase my intrests and thoughts.",
+  //   titlePoster: "",
+  //   linkType: "internal",
+  // },
+  {
     id: "ecgAirV3",
     img: ecgFlowchart,
     title: "ECG-Air V3",
@@ -228,7 +230,7 @@ export const photos = [
     img: p9,
     title: "The calm before the storm",
     link: "/projects/p9",
-    description: "Illinois-Wiscounsin trail",
+    description: "Illinois-Wisconsin trail",
     titlePoster: p9,
     linkType: "internal",
   },{ 

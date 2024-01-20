@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:35:16 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/15 21:34:48 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/20 15:39:58 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ import Hero from "./components/Hero";
 import ProjectView from "./components/ProjectView";
 import Experiences from "./components/Experiences";
 import Photography from "./components/Photography";
+import HoverImageLink from "./components/HoverImageLink";
 
 function App() {
   const [foregroundIdx, setForegroundIdx] = useState(0);
