@@ -62,11 +62,11 @@ const HoverImageLink = ({ heading, imgSrc, subheading, href, foreground, colormo
             staggerChildren: 0.075,
             delayChildren: 0.25,
           }}
-          className={`relative z-10 block text-3xl font-bold bg-clip-text text-transparent ${foreground.accent} transition-colors duration-500 group-hover:text-amber-400 md:text-5xl font-Oswald`}
+          className={`relative z-10 block text-3xl font-bold text-neutral-50 group-hover:text-amber-400 transition-colors duration-500 md:text-5xl font-Oswald`}
         >
           {heading}
         </motion.span>
-        <span className="relative z-10 mt-2 block text-base text-neutral-400 transition-colors duration-500 group-hover:text-neutral-50 font-Poppins">
+        <span className="relative z-10 mt-2 block text-base text-neutral-400 transition-colors duration-500 group-hover:text-neutral-50 font-Poppins group-hover:w-2/3">
           {subheading}
         </span>
       </div>
@@ -79,8 +79,8 @@ const HoverImageLink = ({ heading, imgSrc, subheading, href, foreground, colormo
           translateY: "-50%",
         }}
         variants={{
-          initial: { opacity: 0, rotate: "-8deg" },
-          whileHover: { opacity: 1, rotate: "8deg" },
+          initial: { opacity: 0, rotate: "-0deg", x: "20%", y: "30%"},
+          whileHover: { opacity: 1, rotate: "6deg", x: "0%", y: "0%" },
         }}
         transition={{ type: "tween"}}
         src={imgSrc}

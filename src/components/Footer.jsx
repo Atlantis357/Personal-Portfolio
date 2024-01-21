@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 22:03:03 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/16 15:16:39 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/20 23:05:58 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,7 +72,7 @@ const Footer = (props) => {
                   <label
                     className={`absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:${props.colorMode.text}`}
                   >
-                    Your name
+                    Name
                   </label>
                 </div>
                 <div class="relative z-0">
@@ -85,7 +85,7 @@ const Footer = (props) => {
                   <label
                     className={`absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:${props.colorMode.text}`}
                   >
-                    Your email
+                    Email
                   </label>
                 </div>
                 <div class="relative z-0 col-span-2">
@@ -98,7 +98,7 @@ const Footer = (props) => {
                   <label
                     className={`absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:${props.colorMode.text}`}
                   >
-                    Your message
+                    Message
                   </label>
                 </div>
               </div>

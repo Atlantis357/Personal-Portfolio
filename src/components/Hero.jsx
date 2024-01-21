@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/20 16:12:43 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/20 22:18:28 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -150,12 +150,12 @@ const Hero = (props) => {
           </p>
       </section>
 
-        <section className='hover:text-opacity-0 md:text-opacity-80 text-white text-center transition-all text-md font-Lumanosimo text-opacity-0'>
-        <div className="grid w-full place-content-center py-10 md:py-0">
-          <TiltCard />
-            Hover Me!
-        </div>
-        </section>
+      <section className='hover:text-opacity-0 md:text-opacity-80 text-white text-center transition-all text-md font-Lumanosimo text-opacity-0'>
+      <div className="grid w-full place-content-center py-10 md:py-0">
+        <TiltCard />
+          Hover Me!
+      </div>
+      </section>
     </div>
     {/* <Projects foreground={props.foreground} colorMode={props.colorMode} /> */}
     </div>

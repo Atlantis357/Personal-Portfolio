@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/29 14:30:53 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/20 16:24:03 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/20 22:23:09 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ const Projects = (props) => {
     <div id='projects' className=' py-20 md:py-28'>
         {/* Title */}
         <section className='pb-8 md:pb-16 text-center w-screen pt-8 md:pt-0'>
-                <h1 className={`font-extrabold text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent ${props.foreground.main} tracking-widest font-Permanent-Marker`}>
+                <h1 className={`font-extrabold text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent ${props.foreground.title} tracking-widest font-Permanent-Marker`}>
                     MY PROJECTS
                 </h1>
         </section>
@@ -38,7 +38,7 @@ const Projects = (props) => {
                         class="h-56 w-full transition group-hover:grayscale-[50%] rounded-t-2xl"
                     />
                     <div class="p-4">
-                        <h3 class={`text-lg font-medium bg-clip-text text-transparent font-Orbitron ${props.foreground.accent}`}>
+                        <h3 class={`text-lg font-medium bg-clip-text text-transparent font-Orbitron ${props.foreground.main}`}>
                             {info.title}
                         </h3>
                         <p class={`mt-2 line-clamp-5 text-sm/relaxed ${props.colorMode.text}`}>
