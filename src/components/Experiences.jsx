@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/09 21:17:43 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/20 23:28:47 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/20 23:48:32 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,9 +37,20 @@ const Experiences = (props) => {
             src={info.svg}
             className = {`fill-white absolute items-center hidden md:flex md:inset-x-12 lg:inset-x-24 justify-center w-10 h-10 rounded-2xl ring-4 ${props.colorMode.border} ${props.foreground.accent}`}
             />
-
+            <div className="justify-between flex">
             <h1
-              className={`text-2xl md:text-3xl font-medium bg-clip-text text-transparent font-Oswald ${props.foreground.main} ${props.foreground.accent} px-5 pt-5`}
+              className={`text-l md:text-xl font-sans bg-clip-text text-transparent ${props.foreground.main} ${props.foreground.accent} px-5 pt-5`}
+            >
+              {info.company}
+            </h1>
+            <h1
+              className={`text-l md:text-xl font-serif bg-clip-text text-transparent ${props.foreground.main} ${props.foreground.accent} px-5 pt-5`}
+            >
+              {info.date}
+            </h1>
+            </div>
+            <h1
+              className={`text-2xl md:text-3xl font-medium bg-clip-text text-transparent font-Oswald ${props.foreground.accent} px-5 pt-5 tracking-wide`}
             >
               {info.title}
             </h1>

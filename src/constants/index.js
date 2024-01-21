@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/20 16:13:38 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/20 23:45:56 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -304,31 +304,38 @@ export const blogs = [
 
 export const experiences = [
   {
-    title: "Clinical Informatics Intern - Wake Forest University School of Medicine",
-    date: "05/2023 – Present",
+    title: "Clinical Informatics Intern",
+    company: "Wake Forest University School of Medicine",
+    date: "05/2023 – 08/2023",
     skills: "Swift, TenorFlow/TFLite, iOS Development",
     description: "This summer I worked as a bioinformatics intern for Wake Forest Baptist Health. Working with AI models, I was responsible for embedding a suite of AI algorithoms to our newly developed clinical application. I created data-transmission pipeline that was lightweight yet HIPAA complaint to protect user's data. I found great meaning in my work as I learned to apply classroom knowledge to help chilren at St.Jude's research hospital.",
     svg: ecgPulse,
   },{
-    title: "Technical Director - Biomedical Engineering Society",
+    title: "Technical Director",
+    company: "Biomedical Engineering Society",
     date: "05/2023 – Present",
     skills: "Team Leadership, Engineering team managemnt",
     description: "Before the end of my sophmore year, I was elected to be Technical Director position for BMES at Illinois. Aside from managing all technical projects undertaken by the club, I also initaited a permanent project-team to design a real time overdose protection system.  My goal is to prioritize exposure and bioengineering skill development among all students, particularly underclassmen.",
     svg: leaderSpeach,
   },{
-    title: "Engineering Team Lead - Biomedical Engineering Society ",
+    title: "Engineering Team Lead",
+    company: "Biomedical Engineering Society",
     date: "08/2022 – 04/2023",
     skills: "CAD, Team Leadership, Engineering team managemnt",
     description: "To demonstrate the recent advancements in helmet safty, I lead a team of underclassmen engineers to design a rotaionally isolated helmet liner that enhance protection on angled impacts. As team lead, I found myself coordinating between multiple groups such as the University, BMES, and my project subteams to ensure budget compliance and demo saftey issues. The most challenging part of the project was desiging the 3D printed dummy head with embedded 3-axis gyroscopes and acclerometer. I also took a wood-working class to construct our test-rig. Our liner design proved to be as succesful as the industry standard, and we recieved 2nd for Outstanding Freshman Exhibit among 200+ competitors.",
     svg: engineeringHelmet,
-  },{
-    title: "Bicycle Mechanic - Bike Lab Campustown",
+  },
+  {
+    title: "Bicycle Mechanic",
+    company: "Bike Lab Campustown",
     date: "08/2022 – 11/2022",
     skills: "Bicycle Maintainance, Communication",
     description: "After moving to college, I found my academic outlet with the cycling team. As a bike mechanic on campus, I oversaw and maintained a fleet of bicycles through preventative maintaincee measures. I diagnosed problems, proposed, and implemented solutions tailored to customer’s budget and need. I also rebuilt bicycles and components such as shifters and wheels to maximze performance on high-end racing models.",
     svg: bikeMechanic,
-  },{
-    title: "Operations Intern - Pueblo Supermarkets",
+  },
+  {
+    title: "Operations Intern",
+    company: "Pueblo Supermarkets",
     date: "08/2022 – 11/2022",
     skills: "Bicycle Maintainance, Communication",
     description: "As the operations intern, my primary role is to intermediate between store management and contractors to ensure smooth integration of newly acquired machinery. I succesfully assisted and oversaw the installation of multiple refrigeration units and shelving that we recently aquired from competitors. Shadowing store managers and maintaince crews, I learned invaluable communication skills that helped me manage my own team later on in life.",
