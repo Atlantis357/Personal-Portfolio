@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/20 22:18:28 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/23 12:48:59 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,10 @@ import React, {useRef, useEffect, useState} from 'react'
 import { motion, useMotionValue, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import { abe, mainMountain, backgroundSky, foregroundMountain, distantMountain, subMainMountain, fraternity} from '../assets'
 import { nameIntro, onRepeat, aboutMe } from '../constants'
-import { MdChevronLeft, MdChevronRight } from "react-icons/md";
+import { FaAngleDoubleDown } from "react-icons/fa";
 import TiltCard from './TiltCard';
 import Projects from './Projects';
+import { IconContext } from 'react-icons';
 
 const Hero = (props) => {
     
@@ -72,6 +73,15 @@ const Hero = (props) => {
     // Whole Page
     <div>
     <div ref={ref} className="w-full pt-32 lg:pt-44 h-screen overflow-hidden relative">
+      <motion.div 
+        className='absolute bottom-0 left-0 mb-8 ml-8 md:mb-16 md:ml-16 flex z-40 opacity-80'
+        animate={{ y: [0, 10, 0]}}
+        transition={{ y: {repeat: Infinity, repeatType: "mirror", duration: 0.75} }}
+        >
+        <IconContext.Provider value={{color: 'white', size: '75px'}}>
+          <FaAngleDoubleDown />
+        </IconContext.Provider>
+      </motion.div>
         
         <motion.div 
             style={{ y: textY }} 
