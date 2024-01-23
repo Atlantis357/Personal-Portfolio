@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/20 23:45:56 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/22 23:06:24 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -159,9 +159,10 @@ export const projects = [
     id: "mosiac",
     img: mosaic,
     title: "Photomosaic Board",
+    // link: "/projects/flightplanner",
     link: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
     description: "Implemented an algorithm that uses k-D Trees to combine images from an album of photographs to create a PNG mosaic that resembles any image.",
-    titlePoster: "",
+    titlePoster: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
     linkType: "external",
   },{
     id: "helmetliner",
@@ -175,9 +176,10 @@ export const projects = [
     id: "flightPlanner",
     img: flights,
     title: "Sustainable Flight Planner",
+    // link: "/projects/flightplanner",
     link: "https://github.com/Atlantis357/OpenFlightPaths.git",
     description: "Designed a flight planning algorithm that uses over 14,000 airports and 67,000 routes to determine the shortest route between any airport.",
-    titlePoster: "",
+    titlePoster: "https://github.com/Atlantis357/OpenFlightPaths.git",
     linkType: "external",
   },{
     id: "ppgfilters",
@@ -308,21 +310,21 @@ export const experiences = [
     company: "Wake Forest University School of Medicine",
     date: "05/2023 – 08/2023",
     skills: "Swift, TenorFlow/TFLite, iOS Development",
-    description: "This summer I worked as a bioinformatics intern for Wake Forest Baptist Health. Working with AI models, I was responsible for embedding a suite of AI algorithoms to our newly developed clinical application. I created data-transmission pipeline that was lightweight yet HIPAA complaint to protect user's data. I found great meaning in my work as I learned to apply classroom knowledge to help chilren at St.Jude's research hospital.",
+    description: "I spent the summer of 2023 as a bioinformatics intern at Wake Forest University School of Medicine. Working with AI models in TensorFlow Lite, I was responsible for embedding a suite of AI algorithoms to our newly developed clinical application. I was tasked to create data-transmission pipeline that was lightweight yet HIPAA complaint to protect user's data. To reduce latency, I also optimized the risk prediction pipeline for edge device. Doing so I decreased the ECG processing time to under 25ms, and improved the AI inference time by over 93% from the pervious generation. ",
     svg: ecgPulse,
   },{
     title: "Technical Director",
     company: "Biomedical Engineering Society",
     date: "05/2023 – Present",
-    skills: "Team Leadership, Engineering team managemnt",
-    description: "Before the end of my sophmore year, I was elected to be Technical Director position for BMES at Illinois. Aside from managing all technical projects undertaken by the club, I also initaited a permanent project-team to design a real time overdose protection system.  My goal is to prioritize exposure and bioengineering skill development among all students, particularly underclassmen.",
+    skills: "Team Leadership, Management",
+    description: "Before the end of my sophmore year, I was elected to be Technical Director position for BMES at Illinois. In office, I achieved a 50% budget reduction by removing unnecessary committes and increasing virtual events. My goal is to prioritize exposure and bioengineering skill development among all students, particularly underclassmen.",
     svg: leaderSpeach,
   },{
     title: "Engineering Team Lead",
     company: "Biomedical Engineering Society",
     date: "08/2022 – 04/2023",
-    skills: "CAD, Team Leadership, Engineering team managemnt",
-    description: "To demonstrate the recent advancements in helmet safty, I lead a team of underclassmen engineers to design a rotaionally isolated helmet liner that enhance protection on angled impacts. As team lead, I found myself coordinating between multiple groups such as the University, BMES, and my project subteams to ensure budget compliance and demo saftey issues. The most challenging part of the project was desiging the 3D printed dummy head with embedded 3-axis gyroscopes and acclerometer. I also took a wood-working class to construct our test-rig. Our liner design proved to be as succesful as the industry standard, and we recieved 2nd for Outstanding Freshman Exhibit among 200+ competitors.",
+    skills: "CAD, Team Leadership, Management",
+    description: "To demonstrate the recent advancements in helmet safty, I lead a team of underclassmen to design a rotaionally isolated helmet liner that enhance protection on angled impacts. As team lead, I found myself coordinating between multiple groups such as the University, BMES, and my project subteams to ensure budget compliance and demo saftey issues. The most challenging part of the project was desiging the 3D printed dummy head with embedded 3-axis gyroscopes and acclerometer. I also took a wood-working class to construct our test-rig. Our liner design proved to be as succesful as the industry standard, and we recieved 2nd for Outstanding Freshman Exhibit among 200+ competitors.",
     svg: engineeringHelmet,
   },
   {
@@ -337,8 +339,8 @@ export const experiences = [
     title: "Operations Intern",
     company: "Pueblo Supermarkets",
     date: "08/2022 – 11/2022",
-    skills: "Bicycle Maintainance, Communication",
-    description: "As the operations intern, my primary role is to intermediate between store management and contractors to ensure smooth integration of newly acquired machinery. I succesfully assisted and oversaw the installation of multiple refrigeration units and shelving that we recently aquired from competitors. Shadowing store managers and maintaince crews, I learned invaluable communication skills that helped me manage my own team later on in life.",
+    skills: "Sales, Consulting, Management, Communication",
+    description: "As the operations intern, my primary role is to act as an liason between store management and contractors to ensure smooth integration of newly acquired machinery. I succesfully assisted and oversaw the installation of multiple refrigeration units and shelving. During my time at Pueblo, I also shadowed store managers, and maintaince crews, and other employees.",
     svg: operations,
   },
 ]
