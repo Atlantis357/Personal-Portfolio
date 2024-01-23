@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:35:16 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/20 15:39:58 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/23 16:11:32 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ import Hero from "./components/Hero";
 import ProjectView from "./components/ProjectView";
 import Experiences from "./components/Experiences";
 import Photography from "./components/Photography";
-import HoverImageLink from "./components/HoverImageLink";
+
 
 function App() {
   const [foregroundIdx, setForegroundIdx] = useState(0);
@@ -46,7 +46,7 @@ function App() {
     <>
       {/* Shuffles background */}
       {/* <div className={`h-auto ${colorMode.background} bg-fixed`}> */}
-      <div className={`h-auto bg-gradient-to-b from-neutral-950 via-stone-900 to-blue-950 bg-fixed`}>
+      <div className={`h-auto bg-gradient-to-b from-neutral-950 via-stone-900 to-blue-950 bg-fixed `}>
         <Navbar
           updateForeground={updateForeground}
           updateColorMode={updateColorMode}
