@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/22 23:06:24 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/01/25 23:53:50 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -264,7 +264,7 @@ export const photos = [
     img: p8,
     title: "Resistance",
     link: "/projects/p8",
-    description: "Pro-Palestine protest, Chicago",
+    description: "SJP Chicago protest",
     titlePoster: p8,
     linkType: "internal",
   },{ 
@@ -306,6 +306,13 @@ export const blogs = [
 
 export const experiences = [
   {
+    title: "Undergraduate Course Assistant",
+    company: "University of Illinois - Grainger College of Engineering",
+    date: "01/2024 – Present",
+    skills: "Team-Leadership",
+    description: "I help undergraduates in BIOE 205, Signals and Systems in Bioengineering, learn by breaking down complex topics to digestible pieces. During class I answer questions, hand out worksheets and take attendance. After class I assist office hours and grade submitted work.",
+    svg: ecgPulse,
+  },{
     title: "Clinical Informatics Intern",
     company: "Wake Forest University School of Medicine",
     date: "05/2023 – 08/2023",
