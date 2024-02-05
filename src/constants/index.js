@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/25 23:53:50 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/02/05 10:27:02 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -306,11 +306,18 @@ export const blogs = [
 
 export const experiences = [
   {
+    title: "Market Research Analyst",
+    company: "AbbVie",
+    date: "01/2024 – Present",
+    skills: "Team-Leadership",
+    description: "At AbbVie, I work as an internal consultant to various teams. I am responsible for researching and analyzing cutting-edge  solutions in healthcare and buisness.",
+    svg: ecgPulse,
+  },{
     title: "Undergraduate Course Assistant",
     company: "University of Illinois - Grainger College of Engineering",
     date: "01/2024 – Present",
     skills: "Team-Leadership",
-    description: "I help undergraduates in BIOE 205, Signals and Systems in Bioengineering, learn by breaking down complex topics to digestible pieces. During class I answer questions, hand out worksheets and take attendance. After class I assist office hours and grade submitted work.",
+    description: "I help undergraduates in BIOE 205, Signals and Systems in Bioengineering, learn by breaking down complex topics to digestible pieces. During class I answer questions, and lead discussions. After class I assist office hours and grade submitted work.",
     svg: ecgPulse,
   },{
     title: "Clinical Informatics Intern",
