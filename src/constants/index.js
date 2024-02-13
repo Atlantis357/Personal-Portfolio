@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/02/05 10:27:02 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/02/13 10:29:26 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -310,14 +310,14 @@ export const experiences = [
     company: "AbbVie",
     date: "01/2024 – Present",
     skills: "Team-Leadership",
-    description: "At AbbVie, I work as an internal consultant to various teams. I am responsible for researching and analyzing cutting-edge  solutions in healthcare and buisness.",
+    description: "I conducted organization-wide internal consulting, data analytics, and market research regarding precision medicine and digital pathology to advance information research ahead of industry trends. I also worked 1-on-1 with AbbVie research scientists, IT specialists, and other business analysts to identify potential growth and investment areas.",
     svg: ecgPulse,
   },{
     title: "Undergraduate Course Assistant",
     company: "University of Illinois - Grainger College of Engineering",
     date: "01/2024 – Present",
     skills: "Team-Leadership",
-    description: "I help undergraduates in BIOE 205, Signals and Systems in Bioengineering, learn by breaking down complex topics to digestible pieces. During class I answer questions, and lead discussions. After class I assist office hours and grade submitted work.",
+    description: "I helped undergraduates in BIOE 205, Signals and Systems in Bioengineering, learn by breaking down complex topics to digestible pieces. During class I answer questions, and lead discussions. After class I assist office hours and grade submitted work.",
     svg: ecgPulse,
   },{
     title: "Clinical Informatics Intern",
