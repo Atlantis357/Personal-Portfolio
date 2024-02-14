@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/02/13 10:29:26 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/02/14 11:46:27 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -206,7 +206,7 @@ export const projects = [
     link: "/projects/ecgAirV3",
     description: "Created an ECG-based risk prediction pipeline using the TensorFlow-Lite library to improve the accessibility and interoperability of ECG-Air to power a suite of AI-based prediction models.",
     titlePoster: ecgAirV3,
-    linkType: "pdf",
+    linkType: "internal",
   },
 ]
 
