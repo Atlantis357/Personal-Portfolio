@@ -44,7 +44,7 @@ const HoverImageLink = ({ heading, imgSrc, subheading, href, foreground, colormo
 
   return (
     <motion.a
-      href={href}
+      // href={href}
       ref={ref}
       onMouseMove={handleMouseMove}
       initial="initial"
