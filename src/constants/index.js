@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/02/14 11:46:27 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/02/14 20:43:42 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -168,7 +168,7 @@ export const projects = [
     id: "helmetliner",
     img: helmetTesting,
     title: "Rotationally-Isolated Helmet Liners",
-    link: "/projects/helmetliner",
+    link: "./projects/helmetliner",
     description: "Incepted a rotational isolation system for bicycle helmets using CAD that offers enhanced protection during angled impacts.",
     titlePoster: helmetPoster,
     linkType: "internal",
