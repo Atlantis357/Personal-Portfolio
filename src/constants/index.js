@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/02/14 20:45:14 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/02/14 21:00:09 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -155,22 +155,13 @@ export const aboutMe = [
 
 
 export const projects = [
-  { 
-    id: "mosiac",
-    img: mosaic,
-    title: "Photomosaic Board",
-    // link: "/projects/flightplanner",
-    link: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
-    description: "Implemented an algorithm that uses k-D Trees to combine images from an album of photographs to create a PNG mosaic that resembles any image.",
-    titlePoster: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
-    linkType: "external",
-  },{
-    id: "helmetliner",
-    img: helmetTesting,
-    title: "Rotationally-Isolated Helmet Liners",
-    link: "/projects/helmetliner",
-    description: "Incepted a rotational isolation system for bicycle helmets using CAD that offers enhanced protection during angled impacts.",
-    titlePoster: helmetPoster,
+  {
+    id: "ecgAirV3",
+    img: ecgFlowchart,
+    title: "ECG-Air V3",
+    link: "/projects/ecgAirV3",
+    description: "Created an ECG-based risk prediction pipeline using the TensorFlow-Lite library to improve the accessibility and interoperability of ECG-Air to power a suite of AI-based prediction models.",
+    titlePoster: ecgAirV3,
     linkType: "internal",
   },{
     id: "flightPlanner",
@@ -180,6 +171,23 @@ export const projects = [
     link: "https://github.com/Atlantis357/OpenFlightPaths.git",
     description: "Designed a flight planning algorithm that uses over 14,000 airports and 67,000 routes to determine the shortest route between any airport.",
     titlePoster: "https://github.com/Atlantis357/OpenFlightPaths.git",
+    linkType: "external",
+  },{
+    id: "helmetliner",
+    img: helmetTesting,
+    title: "Rotationally-Isolated Helmet Liners",
+    link: "/projects/helmetliner",
+    description: "Incepted a rotational isolation system for bicycle helmets using CAD that offers enhanced protection during angled impacts.",
+    titlePoster: helmetPoster,
+    linkType: "internal",
+  },{ 
+    id: "mosiac",
+    img: mosaic,
+    title: "Photomosaic Board",
+    // link: "/projects/flightplanner",
+    link: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
+    description: "Implemented an algorithm that uses k-D Trees to combine images from an album of photographs to create a PNG mosaic that resembles any image.",
+    titlePoster: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
     linkType: "external",
   },{
     id: "ppgfilters",
@@ -199,15 +207,6 @@ export const projects = [
   //   titlePoster: "",
   //   linkType: "internal",
   // },
-  {
-    id: "ecgAirV3",
-    img: ecgFlowchart,
-    title: "ECG-Air V3",
-    link: "/projects/ecgAirV3",
-    description: "Created an ECG-based risk prediction pipeline using the TensorFlow-Lite library to improve the accessibility and interoperability of ECG-Air to power a suite of AI-based prediction models.",
-    titlePoster: ecgAirV3,
-    linkType: "internal",
-  },
 ]
 
 export const photos = [
