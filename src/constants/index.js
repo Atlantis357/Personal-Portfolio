@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/02/14 21:00:09 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/02/19 10:40:37 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -285,7 +285,7 @@ export const photos = [
   },{ 
     id: "p10",
     img: p10,
-    title: "Window of oppertunity",
+    title: "Window of opportunity",
     link: "/projects/p10",
     description: "Main library, University of Illinois",
     titlePoster: p10,
