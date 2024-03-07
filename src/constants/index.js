@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/03/06 22:01:38 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/03/06 22:10:54 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -337,7 +337,7 @@ export const experiences = [
     company: "Biomedical Engineering Society",
     date: "08/2022 – 04/2023",
     skills: "CAD, Team Leadership, Management",
-    description: "To demonstrate the recent advancements in helmet safty, I lead a team of underclassmen to design a rotaionally isolated helmet liner that enhance protection on angled impacts. As team lead, I found myself coordinating between multiple groups such as the University, BMES, and my project subteams to ensure budget compliance and demo saftey issues. The most challenging part of the project was desiging the 3D printed dummy head with embedded 3-axis gyroscopes and acclerometer. I also took a wood-working class to construct our test-rig. Our liner design proved to be as succesful as the industry standard, and we recieved 2nd for Outstanding Freshman Exhibit among 200+ competitors.",
+    description: "To demonstrate the recent advancements in helmet saftey, I led a team of underclassmen to design a rotaionally isolated helmet liner that enhance protection on angled impacts. As team lead, I found myself coordinating between multiple groups such as the university, BMES, and my project subteams to ensure budget compliance and demo saftey issues. The most challenging part of the project was designing the 3D printed dummy head with embedded 3-axis gyroscopes and accelorometer. I also took a wood-working class to construct our test-rig. Our liner design proved to be as succesful as the industry standard, and we recieved 2nd for Outstanding Freshman Exhibit among 200+ competitors.",
     svg: engineeringHelmet,
   },
   {
@@ -345,7 +345,7 @@ export const experiences = [
     company: "Bike Lab Campustown",
     date: "08/2022 – 11/2022",
     skills: "Bicycle Maintainance, Communication",
-    description: "After moving to college, I found my academic outlet with the cycling team. As a bike mechanic on campus, I oversaw and maintained a fleet of bicycles through preventative maintaincee measures. I diagnosed problems, proposed, and implemented solutions tailored to customer’s budget and need. I also rebuilt bicycles and components such as shifters and wheels to maximze performance on high-end racing models.",
+    description: "After moving to college, I found my outlet with the cycling team. As a bike mechanic on campus, I oversaw and maintained a fleet of bicycles through preventative maintainance measures. I diagnosed problems, proposed, and implemented solutions tailored to customers' budget and need. I also rebuilt bicycles and components such as shifters and wheels to maximize performance on high-end racing models.",
     svg: bikeMechanic,
   },
   {
@@ -353,7 +353,7 @@ export const experiences = [
     company: "Pueblo Supermarkets",
     date: "08/2022 – 11/2022",
     skills: "Sales, Consulting, Management, Communication",
-    description: "As the operations intern, my primary role is to act as an liason between store management and contractors to ensure smooth integration of newly acquired machinery. I succesfully assisted and oversaw the installation of multiple refrigeration units and shelving. During my time at Pueblo, I also shadowed store managers, and maintaince crews, and other employees.",
+    description: "As the operations intern, my primary role is to act as an liason between store management and contractors to ensure smooth integration of newly acquired machinery. I succesfully assisted and oversaw the installation of multiple refrigeration units and shelving. During my time at Pueblo, I also shadowed store managers, and maintainance crews, and other employees.",
     svg: operations,
   },
 ]
