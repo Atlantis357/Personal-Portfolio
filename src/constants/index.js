@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/03/06 22:10:54 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/03/06 22:21:16 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,10 +71,10 @@ export const navLinks = [
     id: "/projects",
     title: "Projects",
   },
-  // {
-  //   id: "/music",
-  //   title: "Music",
-  // },
+  {
+    id: "/music",
+    title: "Music",
+  },
   {
     id:"/photography",
     title: "Photography",
@@ -213,7 +213,7 @@ export const photos = [
   { 
     id: "p1",
     img: p1,
-    title: "In between worlds",
+    title: "In Between Worlds",
     link: "/projects/p1",
     description: "Chicago Union Station (service ramp to tracks)",
     titlePoster: p1,
@@ -229,7 +229,7 @@ export const photos = [
   },{ 
     id: "p9",
     img: p9,
-    title: "The calm before the storm",
+    title: "The Calm Before the Storm",
     link: "/projects/p9",
     description: "Illinois-Wisconsin trail",
     titlePoster: p9,
@@ -237,7 +237,7 @@ export const photos = [
   },{ 
     id: "p6",
     img: p6,
-    title: "Turnaround point",
+    title: "Turnaround Point",
     link: "/projects/p6",
     description: "The end of the pedestrain path on the Chicago Lakeshore",
     titlePoster: p6,
@@ -245,7 +245,7 @@ export const photos = [
   },{ 
     id: "p4",
     img: p4,
-    title: "Up close",
+    title: "Up Close",
     link: "/projects/p4",
     description: "Office plant",
     titlePoster: p4,
@@ -285,7 +285,7 @@ export const photos = [
   },{ 
     id: "p10",
     img: p10,
-    title: "Window of opportunity",
+    title: "Window of Opportunity",
     link: "/projects/p10",
     description: "Main library, University of Illinois",
     titlePoster: p10,
