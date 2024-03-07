@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/02/19 10:40:37 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/03/06 22:01:38 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -293,7 +293,7 @@ export const photos = [
   },
 ]
 
-export const missionStatement = [`I use my creative and analytical skills along with my professional training in bioengineering and computer science to design solutions that provide unparalled value to my customers. Organizations and companies rely on me to create a development blueprint towards the cutting edge of comptuer science and medicine.`]
+export const missionStatement = [`I use my creative and analytical skills along with my professional training in bioengineering and computer science to design solutions that provide unparalled value to my customers. Organizations and companies rely on me to create a development blueprint towards the cutting edge of computer science and medicine.`]
 
 export const blogs = [
   {
@@ -323,14 +323,14 @@ export const experiences = [
     company: "Wake Forest University School of Medicine",
     date: "05/2023 – 08/2023",
     skills: "Swift, TenorFlow/TFLite, iOS Development",
-    description: "I spent the summer of 2023 as a bioinformatics intern at Wake Forest University School of Medicine. Working with AI models in TensorFlow Lite, I was responsible for embedding a suite of AI algorithoms to our newly developed clinical application. I was tasked to create data-transmission pipeline that was lightweight yet HIPAA complaint to protect user's data. To reduce latency, I also optimized the risk prediction pipeline for edge device. Doing so I decreased the ECG processing time to under 25ms, and improved the AI inference time by over 93% from the pervious generation. ",
+    description: "I spent the summer of 2023 as a bioinformatics intern at Wake Forest University School of Medicine. Working with AI models in TensorFlow Lite, I was responsible for embedding a suite of AI algorithms to our newly developed clinical application. I was tasked to create data-transmission pipeline that was lightweight yet HIPAA complaint to protect users' data. To reduce latency, I also optimized the risk prediction pipeline for edge device. Doing so I decreased the ECG processing time to under 25ms, and improved the AI inference time by over 93% from the pevious generation. ",
     svg: ecgPulse,
   },{
     title: "Technical Director",
     company: "Biomedical Engineering Society",
     date: "05/2023 – Present",
     skills: "Team Leadership, Management",
-    description: "Before the end of my sophmore year, I was elected to be Technical Director position for BMES at Illinois. In office, I achieved a 50% budget reduction by removing unnecessary committes and increasing virtual events. My goal is to prioritize exposure and bioengineering skill development among all students, particularly underclassmen.",
+    description: "Before the end of my sophmore year, I was elected to be the Technical Director for BMES at Illinois. In office, I achieved a 50% budget reduction by removing unnecessary committes and increasing virtual events. My goal is to prioritize exposure and bioengineering skill development among all students, particularly underclassmen.",
     svg: leaderSpeach,
   },{
     title: "Engineering Team Lead",
