@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/03/06 22:21:16 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/06/16 20:30:59 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,14 +71,14 @@ export const navLinks = [
     id: "/projects",
     title: "Projects",
   },
-  {
-    id: "/music",
-    title: "Music",
-  },
-  {
-    id:"/photography",
-    title: "Photography",
-  }, 
+  // {
+  //   id: "/music",
+  //   title: "Music",
+  // },
+  // {
+  //   id:"/photography",
+  //   title: "Photography",
+  // }, 
   {
     id: "/resume",
     title: "Resume",
@@ -293,7 +293,7 @@ export const photos = [
   },
 ]
 
-export const missionStatement = [`I use my creative and analytical skills along with my professional training in bioengineering and computer science to design solutions that provide unparalled value to my customers. Organizations and companies rely on me to create a development blueprint towards the cutting edge of computer science and medicine.`]
+export const missionStatement = [`I use my technical and analytical skills along with my professional training in bioengineering and computer science to outline market and regulatory landscapes for developing technologies. I work with scientific researchers, IT specialists, and other buissness analysts to broaden the intersection between computer science and medicine.`]
 
 export const blogs = [
   {
@@ -309,14 +309,14 @@ export const experiences = [
     company: "AbbVie",
     date: "01/2024 – Present",
     skills: "Team-Leadership",
-    description: "I conducted organization-wide internal consulting, data analytics, and market research regarding precision medicine and digital pathology to advance information research ahead of industry trends. I also worked 1-on-1 with AbbVie research scientists, IT specialists, and other business analysts to identify potential growth and investment areas.",
+    description: "Organization-wide internal consulting, data analytics, and market research regarding precision medicine and AI to advance information research. ",
     svg: ecgPulse,
   },{
     title: "Undergraduate Course Assistant",
     company: "University of Illinois - Grainger College of Engineering",
     date: "01/2024 – Present",
     skills: "Team-Leadership",
-    description: "I helped undergraduates in BIOE 205, Signals and Systems in Bioengineering, learn by breaking down complex topics to digestible pieces. During class I answer questions, and lead discussions. After class I assist office hours and grade submitted work.",
+    description: "I helped undergraduates in BIOE 205, Signals and Systems in Bioengineering, learn by breaking down complex topics to digestible pieces.",
     svg: ecgPulse,
   },{
     title: "Clinical Informatics Intern",
@@ -330,7 +330,7 @@ export const experiences = [
     company: "Biomedical Engineering Society",
     date: "05/2023 – Present",
     skills: "Team Leadership, Management",
-    description: "Before the end of my sophmore year, I was elected to be the Technical Director for BMES at Illinois. In office, I achieved a 50% budget reduction by removing unnecessary committes and increasing virtual events. My goal is to prioritize exposure and bioengineering skill development among all students, particularly underclassmen.",
+    description: "Managed all technical projects undertaken by BMES, from surgical robotics to collegiate design challenges. Led biweekly workshops prioritizing exposure and skill development for underclassmen.",
     svg: leaderSpeach,
   },{
     title: "Engineering Team Lead",
