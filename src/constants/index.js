@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/06/16 20:30:59 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/06/20 02:48:32 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,10 +79,10 @@ export const navLinks = [
   //   id:"/photography",
   //   title: "Photography",
   // }, 
-  {
-    id: "/resume",
-    title: "Resume",
-  }
+  // {
+  //   id: "/resume",
+  //   title: "Resume",
+  // }
 ];
 
 export const nameIntro = {
