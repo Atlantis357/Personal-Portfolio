@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/07/23 19:18:26 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/07/23 19:20:22 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -201,7 +201,7 @@ export const projects = [
   {
     id: "dataviz",
     img: olympicLogo,
-    title: "Visualied History of Olympic Participation",
+    title: "Visualized History of Olympic Participation",
     link: "https://atlantis357.github.io/",
     description: "Created a narrative slideshow to visualize the history of Olympic participation",
     titlePoster: "https://atlantis357.github.io/",
