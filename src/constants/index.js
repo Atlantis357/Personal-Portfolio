@@ -6,11 +6,11 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/06/20 02:48:32 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/07/23 19:18:26 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster, ecgFlowchart, ecgAirV3, ecgPulse, bikeMechanic, operations, engineeringHelmet, leaderSpeach, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, darkBackground,} from "../assets";
+import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster, ecgFlowchart, ecgAirV3, ecgPulse, bikeMechanic, operations, engineeringHelmet, leaderSpeach, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, darkBackground, olympicLogo,} from "../assets";
 
 
 
@@ -160,7 +160,7 @@ export const projects = [
     img: ecgFlowchart,
     title: "ECG-Air V3",
     link: "/projects/ecgAirV3",
-    description: "Created an ECG-based risk prediction pipeline using the TensorFlow-Lite library to improve the accessibility and interoperability of ECG-Air to power a suite of AI-based prediction models.",
+    description: "Created an ECG-based risk prediction pipeline using the TensorFlow-Lite library to improve the accessibility and interoperability of ECG-Air to power a suite of AI-based prediction models",
     titlePoster: ecgAirV3,
     linkType: "internal",
   },{
@@ -169,7 +169,7 @@ export const projects = [
     title: "Sustainable Flight Planner",
     // link: "/projects/flightplanner",
     link: "https://github.com/Atlantis357/OpenFlightPaths.git",
-    description: "Designed a flight planning algorithm that uses over 14,000 airports and 67,000 routes to determine the shortest route between any airport.",
+    description: "Designed a flight planning algorithm that uses over 14,000 airports and 67,000 routes to determine the shortest route between any airport",
     titlePoster: "https://github.com/Atlantis357/OpenFlightPaths.git",
     linkType: "external",
   },{
@@ -177,7 +177,7 @@ export const projects = [
     img: helmetTesting,
     title: "Rotationally-Isolated Helmet Liners",
     link: "/projects/helmetliner",
-    description: "Incepted a rotational isolation system for bicycle helmets using CAD that offers enhanced protection during angled impacts.",
+    description: "Incepted a rotational isolation system for bicycle helmets using CAD that offers enhanced protection during angled impacts",
     titlePoster: helmetPoster,
     linkType: "internal",
   },{ 
@@ -186,7 +186,7 @@ export const projects = [
     title: "Photomosaic Board",
     // link: "/projects/flightplanner",
     link: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
-    description: "Implemented an algorithm that uses k-D Trees to combine images from an album of photographs to create a PNG mosaic that resembles any image.",
+    description: "Implemented an algorithm that uses k-D Trees to combine images from an album of photographs to create a PNG mosaic that resembles any image",
     titlePoster: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
     linkType: "external",
   },{
@@ -194,19 +194,19 @@ export const projects = [
     img: ppgInspect,
     title: "PPG Filters for HR-Variability",
     link: "/projects/ppgfilters",
-    description: "Constructed a PPG signal-filtering pipeline using wavelet transforms and FFT to analyze HR variability during exercise.",
+    description: "Constructed a PPG signal-filtering pipeline using wavelet transforms and FFT to analyze HR variability during exercise",
     titlePoster: ppgFilterPoster,
     linkType: "internal",
   },
-  // {
-  //   id: "abesPage",
-  //   img: tripleA,
-  //   title: "Abe's Page",
-  //   link: "/",
-  //   description: "Created an interactive personal-portfolio using react, tailwind-CSS, and the Vite from scrach to showcase my intrests and thoughts.",
-  //   titlePoster: "",
-  //   linkType: "internal",
-  // },
+  {
+    id: "dataviz",
+    img: olympicLogo,
+    title: "Visualied History of Olympic Participation",
+    link: "https://atlantis357.github.io/",
+    description: "Created a narrative slideshow to visualize the history of Olympic participation",
+    titlePoster: "https://atlantis357.github.io/",
+    linkType: "external",
+  },
 ]
 
 export const photos = [

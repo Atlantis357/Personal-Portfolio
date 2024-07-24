@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2024/01/23 16:11:57 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/07/23 19:17:22 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,6 +68,7 @@ import mainMountain from './parallax/mainMountain.png';
 import foregroundMountain from './parallax/foregroundMountain.png';
 import distantMountain from './parallax/distantMountain.png';
 import subMainMountain from './parallax/subMainMountain.png';
+import olympicLogo from './olympicLogo.png';
 
 
 
@@ -107,4 +108,5 @@ export {
     p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,
     darkBackground,
     backgroundSky, mainMountain, foregroundMountain, distantMountain, subMainMountain,
+    olympicLogo,
 };

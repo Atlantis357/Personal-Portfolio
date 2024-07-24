@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/09 18:04:34 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/22 23:07:44 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/07/21 18:16:45 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,10 @@ const ProjectView = (props) => {
                 className={`w-5/6 rounded-lg h-full`}>   
             </img>
         </section>
+{/* 
+        <section className={`items-center justify-center md:h-screen ${(currProject.linkType === 'dataviz') ? 'flex' : 'hidden'}`}>
+            <div dangerouslySetInnerHTML={{ __html: htmlFile }} />
+        </section> */}
 
         {/* <section className={`items-center justify-center md:h-screen ${(currProject.linkType === 'external') ? 'flex' : 'hidden'}`}>
             <iframe
