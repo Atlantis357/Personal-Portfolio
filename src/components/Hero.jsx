@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/03/06 21:58:47 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/09/12 17:41:49 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -153,10 +153,10 @@ const Hero = (props) => {
     <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 py-24 px-15 md:px-16'>
       <section>
         <p className={`${props.colorMode.text} text-2xl md:text-2xl text-left px-5 indent-10 font-Sacramento leading-loose`}>
-          I use my creative and analytical skills along with my professional training in bioengineering and computer science to solve problems for my clients. I work with organizations and companies to create a market landscape at the intersection of computer science and medicine.
+          I use my analytical and creative skills, along with my professional training in bioengineering and computer science, to find data-driven solutions for my clients. As a lifelong learner, I am passionate about problem-solving through an analytical lens. Currently, I work to chart a market landscape for emerging technologies at the intersection of computer science and medicine.
           </p>
           <p className={`${props.colorMode.text} text-2xl md:text-2xl text-left px-5 indent-10 font-Sacramento leading-loose pt-4`}>
-            As a junior at the University of Illinois at Urbana Champaign, I am also passively looking for new positions where I can merge my passion for code with my love for medicine. If you think you've got an opening that I might like, let's connect!
+            As a senior at the University of Illinois at Urbana-Champaign, I am actively seeking positions where I can merge my passion for emerging technologies with my data analytics skills.. If you think you've got an opening that I might like, let's connect!
           </p>
       </section>
 
