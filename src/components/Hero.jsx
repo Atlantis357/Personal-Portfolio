@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/09/12 17:41:49 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/10/13 14:27:33 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -153,10 +153,10 @@ const Hero = (props) => {
     <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 py-24 px-15 md:px-16'>
       <section>
         <p className={`${props.colorMode.text} text-2xl md:text-2xl text-left px-5 indent-10 font-Sacramento leading-loose`}>
-          I use my analytical and creative skills, along with my professional training in bioengineering and computer science, to find data-driven solutions for my clients. As a lifelong learner, I am passionate about problem-solving through an analytical lens. Currently, I work to chart a market landscape for emerging technologies at the intersection of computer science and medicine.
+        I am a motivated and deeply curious senior in Bioengineering who actively explores the intersection of computer science and medicine with an analytical lens. I see myself as a student leader outside the classroom, being involved on campus as course grader, residential advisor, and serving executive board positions on various student organizations over the years.
           </p>
           <p className={`${props.colorMode.text} text-2xl md:text-2xl text-left px-5 indent-10 font-Sacramento leading-loose pt-4`}>
-            As a senior at the University of Illinois at Urbana-Champaign, I am actively seeking positions where I can merge my passion for emerging technologies with my data analytics skills.. If you think you've got an opening that I might like, let's connect!
+          My professional experience spans from developing software for heart failure prediction to collaborating with scientists and engineers to optimize pharmaceutical R&D processes. These opportunities have solidified my passion for leveraging technology to advance healthcare. My goal is to bridge the gap between clinical needs and technological solutions, developing innovative systems that enhance patient care, streamline medical processes, and accelerate research—ultimately revolutionizing healthcare delivery and improving patients' lives.
           </p>
       </section>
 
