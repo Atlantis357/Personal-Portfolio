@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/09/16 16:26:36 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2024/10/21 14:40:27 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -305,7 +305,7 @@ export const blogs = [
 
 export const experiences = [
   {
-    title: "Market Research Analyst",
+    title: "Emerging Technology Analyst",
     company: "AbbVie",
     date: "01/2024 – Present",
     skills: "Team-Leadership",
