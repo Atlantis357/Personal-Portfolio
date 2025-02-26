@@ -6,11 +6,11 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/10/21 14:40:27 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/02/25 22:42:58 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster, ecgFlowchart, ecgAirV3, ecgPulse, bikeMechanic, operations, engineeringHelmet, leaderSpeach, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, darkBackground, olympicLogo,} from "../assets";
+import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster, ecgFlowchart, ecgAirV3, ecgPulse, bikeMechanic, operations, engineeringHelmet, leaderSpeach, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, darkBackground, olympicLogo, controllerUpClose, piddyPaper} from "../assets";
 
 
 
@@ -71,18 +71,18 @@ export const navLinks = [
     id: "/projects",
     title: "Projects",
   },
-  // {
-  //   id: "/music",
-  //   title: "Music",
-  // },
+  {
+    id: "/music",
+    title: "Music",
+  },
   // {
   //   id:"/photography",
   //   title: "Photography",
   // }, 
-  // {
-  //   id: "/resume",
-  //   title: "Resume",
-  // }
+  {
+    id: "/resume",
+    title: "Resume",
+  }
 ];
 
 export const nameIntro = {
@@ -111,12 +111,12 @@ export const socials = [
   //   link: "https://stackexchange.com/users/27590469/abraham-alkhatib",
   //   name: "STACK OVERFLOW",
   // }, 
-  {
-    id: "instagram",
-    icon: instagram,
-    link: "https://www.instagram.com/abrahamalkhatib/?hl=en",
-    name: "INSTAGRAM",
-  }
+  // {
+  //   id: "instagram",
+  //   icon: instagram,
+  //   link: "https://www.instagram.com/abrahamalkhatib/?hl=en",
+  //   name: "INSTAGRAM",
+  // }
 ];
 
 export const aboutMe = [
@@ -156,6 +156,14 @@ export const aboutMe = [
 
 export const projects = [
   {
+    id: "piddy",
+    img: controllerUpClose,
+    title: "P.I.D.D.Y.",
+    link: "/projects/piddy",
+    description: "A Novel Controller Design for Anaesthetic Infusion Pumpss",
+    titlePoster: piddyPaper,
+    linkType: "pdf",
+  },{
     id: "ecgAirV3",
     img: ecgFlowchart,
     title: "ECG-Air V3",
@@ -177,7 +185,7 @@ export const projects = [
     img: helmetTesting,
     title: "Rotationally-Isolated Helmet Liners",
     link: "/projects/helmetliner",
-    description: "Incepted a rotational isolation system for bicycle helmets using CAD that offers enhanced protection during angled impacts",
+    description: "Incepted a rotational isolation system for bicycle helmets that offers enhanced protection during angled impacts",
     titlePoster: helmetPoster,
     linkType: "internal",
   },{ 
@@ -307,9 +315,9 @@ export const experiences = [
   {
     title: "Emerging Technology Analyst",
     company: "AbbVie",
-    date: "01/2024 – Present",
+    date: "01/2024 – 08/2024",
     skills: "Team-Leadership",
-    description: "Organization-wide internal consulting, data analytics, and market research regarding precision medicine and AI to advance information research. ",
+    description: "I conducted organization-wide internal consulting, data analytics, and market research regarding precision medicine and AI to advance information research. ",
     svg: ecgPulse,
   },{
     title: "Undergraduate Course Assistant",
@@ -319,25 +327,25 @@ export const experiences = [
     description: "I helped undergraduates in BIOE 205, Signals and Systems in Bioengineering, learn by breaking down complex topics to digestible pieces.",
     svg: ecgPulse,
   },{
-    title: "Clinical Informatics Intern",
+    title: "Bionformatics Intern",
     company: "Wake Forest University School of Medicine",
     date: "05/2023 – 08/2023",
     skills: "Swift, TenorFlow/TFLite, iOS Development",
-    description: "I spent the summer of 2023 as a bioinformatics intern at Wake Forest University School of Medicine. Working with AI models in TensorFlow Lite, I was responsible for embedding a suite of AI algorithms to our newly developed clinical application. I was tasked to create data-transmission pipeline that was lightweight yet HIPAA complaint to protect users' data. To reduce latency, I also optimized the risk prediction pipeline for edge device. Doing so I decreased the ECG processing time to under 25ms, and improved the AI inference time by over 93% from the pevious generation. ",
+    description: "I worked with AI models in TensorFlow Lite and Swift, optimizing the risk prediction pipeline for edge devices. Doing so I decreased the ECG processing time to under 25ms, and improved the AI inference time by over 93% from the pevious generation. ",
     svg: ecgPulse,
   },{
     title: "Technical Director",
     company: "Biomedical Engineering Society",
     date: "05/2023 – Present",
     skills: "Team Leadership, Management",
-    description: "Managed all technical projects undertaken by BMES, from surgical robotics to collegiate design challenges. Led biweekly workshops prioritizing exposure and skill development for underclassmen.",
+    description: "I managed all technical projects undertaken by BMES, from surgical robotics to collegiate design challenges. I also led biweekly workshops prioritizing exposure and skill development for underclassmen.",
     svg: leaderSpeach,
   },{
     title: "Engineering Team Lead",
     company: "Biomedical Engineering Society",
     date: "08/2022 – 04/2023",
     skills: "CAD, Team Leadership, Management",
-    description: "To demonstrate the recent advancements in helmet saftey, I led a team of underclassmen to design a rotaionally isolated helmet liner that enhance protection on angled impacts. As team lead, I found myself coordinating between multiple groups such as the university, BMES, and my project subteams to ensure budget compliance and demo saftey issues. The most challenging part of the project was designing the 3D printed dummy head with embedded 3-axis gyroscopes and accelorometer. I also took a wood-working class to construct our test-rig. Our liner design proved to be as succesful as the industry standard, and we recieved 2nd for Outstanding Freshman Exhibit among 200+ competitors.",
+    description: "I led a team of underclassmen to design a rotaionally isolated helmet liner that enhance protection on angled impacts. Our liner design proved to be as succesful as the industry standard, and we recieved 2nd for Outstanding Freshman Exhibit among 200+ competitors.",
     svg: engineeringHelmet,
   },
   {
@@ -345,7 +353,7 @@ export const experiences = [
     company: "Bike Lab Campustown",
     date: "08/2022 – 11/2022",
     skills: "Bicycle Maintainance, Communication",
-    description: "After moving to college, I found my outlet with the cycling team. As a bike mechanic on campus, I oversaw and maintained a fleet of bicycles through preventative maintainance measures. I diagnosed problems, proposed, and implemented solutions tailored to customers' budget and need. I also rebuilt bicycles and components such as shifters and wheels to maximize performance on high-end racing models.",
+    description: "I oversaw and maintained a fleet of bicycles through preventative maintainance measures. I also rebuilt bicycles and components such as shifters and wheels to maximize performance on high-end racing models.",
     svg: bikeMechanic,
   },
   {
@@ -353,7 +361,7 @@ export const experiences = [
     company: "Pueblo Supermarkets",
     date: "08/2022 – 11/2022",
     skills: "Sales, Consulting, Management, Communication",
-    description: "As the operations intern, my primary role is to act as an liason between store management and contractors to ensure smooth integration of newly acquired machinery. I succesfully assisted and oversaw the installation of multiple refrigeration units and shelving. During my time at Pueblo, I also shadowed store managers, and maintainance crews, and other employees.",
+    description: "As the operations intern, my primary role is to act as an liason between store management and contractors to ensure smooth integration of newly acquired machinery. I succesfully assisted and oversaw the installation of multiple refrigeration units and shelving.",
     svg: operations,
   },
 ]

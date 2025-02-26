@@ -6,13 +6,13 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/09 18:04:34 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/07/21 18:16:45 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/02/25 22:34:52 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 import React from 'react'
 import { useParams } from 'react-router-dom' 
-import { abe } from '../assets'
+import { abe, resume } from '../assets'
 import { projects } from '../constants'
 
 const ProjectView = (props) => {
@@ -43,6 +43,14 @@ const ProjectView = (props) => {
                 className={`w-5/6 rounded-lg h-full`}>   
             </img>
         </section>
+
+        <section className={`flex items-center justify-center h-auto ${(currProject.linkType === 'pdf') ? 'flex' : 'hidden'}`}>
+                <iframe
+                    src={currProject.titlePoster}
+                    className='w-2/3 rounded-lg h-screen'>   
+                </iframe>
+        </section>
+        
 {/* 
         <section className={`items-center justify-center md:h-screen ${(currProject.linkType === 'dataviz') ? 'flex' : 'hidden'}`}>
             <div dangerouslySetInnerHTML={{ __html: htmlFile }} />
