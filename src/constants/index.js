@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/02/25 22:42:58 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/08/14 13:33:58 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -322,7 +322,7 @@ export const experiences = [
   },{
     title: "Undergraduate Course Assistant",
     company: "University of Illinois - Grainger College of Engineering",
-    date: "01/2024 – Present",
+    date: "01/2024 – 05/2025",
     skills: "Team-Leadership",
     description: "I helped undergraduates in BIOE 205, Signals and Systems in Bioengineering, learn by breaking down complex topics to digestible pieces.",
     svg: ecgPulse,
@@ -336,7 +336,7 @@ export const experiences = [
   },{
     title: "Technical Director",
     company: "Biomedical Engineering Society",
-    date: "05/2023 – Present",
+    date: "05/2023 – 05/2025",
     skills: "Team Leadership, Management",
     description: "I managed all technical projects undertaken by BMES, from surgical robotics to collegiate design challenges. I also led biweekly workshops prioritizing exposure and skill development for underclassmen.",
     svg: leaderSpeach,
