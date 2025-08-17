@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 22:03:03 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/08/16 21:20:12 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/08/17 11:20:38 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -127,6 +127,9 @@ const Footer = (props) => {
           </li>
         ))}
       </ul>
+       <a className={`hidden sm:flex font-Lumanosimo text-center ${props.colorMode.text} text-sm md:text-md `}>
+        Built with React, Node.JS, and TailwindCSS
+      </a>
       <a className={`hidden sm:flex font-Poppins text-center ${props.colorMode.text} text-md md:text-lg cursor-pointer px-4  hover:scale-y-125 transition-all duration-200`}>
         Buy me a coffee
       </a>
