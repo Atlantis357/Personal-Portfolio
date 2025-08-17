@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/08/14 13:46:46 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/08/16 21:19:28 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -153,11 +153,11 @@ const Hero = (props) => {
     <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 py-24 px-15 md:px-16'>
       <section>
         <p className={`${props.colorMode.text} text-2xl md:text-2xl text-left px-5 indent-10 font-Sacramento leading-loose`}>
-        I am a recent graduate in Bioengineering who actively explores the intersection of technology and medicine via an analytical lens. My professional experience spans from developing software for heart failure prediction to collaborating with scientists and engineers to optimize pharmaceutical R&D processes. My career goal is to advance equitable access to quality care by bridging the gap between clinical needs and technological solutions.
+        I am a recent graduate in Bioengineering from University of Illinois, actively exploring the intersection of technology and medicine. My professional experience spans from developing software for heart failure prediction to collaborating with scientists to optimize R&D processes. I want to advance equitable access to quality care by bridging the gap between clinical needs and technological solutions.
         </p>
-        <p className={`${props.colorMode.text} text-2xl md:text-2xl text-left px-5 indent-10 font-Sacramento leading-loose pt-4`}>
-        Outside of work, I enjoy DJing, riding my motorcycle along Lake Shore Drive, and training for a half-Ironman.
-        </p>
+        {/* <p className={`${props.colorMode.text} text-2xl md:text-2xl text-left px-5 indent-10 font-Sacramento leading-loose pt-4`}>
+           
+        </p> */}
       </section>
 
       <section className='hover:text-opacity-0 md:text-opacity-80 text-white text-center transition-all text-md font-Lumanosimo text-opacity-0'>
