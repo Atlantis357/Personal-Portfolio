@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/08/16 21:19:28 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/10/30 20:42:29 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -152,12 +152,12 @@ const Hero = (props) => {
     </div>
     <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 py-24 px-15 md:px-16'>
       <section>
-        <p className={`${props.colorMode.text} text-2xl md:text-2xl text-left px-5 indent-10 font-Sacramento leading-loose`}>
-        I am a recent graduate in Bioengineering from University of Illinois, actively exploring the intersection of technology and medicine. My professional experience spans from developing software for heart failure prediction to collaborating with scientists to optimize R&D processes. I want to advance equitable access to quality care by bridging the gap between clinical needs and technological solutions.
+        <p className={`${props.colorMode.text} text-2xl md:text-2xl text-left px-5 indent-10 font-sans leading-loose`}>
+        Hi welcome to my corner of the internet! I'm Abraham, or you can call me Ab for “艾笔”. I made this for strangers like you, since I’m not on most socials anymore. Hopefully this offers a glimpse of me that Strava and Spotify cannot provide~ :p
         </p>
-        {/* <p className={`${props.colorMode.text} text-2xl md:text-2xl text-left px-5 indent-10 font-Sacramento leading-loose pt-4`}>
-           
-        </p> */}
+        <p className={`${props.colorMode.text} text-2xl md:text-2xl text-left px-5 indent-10 font-sans leading-loose pt-4`}>
+           After graduating from UIUC's Bioengineering program this past spring, I went backpacking at Glacier NP before starting my "big boy job". Though early in my career, I've built AI algorithms for heart failure risk and designed devices to improve surgical visibility. I'm driven by the potential to better lives through the intersection of technology and medicine. Reach out if you're interested in collaborating!
+        </p>
       </section>
 
       <section className='hover:text-opacity-0 md:text-opacity-80 text-white text-center transition-all text-md font-Lumanosimo text-opacity-0'>
@@ -167,7 +167,7 @@ const Hero = (props) => {
       </div>
       </section>
     </div>
-    {/* <Projects foreground={props.foreground} colorMode={props.colorMode} /> */}
+    {/* <Projects foreground={props.foreground} colorMode={props.colorMode} /> */}å
     </div>
   )
 }
