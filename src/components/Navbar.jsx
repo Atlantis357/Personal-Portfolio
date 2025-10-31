@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:34:58 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/06/16 20:32:36 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/10/31 18:56:08 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ function Navbar(props) {
             // onClick={() => props.updateForeground()}
             />
         </Link>
-        <p className={`md:flex hidden mx-4 pt-1 font-Poppins font-medium text-[16px]  ${props.colorMode.text}`}>BIOENGINEER, CONSULTANT</p>
+        <p className={`md:flex hidden mx-4 pt-1 font-Poppins font-medium text-[16px]  ${props.colorMode.text}`}>BIOENGINEER, SCIENTIST, PRAGMATIST</p>
         </div>
 
         {/* Laptop Interface */}
