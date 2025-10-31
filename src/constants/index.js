@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/10/30 21:19:39 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/10/30 21:24:37 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -352,7 +352,7 @@ export const experiences = [
     company: "Biomedical Engineering Society",
     date: "August 2022 – May 2023",
     skills: "CAD, Team Leadership, Management",
-    description: "I led a team of underclassmen to design a rotaionally isolated helmet liner that enhance protection on angled impacts. Our liner design proved to be as succesful as the industry standard, and we recieved 2nd for Outstanding Freshman Exhibit among 200+ competitors.",
+    description: "I led a team of underclassmen engineers to design a rotationally isolated helmet liner that reduced the likelihood of concussions from angled impacts.",
     svg: engineeringHelmet,
   },
   {
