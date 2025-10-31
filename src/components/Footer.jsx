@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 22:03:03 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/08/17 11:20:38 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/10/30 20:54:30 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ const Footer = (props) => {
             Connect
           </h1>
           <p class={`mt-4 ${props.colorMode.text} font-Lumanosimo text-md md:text-lg tracking-wide`}>
-            {`Want to collaborate? Let me know here:`}
+            {`Got an idea? Let me know here:`}
           </p>
         </div>
       </div>

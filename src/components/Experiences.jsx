@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/09 21:17:43 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2024/01/22 21:44:47 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/10/30 21:20:38 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,12 +39,12 @@ const Experiences = (props) => {
             /> */}
             <div className="justify-between flex">
             <h1
-              className={`text-l md:text-xl font-sans bg-clip-text italic text-transparent ${props.foreground.main} ${props.foreground.accent} px-5 pt-5`}
+              className={`text-l md:text-xl font-sans font-bold bg-clip-text italic text-transparent ${props.foreground.main} ${props.foreground.accent} px-5 pt-5`}
             >
               {info.company}
             </h1>
             <h1
-              className={`text-l md:text-xl font-serif bg-clip-text text-transparent ${props.foreground.main} ${props.foreground.accent} px-5 pt-5`}
+              className={`text-l md:text-xl font-sans font-bold bg-clip-text text-transparent ${props.foreground.main} ${props.foreground.accent} px-5 pt-5`}
             >
               {info.date}
             </h1>

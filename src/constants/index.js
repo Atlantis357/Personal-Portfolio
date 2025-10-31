@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/10/28 21:54:23 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/10/30 21:19:39 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,10 +63,10 @@ export const navLinks = [
   //   id: "/",
   //   title: "Home",
   // },
-  // {
-  //   id: "/experience",
-  //   title: "Experience",
-  // },
+  {
+    id: "/experience",
+    title: "Experience",
+  },
   {
     id: "/projects",
     title: "Projects",
@@ -313,57 +313,64 @@ export const blogs = [
 
 export const experiences = [
   {
+    title: "Associate Scientist",
+    company: "Abbott Laboratory",
+    date: "August 2025 – Present",
+    skills: "Team-Leadership",
+    description: "I work on next-generation transfusion diagnostic machines that will transform blood and plasma screening.",
+    svg: ecgPulse,
+  },{
     title: "Emerging Technology Analyst",
     company: "AbbVie",
-    date: "01/2024 – 08/2024",
+    date: "January 2024 – August 2024",
     skills: "Team-Leadership",
     description: "I conducted organization-wide internal consulting, data analytics, and market research regarding precision medicine and AI to advance information research. ",
     svg: ecgPulse,
   },{
-    title: "Undergraduate Course Assistant",
+    title: "Course Assistant",
     company: "University of Illinois - Grainger College of Engineering",
-    date: "01/2024 – 05/2025",
+    date: "January 2024 – May 2025",
     skills: "Team-Leadership",
-    description: "I helped undergraduates in BIOE 205, Signals and Systems in Bioengineering, learn by breaking down complex topics to digestible pieces.",
+    description: "I supported undergraduates in BIOE 205 (Signals and Systems in Bioengineering) by grading coursework, facilitating in-class activities, and leading workshops on difficult topics.",
     svg: ecgPulse,
   },{
     title: "Bionformatics Intern",
     company: "Wake Forest University School of Medicine",
-    date: "05/2023 – 08/2023",
+    date: "May 2023 – August 2023",
     skills: "Swift, TenorFlow/TFLite, iOS Development",
     description: "I worked with AI models in TensorFlow Lite and Swift, optimizing the risk prediction pipeline for edge devices. Doing so I decreased the ECG processing time to under 25ms, and improved the AI inference time by over 93% from the pevious generation. ",
     svg: ecgPulse,
   },{
     title: "Technical Director",
     company: "Biomedical Engineering Society",
-    date: "05/2023 – 05/2025",
+    date: "August 2023 – May 2024",
     skills: "Team Leadership, Management",
     description: "I managed all technical projects undertaken by BMES, from surgical robotics to collegiate design challenges. I also led biweekly workshops prioritizing exposure and skill development for underclassmen.",
     svg: leaderSpeach,
   },{
-    title: "Engineering Team Lead",
+    title: "Project Team Lead",
     company: "Biomedical Engineering Society",
-    date: "08/2022 – 04/2023",
+    date: "August 2022 – May 2023",
     skills: "CAD, Team Leadership, Management",
     description: "I led a team of underclassmen to design a rotaionally isolated helmet liner that enhance protection on angled impacts. Our liner design proved to be as succesful as the industry standard, and we recieved 2nd for Outstanding Freshman Exhibit among 200+ competitors.",
     svg: engineeringHelmet,
   },
   {
     title: "Bicycle Mechanic",
-    company: "Bike Lab Campustown",
-    date: "08/2022 – 11/2022",
+    company: "Neutral Cycle",
+    date: "August 2022 – May 2023",
     skills: "Bicycle Maintainance, Communication",
     description: "I oversaw and maintained a fleet of bicycles through preventative maintainance measures. I also rebuilt bicycles and components such as shifters and wheels to maximize performance on high-end racing models.",
     svg: bikeMechanic,
   },
-  {
-    title: "Operations Intern",
-    company: "Pueblo Supermarkets",
-    date: "08/2022 – 11/2022",
-    skills: "Sales, Consulting, Management, Communication",
-    description: "As the operations intern, my primary role is to act as an liason between store management and contractors to ensure smooth integration of newly acquired machinery. I succesfully assisted and oversaw the installation of multiple refrigeration units and shelving.",
-    svg: operations,
-  },
+  // {
+  //   title: "Operations Intern",
+  //   company: "Pueblo Supermarkets",
+  //   date: "08/2022 – 11/2022",
+  //   skills: "Sales, Consulting, Management, Communication",
+  //   description: "As the operations intern, my primary role is to act as an liason between store management and contractors to ensure smooth integration of newly acquired machinery. I succesfully assisted and oversaw the installation of multiple refrigeration units and shelving.",
+  //   svg: operations,
+  // },
 ]
 
 export const memoryPlaylists = [
