@@ -6,11 +6,11 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/11/01 15:11:21 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/11/01 15:39:14 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster, ecgFlowchart, ecgAirV3, ecgPulse, bikeMechanic, operations, engineeringHelmet, leaderSpeach, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, darkBackground, olympicLogo, controllerUpClose, piddyPaper, brims, alexisORing, june19} from "../assets";
+import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster, ecgFlowchart, ecgAirV3, ecgPulse, bikeMechanic, operations, engineeringHelmet, leaderSpeach, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, darkBackground, olympicLogo, controllerUpClose, piddyPaper, brims, alexisORing, june19, cancerMort} from "../assets";
 
 
 
@@ -180,6 +180,15 @@ export const projects = [
     titlePoster: ecgAirV3,
     linkType: "internal",
   },{
+    id: "cancerMort",
+    img: cancerMort,
+    title: "Cancer Mortality and Poverty, Visualized",
+    // link: "/projects/cancerMort",
+    link: "https://public.tableau.com/app/profile/abraham.alkhatib/viz/DashboardProject_17183223526080/Dashboard1?showOnboarding=true",
+    description: "A visualization to underscore how socioeconomic inequities impact care with data from clinicaltrials.gov, cancer.gov, and census.gov",
+    titlePoster: "https://public.tableau.com/app/profile/abraham.alkhatib/viz/DashboardProject_17183223526080/Dashboard1?showOnboarding=true",
+    linkType: "external",
+  },{
     id: "flightPlanner",
     img: flights,
     title: "Sustainable Flight Planner",
@@ -187,15 +196,6 @@ export const projects = [
     link: "https://github.com/Atlantis357/OpenFlightPaths.git",
     description: "A flight planning algorithm that prioritizes fuel efficiency between any two airports in the world",
     titlePoster: "https://github.com/Atlantis357/OpenFlightPaths.git",
-    linkType: "external",
-  },{
-    id: "mosiac",
-    img: mosaic,
-    title: "Photomosaic Board",
-    // link: "/projects/flightplanner",
-    link: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
-    description: "A mosaic creating algorithm that can combine images from an album to recreate any photograph",
-    titlePoster: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
     linkType: "external",
   },{ 
     id: "helmetliner",
@@ -213,7 +213,16 @@ export const projects = [
     description: "A PPG processing pipeline using wavelet transforms and FFT to analyze HR variability during exercise",
     titlePoster: ppgFilterPoster,
     linkType: "internal",
-  },
+  },{
+    id: "mosiac",
+    img: mosaic,
+    title: "Photomosaic Board",
+    // link: "/projects/flightplanner",
+    link: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
+    description: "A mosaic creating algorithm that can combine images from an album to recreate any photograph",
+    titlePoster: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
+    linkType: "external",
+  }
   // {
   //   id: "dataviz",
   //   img: olympicLogo,

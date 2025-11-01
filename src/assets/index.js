@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2025/11/01 15:08:49 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/11/01 15:35:38 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,7 @@ import engineeringHelmet from './engineeringHelmet.svg';
 import leaderSpeach from './leaderSpeech.svg';
 import brims from './brims.jpg';
 import alexisORing from './alexisORing.jpg';
+import cancerMort from './cancerMort.jpeg';
 
 import p1 from './photography/p1.jpeg';
 import p2 from './photography/p2.jpeg';
@@ -117,4 +118,5 @@ export {
     brims,
     alexisORing,
     june19,
+    cancerMort,
 };

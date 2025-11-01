@@ -62,7 +62,7 @@ const HoverImageLink = ({ heading, imgSrc, subheading, href, foreground, colormo
             staggerChildren: 0.075,
             delayChildren: 0.25,
           }}
-          className={`relative z-10 block text-3xl font-bold text-neutral-50 group-hover:text-amber-400 transition-colors duration-500 md:text-5xl font-Orbitron tracking-wide`}
+          className={`relative z-10 block text-3xl font-bold text-neutral-50 group-hover:text-amber-400 transition-colors duration-500 md:text-5xl font-Oswald tracking-wide`}
         >
           {heading}
         </motion.span>
