@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2025/11/01 13:43:35 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/11/01 15:08:49 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,6 +50,7 @@ import operations from './operations.svg';
 import engineeringHelmet from './engineeringHelmet.svg';
 import leaderSpeach from './leaderSpeech.svg';
 import brims from './brims.jpg';
+import alexisORing from './alexisORing.jpg';
 
 import p1 from './photography/p1.jpeg';
 import p2 from './photography/p2.jpeg';
@@ -61,6 +62,7 @@ import p7 from './photography/p7.jpeg';
 import p8 from './photography/p8.jpeg';
 import p9 from './photography/p9.jpeg';
 import p10 from './photography/p10.jpeg';
+import june19 from './june19.jpeg';
 
 import darkBackground from './darkBackground.jpeg';
 
@@ -113,4 +115,6 @@ export {
     controllerUpClose,
     piddyPaper,
     brims,
+    alexisORing,
+    june19,
 };

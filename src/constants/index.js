@@ -6,11 +6,11 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/11/01 13:51:30 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/11/01 15:11:21 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster, ecgFlowchart, ecgAirV3, ecgPulse, bikeMechanic, operations, engineeringHelmet, leaderSpeach, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, darkBackground, olympicLogo, controllerUpClose, piddyPaper, brims} from "../assets";
+import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster, ecgFlowchart, ecgAirV3, ecgPulse, bikeMechanic, operations, engineeringHelmet, leaderSpeach, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, darkBackground, olympicLogo, controllerUpClose, piddyPaper, brims, alexisORing, june19} from "../assets";
 
 
 
@@ -75,10 +75,10 @@ export const navLinks = [
     id: "/music",
     title: "Music",
   },
-  // {
-  //   id:"/photography",
-  //   title: "Photography",
-  // }, 
+  {
+    id:"/photography",
+    title: "Pictures",
+  }, 
   // {
   //   id: "/resume",
   //   title: "Resume",
@@ -157,7 +157,7 @@ export const aboutMe = [
 export const projects = [
   {
     id: "brims",
-    img: brims,
+    img: alexisORing,
     title: "BRIMS",
     link: "/projects/brims",
     description: "A lighted retractor system to improve visibility during open abdominal surgeries",
@@ -168,7 +168,7 @@ export const projects = [
     img: controllerUpClose,
     title: "P.I.D.D.Y.",
     link: "/projects/piddy",
-    description: "A Novel Controller Design for Anaesthetic Infusion Pumps",
+    description: "A novel controller design for anaesthetic infusion pumps",
     titlePoster: piddyPaper,
     linkType: "pdf",
   },{
@@ -176,7 +176,7 @@ export const projects = [
     img: ecgFlowchart,
     title: "ECG-Air V3",
     link: "/projects/ecgAirV3",
-    description: "Created an ECG-based risk prediction pipeline using the TensorFlow-Lite library to improve the accessibility and interoperability of ECG-Air to power a suite of AI-based prediction models",
+    description: "An AI-based heart-faliure prediction and prevention application",
     titlePoster: ecgAirV3,
     linkType: "internal",
   },{
@@ -185,7 +185,7 @@ export const projects = [
     title: "Sustainable Flight Planner",
     // link: "/projects/flightplanner",
     link: "https://github.com/Atlantis357/OpenFlightPaths.git",
-    description: "Designed a flight planning algorithm that uses over 14,000 airports and 67,000 routes to determine the shortest route between any airport",
+    description: "A flight planning algorithm that prioritizes fuel efficiency between any two airports in the world",
     titlePoster: "https://github.com/Atlantis357/OpenFlightPaths.git",
     linkType: "external",
   },{
@@ -194,7 +194,7 @@ export const projects = [
     title: "Photomosaic Board",
     // link: "/projects/flightplanner",
     link: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
-    description: "Implemented an algorithm that uses k-D Trees to combine images from an album of photographs to create a PNG mosaic that resembles any image",
+    description: "A mosaic creating algorithm that can combine images from an album to recreate any photograph",
     titlePoster: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
     linkType: "external",
   },{ 
@@ -202,7 +202,7 @@ export const projects = [
     img: helmetTesting,
     title: "Rotationally-Isolated Helmet Liners",
     link: "/projects/helmetliner",
-    description: "Incepted a rotational isolation system for bicycle helmets that offers enhanced protection during angled impacts",
+    description: "A rotationally isolated helmet liner that reduced the likelihood of concussions from angled impacts",
     titlePoster: helmetPoster,
     linkType: "internal",
   },{
@@ -210,7 +210,7 @@ export const projects = [
     img: ppgInspect,
     title: "PPG Filters for HR-Variability",
     link: "/projects/ppgfilters",
-    description: "Constructed a PPG signal-filtering pipeline using wavelet transforms and FFT to analyze HR variability during exercise",
+    description: "A PPG processing pipeline using wavelet transforms and FFT to analyze HR variability during exercise",
     titlePoster: ppgFilterPoster,
     linkType: "internal",
   },
@@ -226,23 +226,25 @@ export const projects = [
 ]
 
 export const photos = [
+  // { 
+  //   id: "p1",
+  //   img: p1,
+  //   title: "In Between Worlds",
+  //   link: "/projects/p1",
+  //   description: "Chicago Union Station (service ramp to tracks)",
+  //   titlePoster: p1,
+  //   linkType: "internal",
+  // },
+  // { 
+  //   id: "p2",
+  //   img: p2,
+  //   title: "Rush Hour",
+  //   link: "/projects/p2",
+  //   description: "CTA Foster Station North Exit Ramp",
+  //   titlePoster: p2,
+  //   linkType: "internal",
+  // },
   { 
-    id: "p1",
-    img: p1,
-    title: "In Between Worlds",
-    link: "/projects/p1",
-    description: "Chicago Union Station (service ramp to tracks)",
-    titlePoster: p1,
-    linkType: "internal",
-  },{ 
-    id: "p2",
-    img: p2,
-    title: "Rush Hour",
-    link: "/projects/p2",
-    description: "CTA Foster Station North Exit Ramp",
-    titlePoster: p2,
-    linkType: "internal",
-  },{ 
     id: "p9",
     img: p9,
     title: "The Calm Before the Storm",
@@ -250,7 +252,17 @@ export const photos = [
     description: "Illinois-Wisconsin trail",
     titlePoster: p9,
     linkType: "internal",
-  },{ 
+  },
+  {
+    id: "p11",
+    img: june19,
+    title: "June 19th, 2025",
+    link: "/projects/p11",
+    description: "Going to the Sun Rd, Glacier NP",
+    titlePoster: june19,
+    linkType: "internal",
+  },
+  { 
     id: "p6",
     img: p6,
     title: "Turnaround Point",
@@ -258,23 +270,17 @@ export const photos = [
     description: "The end of the pedestrain path on the Chicago Lakeshore",
     titlePoster: p6,
     linkType: "internal",
-  },{ 
-    id: "p4",
-    img: p4,
-    title: "Up Close",
-    link: "/projects/p4",
-    description: "Office plant",
-    titlePoster: p4,
-    linkType: "internal",
-  },{ 
-    id: "p5",
-    img: p5,
-    title: "Stairwell #1",
-    link: "/projects/p5",
-    description: "Lower Wacker St. parking lot exit towards Randolf St.",
-    titlePoster: p5,
-    linkType: "internal",
-  },{ 
+  },
+  // { 
+  //   id: "p5",
+  //   img: p5,
+  //   title: "Stairwell #1",
+  //   link: "/projects/p5",
+  //   description: "Lower Wacker St. parking lot exit towards Randolf St.",
+  //   titlePoster: p5,
+  //   linkType: "internal",
+  // },
+  { 
     id: "p8",
     img: p8,
     title: "Resistance",
@@ -282,7 +288,17 @@ export const photos = [
     description: "SJP Chicago protest",
     titlePoster: p8,
     linkType: "internal",
-  },{ 
+  },
+  { 
+    id: "p4",
+    img: p4,
+    title: "Up Close",
+    link: "/projects/p4",
+    description: "Office plant",
+    titlePoster: p4,
+    linkType: "internal",
+  },
+  { 
     id: "p7",
     img: p7,
     title: "The wicked of the good",
@@ -293,7 +309,7 @@ export const photos = [
   },{ 
     id: "p3",
     img: p3,
-    title: "The Grand Red Line Hotel",
+    title: "The Deadline",
     link: "/projects/p3",
     description: "CTA Red Line",
     titlePoster: p3,
