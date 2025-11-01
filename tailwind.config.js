@@ -14,6 +14,8 @@ export default {
         'Poppins': ["'Poppins', 'sans-serif'"],
         'Lumanosimo': ["'Lumanosimo', 'cursive'"],
         'Oswald': ["'Oswald', 'sans-serif'"],
+        'Inter' : ["'Inter', 'sans-serif'"],
+        'Rubik' : ["'Rubik', 'sans-serif'"],
       },
     },
   },

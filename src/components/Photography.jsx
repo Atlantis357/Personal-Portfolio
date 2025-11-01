@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/04 18:35:03 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/11/01 15:11:38 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/11/01 16:28:22 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ const Photography = (props) => {
     <div id='photography' className=' py-20 md:py-28'>
         {/* Title */}
         <section className='pb-8 md:pb-16 text-center w-screen pt-8 md:pt-0'>
-                <h1 className={`font-extrabold text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent ${props.foreground.title} tracking-widest font-Permanent-Marker`}>
+                <h1 className={`font-bold text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent ${props.foreground.title} font-Rubik`}>
                     Cool Flicks
                 </h1>
         </section>

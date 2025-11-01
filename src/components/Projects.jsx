@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/29 14:30:53 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/11/01 14:44:22 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/11/01 16:28:52 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ const Projects = (props) => {
     <div id='projects' className=' py-20 md:py-28'>
         {/* Title */}
         <section className='pb-8 md:pb-16 text-center w-screen pt-8 md:pt-0'>
-                <h1 className={`font-extrabold text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent ${props.foreground.title} tracking-widest font-Permanent-Marker`}>
+                <h1 className={`font-bold text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent ${props.foreground.title} font-Rubik`}>
                     Technical Projects
                 </h1>
         </section>

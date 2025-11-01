@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/09 21:17:43 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/11/01 14:05:12 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/11/01 16:34:49 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ const Experiences = (props) => {
     <div id="experience" className=" min-h-screen py-20 md:py-28">
       <section className="pb-8 md:pb-16 text-center w-screen pt-8 md:pt-0">
         <h1
-          className={`font-extrabold text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent ${props.foreground.title} tracking-widest font-Permanent-Marker`}
+          className={`font-bold text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent ${props.foreground.title} font-Rubik`}
         >
           Professional Experience
         </h1>
@@ -50,12 +50,12 @@ const Experiences = (props) => {
             </h1>
             </div>
             <h1
-              className={`text-2xl md:text-3xl font-medium bg-clip-text text-transparent font-Oswald ${props.foreground.accent} px-5 pt-5 tracking-wide`}
+              className={`text-2xl md:text-3xl font-bold bg-clip-text text-transparent font-Inter ${props.foreground.accent} px-5 pt-5 tracking-wide`}
             >
               {info.title}
             </h1>
             <p
-              className={`indent-10 mt-5 line-clamp-3 text-md font-semibold ${props.colorMode.text} px-5 pb-10 flex text-justify font-Poppins`}
+              className={`indent-10 mt-5 line-clamp-3 text-md ${props.colorMode.text} px-5 pb-10 flex text-justify font-Inter`}
             >
               {info.description}
             </p>

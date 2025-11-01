@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/16 18:43:19 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2023/07/19 14:00:44 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/11/01 16:31:54 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ const Music = (props) => {
       {/* Favs */}
       <section className="pb-8 md:pb-16 text-center w-screen pt-8 md:pt-0">
         <h1
-          className={`font-extrabold text-4xl md:text-5xl lg:text-6xl bg-clip-text text-transparent ${props.foreground.main} tracking-wider font-Orbitron`}
+          className={`font-bold text-4xl md:text-5xl lg:text-6xl bg-clip-text text-transparent ${props.foreground.main} font-Rubik`}
         >
           Forever Favs
         </h1>
@@ -45,7 +45,7 @@ const Music = (props) => {
       {/* Playlists */}
       <section className="pb-8 md:pb-16 text-center w-screen pt-8 md:pt-0">
         <h1
-          className={`font-extrabold text-4xl md:text-5xl lg:text-6xl bg-clip-text text-transparent ${props.foreground.main} tracking-wider font-Orbitron`}
+          className={`font-bold text-4xl md:text-5xl lg:text-6xl bg-clip-text text-transparent ${props.foreground.main} font-Rubik`}
         >
           Core Memories
         </h1>
@@ -71,7 +71,7 @@ const Music = (props) => {
 
       <section className="pb-8 md:pb-16 text-center w-screen pt-8 md:pt-0">
         <h1
-          className={`font-extrabold text-4xl md:text-5xl lg:text-6xl bg-clip-text text-transparent ${props.foreground.main} tracking-wider font-Orbitron`}
+          className={`font-bold text-4xl md:text-5xl lg:text-6xl bg-clip-text text-transparent ${props.foreground.main} font-Rubik`}
         >
           Why so serious?
         </h1>
