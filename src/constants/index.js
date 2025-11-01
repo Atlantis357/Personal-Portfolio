@@ -6,11 +6,11 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/10/30 21:25:28 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/11/01 13:51:30 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster, ecgFlowchart, ecgAirV3, ecgPulse, bikeMechanic, operations, engineeringHelmet, leaderSpeach, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, darkBackground, olympicLogo, controllerUpClose, piddyPaper} from "../assets";
+import {cycling, engineer, fraternity, eatingTurkey, outdoors, instagram, linkedin, seriousAbe, mosaic, flights, tripleA, family, github, stackOverflow, helmetPoster, helmetTesting, ppgInspect, ppgFilterPoster, ecgFlowchart, ecgAirV3, ecgPulse, bikeMechanic, operations, engineeringHelmet, leaderSpeach, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, darkBackground, olympicLogo, controllerUpClose, piddyPaper, brims} from "../assets";
 
 
 
@@ -156,11 +156,19 @@ export const aboutMe = [
 
 export const projects = [
   {
+    id: "brims",
+    img: brims,
+    title: "BRIMS",
+    link: "/projects/brims",
+    description: "A lighted retractor system to improve visibility during open abdominal surgeries",
+    titlePoster: brims,
+    linkType: "internal",
+  },{
     id: "piddy",
     img: controllerUpClose,
     title: "P.I.D.D.Y.",
     link: "/projects/piddy",
-    description: "A Novel Controller Design for Anaesthetic Infusion Pumpss",
+    description: "A Novel Controller Design for Anaesthetic Infusion Pumps",
     titlePoster: piddyPaper,
     linkType: "pdf",
   },{
@@ -181,14 +189,6 @@ export const projects = [
     titlePoster: "https://github.com/Atlantis357/OpenFlightPaths.git",
     linkType: "external",
   },{
-    id: "helmetliner",
-    img: helmetTesting,
-    title: "Rotationally-Isolated Helmet Liners",
-    link: "/projects/helmetliner",
-    description: "Incepted a rotational isolation system for bicycle helmets that offers enhanced protection during angled impacts",
-    titlePoster: helmetPoster,
-    linkType: "internal",
-  },{ 
     id: "mosiac",
     img: mosaic,
     title: "Photomosaic Board",
@@ -197,6 +197,14 @@ export const projects = [
     description: "Implemented an algorithm that uses k-D Trees to combine images from an album of photographs to create a PNG mosaic that resembles any image",
     titlePoster: "https://github.com/Atlantis357/PhotoMosaicCreator.git",
     linkType: "external",
+  },{ 
+    id: "helmetliner",
+    img: helmetTesting,
+    title: "Rotationally-Isolated Helmet Liners",
+    link: "/projects/helmetliner",
+    description: "Incepted a rotational isolation system for bicycle helmets that offers enhanced protection during angled impacts",
+    titlePoster: helmetPoster,
+    linkType: "internal",
   },{
     id: "ppgfilters",
     img: ppgInspect,
@@ -206,15 +214,15 @@ export const projects = [
     titlePoster: ppgFilterPoster,
     linkType: "internal",
   },
-  {
-    id: "dataviz",
-    img: olympicLogo,
-    title: "Visualized History of Olympic Participation",
-    link: "https://atlantis357.github.io/",
-    description: "Created a narrative slideshow to visualize the history of Olympic participation",
-    titlePoster: "https://atlantis357.github.io/",
-    linkType: "external",
-  },
+  // {
+  //   id: "dataviz",
+  //   img: olympicLogo,
+  //   title: "Visualized History of Olympic Participation",
+  //   link: "https://atlantis357.github.io/",
+  //   description: "Created a narrative slideshow to visualize the history of Olympic participation",
+  //   titlePoster: "https://atlantis357.github.io/",
+  //   linkType: "external",
+  // },
 ]
 
 export const photos = [

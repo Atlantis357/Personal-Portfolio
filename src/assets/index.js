@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 10:28:58 by atlantis357       #+#    #+#             */
-/*   Updated: 2025/02/25 22:31:24 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/11/01 13:43:35 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,6 +49,7 @@ import bikeMechanic from './bikeMechanic.svg';
 import operations from './operations.svg';
 import engineeringHelmet from './engineeringHelmet.svg';
 import leaderSpeach from './leaderSpeech.svg';
+import brims from './brims.jpg';
 
 import p1 from './photography/p1.jpeg';
 import p2 from './photography/p2.jpeg';
@@ -111,4 +112,5 @@ export {
     olympicLogo,
     controllerUpClose,
     piddyPaper,
+    brims,
 };

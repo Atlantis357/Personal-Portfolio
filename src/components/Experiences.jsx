@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/09 21:17:43 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/10/30 21:20:38 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/11/01 13:36:04 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ const Experiences = (props) => {
         <h1
           className={`font-extrabold text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent ${props.foreground.title} tracking-widest font-Permanent-Marker`}
         >
-          My Experience
+          Professional Experience
         </h1>
       </section>
 
