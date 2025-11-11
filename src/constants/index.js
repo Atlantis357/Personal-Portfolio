@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/11/01 15:39:14 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2025/11/11 16:42:36 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -347,7 +347,7 @@ export const blogs = [
 export const experiences = [
   {
     title: "Associate Scientist",
-    company: "Abbott Laboratory",
+    company: "Abbott Laboratories",
     date: "August 2025 – Present",
     skills: "Team-Leadership",
     description: "I work on next-generation transfusion diagnostic machines that will transform blood and plasma screening.",
