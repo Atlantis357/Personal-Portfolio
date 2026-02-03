@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:56:31 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2026/01/14 09:51:50 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2026/02/02 19:55:19 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -156,7 +156,7 @@ const Hero = (props) => {
         Welcome to my corner of the internet! I'm Abraham, or you can call me Ab for “艾笔”. I made this for strangers like you, since I’m not on most socials anymore. Hopefully this offers a glimpse of me that Strava and Spotify cannot provide~ :p
         </p>
         <p className={`${props.colorMode.text} text-2xl md:text-2xl text-left px-5 indent-10 font-Inter leading-loose pt-4`}>
-           After graduating from UIUC's Bioengineering program this past spring, I went backpacking at Glacier NP before starting full time work. Though early in my career, I've contributed to building AI algorithms for heart failure risk and designed devices to improve surgical visibility. I'm driven by the potential to better lives through the intersection of technology and medicine. Reach out if you're interested in collaborating!
+           Though early in my career, I've contributed to building AI algorithms for heart failure risk and designed devices to improve surgical visibility. I'm driven by the potential to better lives through the intersection of technology and medicine. Reach out if you're interested in collaborating!
         </p>
       </section>
 
