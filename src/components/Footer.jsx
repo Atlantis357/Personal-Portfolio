@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 22:03:03 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/10/30 20:54:30 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2026/04/20 12:59:16 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,10 +33,12 @@ const Footer = (props) => {
         (result) => {
           console.log(result.text);
           console.log("Email sent successfully");
+          alert("Message sent!");
         },
         (error) => {
           console.log(error.text);
           console.log("Error sending email");
+          alert("Something went wrong, please try again.");
         }
       );
   };
