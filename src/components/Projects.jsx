@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/29 14:30:53 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2025/11/01 16:28:52 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2026/09/14 01:35:55 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ const Projects = (props) => {
         <section className="p-4 md:p-8 hidden md:flex">
             <div className="mx-auto max-w-7xl">
                 {projects.map((info, index) => (
-                    <Link to={`${info.link}`}>
+                    // <Link to={`${info.link}`}>
                     <HoverImageLink
                     heading={info.title}
                     subheading={info.description}
@@ -65,7 +65,7 @@ const Projects = (props) => {
                     foreground={props.foreground} 
                     colorMode={props.colorMode} 
                     />
-                    </Link>
+                    // </Link>
                 ))}
             </div>
         </section>

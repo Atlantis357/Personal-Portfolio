@@ -6,7 +6,7 @@
 /*   By: Abraham Alkhatib <aaa26@illinois.edu>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/27 15:05:55 by Abraham Alk       #+#    #+#             */
-/*   Updated: 2026/08/14 18:54:52 by Abraham Alk      ###   ########.fr       */
+/*   Updated: 2026/09/14 01:43:26 by Abraham Alk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,10 +59,10 @@ export const asideBackground = "bg-black bg-opacity-0 hover:bg-opacity-10 transi
 
 
 export const navLinks = [
-  // {
-  //   id: "/",
-  //   title: "Home",
-  // },
+  {
+    id: "/",
+    title: "Home",
+  },
   {
     id: "/experience",
     title: "Experience",
@@ -71,10 +71,10 @@ export const navLinks = [
     id: "/projects",
     title: "Projects",
   },
-  {
-    id: "/music",
-    title: "Music",
-  },
+  // {
+  //   id: "/music",
+  //   title: "Music",
+  // },
   // {
   //   id:"/photography",
   //   title: "Pictures",
@@ -350,7 +350,7 @@ export const experiences = [
     company: "Abbott Laboratories",
     date: "August 2025 – Present",
     skills: "Team-Leadership",
-    description: "I work on next-generation transfusion diagnostic machines that will transform blood and plasma screening.",
+    description: "I work on next-generation diagnostic instruments that will transform blood and plasma screening.",
     svg: ecgPulse,
   },{
     title: "Emerging Technology Analyst",
@@ -364,14 +364,14 @@ export const experiences = [
     company: "University of Illinois - Grainger College of Engineering",
     date: "January 2024 – May 2025",
     skills: "Team-Leadership",
-    description: "I supported undergraduates in BIOE 205 (Signals and Systems in Bioengineering) by grading coursework, facilitating in-class activities, and leading workshops on difficult topics.",
+    description: "I helped undergraduates in BIOE 205 (Signals and Systems in Bioengineering) by grading coursework, facilitating in-class activities, and leading workshops on difficult topics.",
     svg: ecgPulse,
   },{
     title: "Bionformatics Intern",
     company: "Wake Forest University School of Medicine",
     date: "May 2023 – August 2023",
     skills: "Swift, TenorFlow/TFLite, iOS Development",
-    description: "I worked with AI models in TensorFlow Lite and Swift, optimizing the risk prediction pipeline for edge devices. Doing so I decreased the ECG processing time to under 25ms, and improved the AI inference time by over 93% from the pevious generation. ",
+    description: "I worked with AI models in TensorFlow Lite and Swift, optimizing the risk prediction pipeline for edge devices.",
     svg: ecgPulse,
   },{
     title: "Technical Director",
